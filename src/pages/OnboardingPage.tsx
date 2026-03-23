@@ -53,9 +53,9 @@ export function OnboardingPage() {
                 <Logo size={80} />
               </div>
               <h1 className="font-jp text-4xl font-bold text-gray-800">
-                やっぱり
+                文字文
               </h1>
-              <p className="text-base text-primary font-semibold tracking-wide">yappari</p>
+              <p className="text-base text-primary font-semibold tracking-wide">mojibun</p>
             </motion.div>
 
             <p className="text-gray-500 mb-10 leading-relaxed">

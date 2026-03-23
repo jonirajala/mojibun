@@ -1,4 +1,4 @@
-# Yappari - Japanese Learning Course
+# Mojibun - Japanese Learning Course
 
 ## Course Philosophy
 

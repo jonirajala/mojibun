@@ -28,6 +28,6 @@ export const useProgressStore = create<ProgressState>()(
       getLessonResult: (lessonId) => get().completedLessons[lessonId],
       reset: () => set({ completedLessons: {}, totalXp: 0 }),
     }),
-    { name: 'yappari-progress' }
+    { name: 'mojibun-progress' }
   )
 );

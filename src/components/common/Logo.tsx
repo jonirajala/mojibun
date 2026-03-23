@@ -4,7 +4,7 @@ interface Props {
 }
 
 /**
- * Yappari logo — a speech bubble (やっぱり = "I knew it!")
+ * Mojibun logo — a torii gate icon (文字文 = characters + sentences)
  * with a torii gate silhouette inside. Clean, minimal, Japanese-inspired.
  */
 export function Logo({ size = 64, className = '' }: Props) {

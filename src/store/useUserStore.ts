@@ -38,6 +38,6 @@ export const useUserStore = create<UserState>()(
           createdAt: null,
         }),
     }),
-    { name: 'yappari-user' }
+    { name: 'mojibun-user' }
   )
 );
