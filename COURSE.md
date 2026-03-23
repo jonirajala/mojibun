@@ -1,4 +1,4 @@
-# Moshimoshi - Course V2 (Duolingo-style pacing)
+# Yappari - Course V2 (Duolingo-style pacing)
 
 ## Design Philosophy
 

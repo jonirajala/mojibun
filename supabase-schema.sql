@@ -1,4 +1,4 @@
--- Moshimoshi Supabase Schema
+-- Yappari Supabase Schema
 -- Run this in the Supabase SQL editor (Dashboard > SQL Editor)
 
 -- User settings (mirrors useUserStore)

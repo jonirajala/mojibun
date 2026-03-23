@@ -1,4 +1,4 @@
-# Moshimoshi - Japanese Learning Course
+# Yappari - Japanese Learning Course
 
 ## Course Philosophy
 
