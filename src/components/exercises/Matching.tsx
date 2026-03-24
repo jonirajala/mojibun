@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import type { MatchingExercise } from '../../data/types';
 import { cn, shuffleArray } from '../../lib/utils';
 import { JpText } from '../common/JpText';
+import { VisualIcon } from '../common/VisualIcon';
 import { getReading } from '../../data/readings';
 import { getEmoji } from '../../data/emoji';
 import { speakJapanese } from '../../lib/speech';
@@ -92,7 +93,7 @@ export function Matching({ exercise, onAnswer }: Props) {
                     !isMatched && 'active:scale-95'
                   )}
                 >
-                  {emoji && <span className="text-xl">{emoji}</span>}
+                  {emoji && <VisualIcon text={word} sizeClass="w-8 h-8" />}
                   <JpText text={word} reading={getReading(word)} />
                 </button>
               );

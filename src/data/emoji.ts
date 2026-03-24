@@ -1,40 +1,52 @@
 /**
- * Emoji associations for Japanese words.
- * Used as visual aids in vocabulary introductions and exercises.
+ * Visual associations for Japanese words.
+ *
+ * Current strategy:
+ * - Support first-class image visuals
+ * - Keep emoji as a resilient fallback
+ * - Allow future local overrides if needed
+ * - Use OpenMoji image URLs for full coverage right now
  */
-export const emojiMap: Record<string, string> = {
+
+export interface VisualAsset {
+  type: 'image';
+  src: string;
+  fallback: string;
+  source: 'openmoji';
+}
+
+const emojiMap: Record<string, string> = {
   // Greetings & phrases
   'こんにちは': '👋',
   'おはようございます': '🌅',
-  'おはよう': '🌅',
-  'こんばんは': '🌙',
-  'さようなら': '👋',
+  'おはよう': '🌄',
+  'こんばんは': '🌃',
+  'さようなら': '🛫',
   'おやすみなさい': '😴',
   'いただきます': '🍽️',
-  'ごちそうさまでした': '🙏',
+  'ごちそうさまでした': '🍴',
   'ありがとうございます': '🙏',
   'すみません': '🙇',
   'はい': '✅',
   'いいえ': '❌',
-  'おねがいします': '🙏',
+  'おねがいします': '🤲',
   'はじめまして': '🤝',
-  'どうぞよろしく': '😊',
+  'どうぞよろしく': '🌸',
   'どうも': '👍',
   'じゃないです': '🚫',
 
   // People
-  // People & names
   'わたし': '🙋',
   'がくせい': '🎓',
   'せんせい': '👩‍🏫',
-  'ともだち': '🤝',
+  'ともだち': '🧑‍🤝‍🧑',
   'いしゃ': '👨‍⚕️',
-  'ひと': '🧑',
-  'にほんじん': '🇯🇵',
-  'アメリカじん': '🇺🇸',
-  'たなか': '🧑',
-  'たなかさん': '🧑',
-  'やまださん': '🧑',
+  'ひと': '👤',
+  'にほんじん': '🗾',
+  'アメリカじん': '🗽',
+  'たなか': '🧔',
+  'たなかさん': '👨‍💼',
+  'やまださん': '👩‍💼',
   'なまえ': '📛',
 
   // Countries
@@ -45,29 +57,29 @@ export const emojiMap: Record<string, string> = {
   'これ': '👇',
   'それ': '👉',
   'あれ': '👆',
-  'この': '👇',
-  'その': '👉',
-  'あの': '👆',
+  'この': '👈',
+  'その': '➡️',
+  'あの': '☝️',
 
   // Question words
   'なん': '❓',
   'だれ': '🤷',
   'どれ': '🤔',
-  'どの': '🤔',
+  'どの': '🧐',
 
   // Location words
   'ここ': '📍',
-  'そこ': '👉',
+  'そこ': '📌',
   'あそこ': '🏔️',
   'どこ': '🗺️',
 
   // Family
-  'おかあさん': '👩',
-  'おとうさん': '👨',
+  'おかあさん': '🤱',
+  'おとうさん': '👨‍🦰',
   'おにいさん': '👦',
   'おねえさん': '👧',
-  'おとうと': '👦',
-  'いもうと': '👧',
+  'おとうと': '🧒',
+  'いもうと': '🧑',
 
   // Objects
   'ほん': '📖',
@@ -85,9 +97,9 @@ export const emojiMap: Record<string, string> = {
   'えき': '🚉',
   'トイレ': '🚻',
   'いえ': '🏠',
-  'うち': '🏠',
+  'うち': '🏡',
   'びょういん': '🏥',
-  'レストラン': '🍽️',
+  'レストラン': '🍝',
 
   // Food & Drink
   'みず': '💧',
@@ -113,18 +125,18 @@ export const emojiMap: Record<string, string> = {
   'たかい': '💰',
   'やすい': '🏷️',
   'おいしい': '😋',
-  'きれい': '✨',
+  'きれい': '💎',
   'げんき': '💪',
 
   // Verbs
-  'たべる': '🍽️',
+  'たべる': '🥢',
   'のむ': '🥤',
   'いく': '🚶',
   'くる': '🚶‍♂️',
   'みる': '👀',
   'する': '✋',
   'ある': '📦',
-  'いる': '🧑',
+  'いる': '👥',
 
   // Transport
   'でんしゃ': '🚃',
@@ -133,13 +145,42 @@ export const emojiMap: Record<string, string> = {
   'タクシー': '🚕',
 
   // Time
-  'あさ': '🌅',
+  'あさ': '🌤️',
   'ひる': '☀️',
-  'よる': '🌙',
+  'よる': '🌌',
   'きょう': '📅',
   'あした': '📆',
 };
 
+function emojiToCodepoint(emoji: string): string {
+  return Array.from(emoji)
+    .map((char) => char.codePointAt(0)?.toString(16).toUpperCase())
+    .filter((value): value is string => !!value)
+    .join('-');
+}
+
+function getOpenMojiUrl(emoji: string): string {
+  const codepoint = emojiToCodepoint(emoji);
+  return `https://cdn.jsdelivr.net/npm/@svgmoji/openmoji@2.0.0/svg/${codepoint}.svg`;
+}
+
 export function getEmoji(japanese: string): string | undefined {
   return emojiMap[japanese];
+}
+
+export function hasVisual(japanese: string): boolean {
+  return !!emojiMap[japanese];
+}
+
+export function getVisual(japanese: string): VisualAsset | undefined {
+  const fallback = emojiMap[japanese];
+
+  if (!fallback) return undefined;
+
+  return {
+    type: 'image',
+    src: getOpenMojiUrl(fallback),
+    fallback,
+    source: 'openmoji',
+  };
 }

@@ -144,6 +144,7 @@ export function SettingsPage() {
           <p className="font-jp text-lg text-gray-300">やっぱり v 0.1</p>
           <p className="text-sm text-gray-300">Free Japanese learning for everyone</p>
           <p className="text-sm text-gray-300 mt-1">Contact: joni.m.rajala@gmail.com</p>
+          <p className="text-xs text-gray-300 mt-2">Visual icons powered by OpenMoji</p>
         </section>
       </div>
 

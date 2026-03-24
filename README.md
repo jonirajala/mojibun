@@ -115,3 +115,10 @@ SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 SUPABASE_TTS_BUCKET=tts-audio
 ```
+
+## Visual Assets
+
+Vocabulary visuals now render as images instead of native system emoji where possible. The current fallback coverage uses OpenMoji image assets, with room for future local overrides from Vivid / Chunk / custom illustrations in [`src/data/emoji.ts`](/Users/jonirajala/Documents/code/moshimoshi/src/data/emoji.ts).
+
+OpenMoji license: CC BY-SA 4.0
+https://openmoji.org/

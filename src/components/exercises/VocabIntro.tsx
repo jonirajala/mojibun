@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { VocabIntroExercise } from '../../data/types';
 import { SpeakButton } from '../common/SpeakButton';
+import { VisualIcon } from '../common/VisualIcon';
 import { useUserStore } from '../../store/useUserStore';
 import { getReading } from '../../data/readings';
 import { getEmoji } from '../../data/emoji';
@@ -71,7 +72,9 @@ export function VocabIntro({ exercise, onAnswer }: Props) {
 
         {/* Emoji */}
         {emoji && (
-          <div className="text-7xl mb-6 animate-bounce-in">{emoji}</div>
+          <div className="mb-6 animate-bounce-in">
+            <VisualIcon text={word.japanese} sizeClass="w-28 h-28" className="mx-auto" />
+          </div>
         )}
 
         {/* Japanese word — tap to hear */}

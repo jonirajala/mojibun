@@ -2,8 +2,9 @@ import { useState } from 'react';
 import type { MultipleChoiceExercise } from '../../data/types';
 import { cn } from '../../lib/utils';
 import { JpText } from '../common/JpText';
+import { VisualIcon } from '../common/VisualIcon';
 import { getReading } from '../../data/readings';
-import { getEmoji } from '../../data/emoji';
+import { getEmoji, hasVisual } from '../../data/emoji';
 import { SpeakButton } from '../common/SpeakButton';
 import { speakJapanese } from '../../lib/speech';
 import { playTap, playCorrect, playIncorrect } from '../../lib/sounds';
@@ -18,7 +19,7 @@ export function MultipleChoice({ exercise, onAnswer }: Props) {
   const [answered, setAnswered] = useState(false);
   const [wasCorrect, setWasCorrect] = useState(false);
 
-  const hasJapaneseOptions = exercise.options.some((o) => getEmoji(o));
+  const hasJapaneseOptions = exercise.options.some((o) => hasVisual(o));
 
   const handleSelect = (index: number) => {
     if (answered) return;
@@ -94,7 +95,7 @@ export function MultipleChoice({ exercise, onAnswer }: Props) {
                   !answered && 'active:scale-[0.98]'
                 )}
               >
-                {emoji && <span className="text-3xl">{emoji}</span>}
+                {emoji && <VisualIcon text={option} sizeClass="w-14 h-14" />}
                 <JpText text={option} reading={getReading(option)} className={hasJapaneseOptions ? 'text-base' : ''} />
               </button>
             );
