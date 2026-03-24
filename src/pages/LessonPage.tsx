@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getLessonById, getUnitByLessonId } from '../data/course';
+import { getLessonById, getNextLessonId, getUnitByLessonId } from '../data/course';
 import { useSessionStore } from '../store/useSessionStore';
 import { ExerciseRenderer } from '../components/exercises/ExerciseRenderer';
 import { LessonProvider } from '../lib/LessonContext';
 import { ReportBug } from '../components/common/ReportBug';
+import { preloadLessonAudio, preloadLessonAudioInBackground, setActiveLessonAudio, stopSpeaking } from '../lib/speech';
 import type { Exercise } from '../data/types';
 
 function getExerciseContent(ex: Exercise): string {
@@ -44,8 +45,20 @@ export function LessonPage() {
       return;
     }
     startLesson(lessonId, lesson.exercises);
+    setActiveLessonAudio(lessonId);
+    void preloadLessonAudio(lessonId).then(() => {
+      const nextLessonId = getNextLessonId(lessonId);
+      if (nextLessonId) {
+        void preloadLessonAudioInBackground(nextLessonId);
+      }
+    });
     const unit = getUnitByLessonId(lessonId);
     if (unit) setUnitNumber(parseInt(unit.id.split('-')[1]) || 1);
+
+    return () => {
+      setActiveLessonAudio(null);
+      stopSpeaking();
+    };
   }, [lessonId]);
 
   useEffect(() => {

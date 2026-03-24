@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { useUserStore } from './store/useUserStore';
 import { useAuthStore } from './store/useAuthStore';
 import { useProgressStore } from './store/useProgressStore';
@@ -61,31 +62,34 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            hasCompletedOnboarding ? (
-              <Navigate to="/journey" replace />
-            ) : (
-              <OnboardingPage />
-            )
-          }
-        />
-        <Route
-          path="/journey"
-          element={
-            hasCompletedOnboarding ? (
-              <JourneyPage />
-            ) : (
-              <Navigate to="/" replace />
-            )
-          }
-        />
-        <Route path="/lesson/:lessonId" element={<LessonPage />} />
-        <Route path="/lesson/:lessonId/complete" element={<LessonCompletePage />} />
-        <Route path="/settings" element={<SettingsPage />} />
-      </Routes>
+      <>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              hasCompletedOnboarding ? (
+                <Navigate to="/journey" replace />
+              ) : (
+                <OnboardingPage />
+              )
+            }
+          />
+          <Route
+            path="/journey"
+            element={
+              hasCompletedOnboarding ? (
+                <JourneyPage />
+              ) : (
+                <Navigate to="/" replace />
+              )
+            }
+          />
+          <Route path="/lesson/:lessonId" element={<LessonPage />} />
+          <Route path="/lesson/:lessonId/complete" element={<LessonCompletePage />} />
+          <Route path="/settings" element={<SettingsPage />} />
+        </Routes>
+        <Analytics />
+      </>
     </BrowserRouter>
   );
 }

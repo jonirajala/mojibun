@@ -1,70 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-24T14:55:29.409Z",
+  "updatedAt": "2026-03-24T16:42:58.345Z",
   "defaultVoice": "jf_alpha",
   "storageBucket": "tts-audio",
   "lessons": {
     "u1-l1": [
       "20427a708c3f6f07",
+      "2d6e22246673b8bc",
       "5a3c5f71eeac31a3",
       "800001ba24419b65",
       "cce1862bcbd9c1bf",
       "eabdada4abd08bd2"
     ],
     "u1-l2": [
-      "17b912b634f34ada",
       "20427a708c3f6f07",
       "5a3c5f71eeac31a3",
       "800001ba24419b65",
       "eabdada4abd08bd2"
     ],
     "u1-l3": [
-      "11c8fca7e223c891",
-      "17b912b634f34ada",
       "20427a708c3f6f07",
-      "22d1ecbca027189e",
-      "25567f8581d3214b",
       "5a3c5f71eeac31a3",
       "800001ba24419b65",
-      "eab3d932d73e8d72",
       "eabdada4abd08bd2"
     ],
     "u1-l4": [
-      "11c8fca7e223c891",
-      "17b912b634f34ada",
       "20427a708c3f6f07",
-      "25567f8581d3214b",
+      "2d6e22246673b8bc",
       "5a3c5f71eeac31a3",
-      "6d4ce442f6c2470a",
       "800001ba24419b65",
-      "d5203062dae9802b",
-      "e094a9cb05ff2895",
-      "e8c2262cab152f0c",
       "eabdada4abd08bd2"
     ],
     "u1-l5": [
-      "11c8fca7e223c891",
-      "17b912b634f34ada",
       "20427a708c3f6f07",
-      "25567f8581d3214b",
       "4e1935fa06cb0998",
-      "56af807bf38e211e",
       "5a3c5f71eeac31a3",
       "800001ba24419b65",
-      "8068f9b56ac23c99",
-      "a838b4c05e1a771d",
       "af769dd9d9f38057",
       "b3d19d6ac2cf1fd0",
-      "d891b5355c4b1cbe",
-      "dbc239dfdaa9d5da",
+      "c86be1ff363addc8",
       "eabdada4abd08bd2"
     ],
     "u2-l1": [
-      "11c8fca7e223c891",
-      "17b912b634f34ada",
       "20427a708c3f6f07",
       "24afcca10e22ce78",
-      "25567f8581d3214b",
       "42d0969029e92111",
       "5a3c5f71eeac31a3",
       "800001ba24419b65",
@@ -72,10 +51,9 @@
       "eabdada4abd08bd2"
     ],
     "u2-l2": [
-      "11c8fca7e223c891",
-      "17b912b634f34ada",
+      "20427a708c3f6f07",
       "24afcca10e22ce78",
-      "25567f8581d3214b",
+      "5a3c5f71eeac31a3",
       "800001ba24419b65",
       "c92b4cda8bdf50d2",
       "cce1862bcbd9c1bf",
@@ -83,13 +61,10 @@
       "f901585367d6f495"
     ],
     "u2-l3": [
-      "17b912b634f34ada",
       "20427a708c3f6f07",
       "24afcca10e22ce78",
-      "2d6e22246673b8bc",
       "5a3c5f71eeac31a3",
       "800001ba24419b65",
-      "a481ff73f54dffec",
       "c92b4cda8bdf50d2",
       "cce1862bcbd9c1bf",
       "eab3d932d73e8d72",
@@ -97,15 +72,10 @@
       "f901585367d6f495"
     ],
     "u2-l4": [
-      "11c8fca7e223c891",
-      "17b912b634f34ada",
       "20427a708c3f6f07",
       "24afcca10e22ce78",
-      "25567f8581d3214b",
-      "2d6e22246673b8bc",
       "5a3c5f71eeac31a3",
       "800001ba24419b65",
-      "a481ff73f54dffec",
       "c92b4cda8bdf50d2",
       "cce1862bcbd9c1bf",
       "eab3d932d73e8d72",
@@ -113,20 +83,15 @@
       "f901585367d6f495"
     ],
     "u2-l5": [
-      "11c8fca7e223c891",
-      "17b912b634f34ada",
       "20427a708c3f6f07",
       "21549d00d6c70a8f",
       "24afcca10e22ce78",
-      "25567f8581d3214b",
-      "2d6e22246673b8bc",
       "42d0969029e92111",
       "5a3c5f71eeac31a3",
       "68aecf8ea8f3d3bd",
       "800001ba24419b65",
       "84c187206ebad9ed",
       "890dd55f5942fc53",
-      "a481ff73f54dffec",
       "c92b4cda8bdf50d2",
       "cce1862bcbd9c1bf",
       "eab3d932d73e8d72",
@@ -790,6 +755,7 @@
     "おはようございます": "5a3c5f71eeac31a3",
     "おはようございます,おやすみなさい": "56af807bf38e211e",
     "おはようございます&おやすみなさい": "d5203062dae9802b",
+    "おはようございます=goodmorning": "c86be1ff363addc8",
     "おやすみ": "22d1ecbca027189e",
     "おやすみなさい": "17b912b634f34ada",
     "おやすみなさい=goodnight": "dbc239dfdaa9d5da",
@@ -1382,6 +1348,7 @@
         "u1-l4",
         "u1-l5",
         "u2-l1",
+        "u2-l2",
         "u2-l3",
         "u2-l4",
         "u2-l5"
@@ -1434,7 +1401,7 @@
       "lessons": [
         "u1-l3"
       ],
-      "orphaned": false,
+      "orphaned": true,
       "variants": {
         "jf_alpha": {
           "path": "jf_alpha/22d1ecbca027189e.wav",
@@ -1645,6 +1612,8 @@
       "text": "おはよう",
       "lessons": [
         "lesson-4-4",
+        "u1-l1",
+        "u1-l4",
         "u2-l3",
         "u2-l4",
         "u2-l5"
@@ -2211,7 +2180,7 @@
       "lessons": [
         "u1-l5"
       ],
-      "orphaned": false,
+      "orphaned": true,
       "variants": {
         "jf_alpha": {
           "path": "jf_alpha/56af807bf38e211e.wav",
@@ -2324,6 +2293,7 @@
         "u1-l4",
         "u1-l5",
         "u2-l1",
+        "u2-l2",
         "u2-l3",
         "u2-l4",
         "u2-l5"
@@ -2505,7 +2475,7 @@
       "lessons": [
         "u1-l4"
       ],
-      "orphaned": false,
+      "orphaned": true,
       "variants": {
         "jf_alpha": {
           "path": "jf_alpha/6d4ce442f6c2470a.wav",
@@ -2936,7 +2906,7 @@
       "lessons": [
         "u1-l5"
       ],
-      "orphaned": false,
+      "orphaned": true,
       "variants": {
         "jf_alpha": {
           "path": "jf_alpha/8068f9b56ac23c99.wav",
@@ -3570,7 +3540,7 @@
       "lessons": [
         "u1-l5"
       ],
-      "orphaned": false,
+      "orphaned": true,
       "variants": {
         "jf_alpha": {
           "path": "jf_alpha/a838b4c05e1a771d.wav",
@@ -3940,6 +3910,15 @@
         }
       }
     },
+    "c86be1ff363addc8": {
+      "id": "c86be1ff363addc8",
+      "text": "おはようございます=goodmorning",
+      "lessons": [
+        "u1-l5"
+      ],
+      "orphaned": false,
+      "variants": {}
+    },
     "c92a9d33a651a367": {
       "id": "c92a9d33a651a367",
       "text": "ここ",
@@ -4143,7 +4122,7 @@
       "lessons": [
         "u1-l4"
       ],
-      "orphaned": false,
+      "orphaned": true,
       "variants": {
         "jf_alpha": {
           "path": "jf_alpha/d5203062dae9802b.wav",
@@ -4199,7 +4178,7 @@
       "lessons": [
         "u1-l5"
       ],
-      "orphaned": false,
+      "orphaned": true,
       "variants": {
         "jf_alpha": {
           "path": "jf_alpha/d891b5355c4b1cbe.wav",
@@ -4248,7 +4227,7 @@
       "lessons": [
         "u1-l5"
       ],
-      "orphaned": false,
+      "orphaned": true,
       "variants": {
         "jf_alpha": {
           "path": "jf_alpha/dbc239dfdaa9d5da.wav",
@@ -4334,7 +4313,7 @@
       "lessons": [
         "u1-l4"
       ],
-      "orphaned": false,
+      "orphaned": true,
       "variants": {
         "jf_alpha": {
           "path": "jf_alpha/e094a9cb05ff2895.wav",
@@ -4478,7 +4457,7 @@
       "lessons": [
         "u1-l4"
       ],
-      "orphaned": false,
+      "orphaned": true,
       "variants": {
         "jf_alpha": {
           "path": "jf_alpha/e8c2262cab152f0c.wav",

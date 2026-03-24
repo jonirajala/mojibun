@@ -1,9 +1,16 @@
-# Mojibun - Course V2 (Duolingo-style pacing)
+# Mojibun - Course V2 Detailed Unit Plan
 
 ## Design Philosophy
 
-This is a restructured version of Units 1-2, spread much thinner with more repetition
-and smaller increments. The goal is to match the pacing of Duolingo/LingoDeer:
+This file is the detailed lesson-planning draft for the currently implemented early
+course, especially Units 1-6. It should stay aligned with the higher-level roadmap in
+[`COURSE_OVERVIEW.md`](/Users/jonirajala/Documents/code/moshimoshi/docs/COURSE_OVERVIEW.md):
+
+- Units 1-2 stay extremely gentle
+- long, visually dense set phrases should be delayed
+- the first 10 units should widen gradually before heavier verb systems
+
+The goal is to match the pacing of Duolingo/LingoDeer:
 
 - **Max 2-3 new vocabulary words per lesson** (was 3-6)
 - **Max 1 grammar point per lesson** (was sometimes 2)
@@ -42,43 +49,45 @@ Each unit follows this internal pattern:
 
 ---
 
-## Course Overview (Units 1-2 content, redistributed)
+## Course Overview
 
-```
-Course V2: Units 1-6 (~37 lessons)
-├── Unit 1: Hello! (5 lessons) — Basic greetings
-├── Unit 2: Please & Thank You (5 lessons) — Polite phrases, yes/no
-├── Unit 3: I Am... (6 lessons) — は/です, self-intro, occupations
-├── Unit 4: What Is This? (6 lessons) — これ/それ/あれ, objects
-├── Unit 5: My Things (6 lessons) — この/その/あの, の (possession), objects
-└── Unit 6: Also & Where? (6 lessons) — も, ここ/そこ/あそこ/どこ, どれ/どの
-```
+The high-level roadmap now lives in [`COURSE_OVERVIEW.md`](/Users/jonirajala/Documents/code/moshimoshi/docs/COURSE_OVERVIEW.md).
 
-**Old structure:** 2 units, 16 lessons, ~46 words, ~10 grammar points
-**New structure:** 6 units, 34 lessons + 3 bonus practice = 37 lessons, ~46 words, ~10 grammar points
+Use that file for:
+
+- the first 10-unit app roadmap
+- the longer phase-based course build
+- future units after Unit 10
+- far-future grammar planning
+- decisions about what should or should not be introduced early
+
+This file stays focused on the more detailed unit and lesson breakdown for the early
+implemented course. If a detailed lesson draft below conflicts with the roadmap,
+the roadmap in [`COURSE_OVERVIEW.md`](/Users/jonirajala/Documents/code/moshimoshi/docs/COURSE_OVERVIEW.md)
+should be treated as the source of truth.
 
 ---
 
 ## Cumulative Vocabulary & Grammar Tracker
 
-This table shows what the student knows after completing each unit:
+This table shows the intended cumulative knowledge after each current detailed unit.
 
 | After Unit | Total Vocab | Total Grammar | Cumulative Words |
 |------------|-------------|---------------|-----------------|
-| 1 | 7 | 0 | こんにちは おはようございます こんばんは さようなら おやすみなさい いただきます ごちそうさまでした |
-| 2 | 14 | 0 | + ありがとうございます すみません はい いいえ おねがいします どうも おはよう |
-| 3 | 24 | 3 (は, です, か) | + わたし がくせい せんせい です なまえ おなまえは さん か じゃないです ともだち |
-| 4 | 32 | 5 (+これ/それ/あれ, なん) | + これ それ あれ なん ほん ペン かばん でんわ |
-| 5 | 41 | 8 (+この/その/あの, の) | + この その あの の とけい くるま かさ テーブル いす |
-| 6 | 50 | 10 (+も, ここ/そこ/あそこ/どこ, どれ/どの) | + も ここ そこ あそこ どこ どれ どの トイレ えき |
+| 1 | 4 | 0 | こんにちは おはようございます こんばんは さようなら |
+| 2 | 9 | 0 | + ありがとうございます すみません はい いいえ おねがいします |
+| 3 | 19 | 3 (は, です, か) | + わたし がくせい せんせい です なまえ おなまえは さん か じゃないです ともだち |
+| 4 | 27 | 5 (+これ/それ/あれ, なん) | + これ それ あれ なん ほん ペン かばん でんわ |
+| 5 | 36 | 8 (+この/その/あの, の) | + この その あの の とけい くるま かさ テーブル いす |
+| 6 | 45 | 10 (+も, ここ/そこ/あそこ/どこ, どれ/どの) | + も ここ そこ あそこ どこ どれ どの トイレ えき |
 
 ---
 
 ## Unit 1: Hello!
 
-**Theme:** Basic greetings — saying hello and goodbye at different times of day
+**Theme:** Shortest, highest-confidence greetings first
 **Grammar:** None (pure vocabulary, set phrases)
-**New vocabulary:** 7 words across 3 content lessons
+**New vocabulary:** 4 words across 2 content lessons
 **Review material:** None (first unit)
 
 ---
@@ -145,36 +154,30 @@ This table shows what the student knows after completing each unit:
 
 ---
 
-### Lesson 1.3: Good Night & Mealtime
+### Lesson 1.3: Time-of-Day Review
 
-**New vocabulary (3 words):**
-| Japanese | Reading | English |
-|----------|---------|---------|
-| おやすみなさい | oyasuminasai | good night |
-| いただきます | itadakimasu | bon appetit (before eating) |
-| ごちそうさまでした | gochisousama deshita | thank you for the meal (after eating) |
-
+**New vocabulary:** None
 **Grammar:** None
 **Review:** L1.1-1.2 (こんにちは, おはようございます, こんばんは, さようなら)
-**Lesson flow:** vocab_intro → recognition → spelling → review
+**Lesson flow:** contrast practice → recognition → spelling → review
 
 **Exercises (14):**
 | # | Type | Exercise | New/Review |
 |---|------|----------|------------|
-| 1 | MC | "Which phrase do you say before going to bed?" → おやすみなさい | New |
-| 2 | MC | "What do you say before eating?" → いただきます | New |
-| 3 | MC | "What do you say after finishing a meal?" → ごちそうさまでした | New |
-| 4 | MA | Match おやすみなさい, いただきます, ごちそうさまでした to meanings | New |
-| 5 | MC | "You're about to eat dinner. You say:" → いただきます | New |
-| 6 | MC | "You just finished lunch. You say:" → ごちそうさまでした | New |
-| 7 | KB | Build おやすみ from kana: お や す み (distractors: こ, ん, は) | New |
-| 8 | KB | Build いただきます from kana: い た だ き ま す (distractors: ご, ち, そ) | New |
-| 9 | MC | "It's 11pm. You say goodnight:" → おやすみなさい | New |
-| 10 | MC | **Review L1.1:** "Which means 'good morning'?" → おはようございます | Review |
-| 11 | MC | **Review L1.2:** "You're leaving. You say:" → さようなら | Review |
-| 12 | MA | Match all 7 Unit 1 words to meanings (mixed) | Review |
-| 13 | MC | **Review L1.2:** "It's 8pm. You greet someone:" → こんばんは | Review |
-| 14 | MC | "Which comes AFTER eating?" → ごちそうさまでした | New |
+| 1 | MC | "It's 7am. What do you say?" → おはようございます | Review |
+| 2 | MC | "It's 2pm. What do you say?" → こんにちは | Review |
+| 3 | MC | "It's 8pm. What do you say?" → こんばんは | Review |
+| 4 | MC | "You are leaving for the day. You say:" → さようなら | Review |
+| 5 | MA | Match all 4 Unit 1 words to meanings | Review |
+| 6 | KB | Build こんにちは from kana | Review |
+| 7 | KB | Build こんばんは from kana | Review |
+| 8 | MC | "Which greeting is used in the morning?" → おはようございます | Review |
+| 9 | MC | "Which greeting is used in the evening?" → こんばんは | Review |
+| 10 | MC | Hear おはようございます, pick correct text from options | Review |
+| 11 | MA | Match time of day to greeting: morning, afternoon, evening, leaving | Review |
+| 12 | MC | "Which one is a farewell?" → さようなら | Review |
+| 13 | KB | Build さようなら from kana | Review |
+| 14 | MC | "Friend says こんにちは. What time is it likely?" → Afternoon | Review |
 
 ---
 
@@ -182,25 +185,25 @@ This table shows what the student knows after completing each unit:
 
 **New vocabulary:** None
 **Grammar:** None
-**Review:** All Unit 1 (7 words from L1.1-1.3)
+**Review:** All Unit 1 (4 words from L1.1-1.3)
 **Lesson flow:** Mixed review, consolidation
 
 **Exercises (14):**
 | # | Type | Exercise | New/Review |
 |---|------|----------|------------|
-| 1 | MA | Match all 7 words to meanings (timed feel) | Review |
+| 1 | MA | Match all 4 words to meanings (timed feel) | Review |
 | 2 | MC | "It's 7:30am. You see your neighbor. You say:" → おはようございます | Review |
 | 3 | MC | "It's noon. You greet a friend:" → こんにちは | Review |
 | 4 | MC | "It's 7pm. You arrive at a party:" → こんばんは | Review |
 | 5 | MC | "You're heading home. You say:" → さようなら | Review |
-| 6 | MC | "You're about to eat sushi. You say:" → いただきます | Review |
-| 7 | MC | "You finished your ramen. You say:" → ごちそうさまでした | Review |
-| 8 | MC | "It's bedtime. You say:" → おやすみなさい | Review |
+| 6 | MC | "Which greeting fits 9pm?" → こんばんは | Review |
+| 7 | MC | "Which phrase means goodbye?" → さようなら | Review |
+| 8 | MC | "It's 3pm. You say:" → こんにちは | Review |
 | 9 | KB | Build こんばんは from kana | Review |
 | 10 | KB | Build さようなら from kana | Review |
-| 11 | MA | Match: おはようございます, こんにちは, こんばんは, おやすみなさい to morning, afternoon, evening, night | Review |
-| 12 | MC | "Which two phrases are about meals?" → いただきます, ごちそうさまでした | Review |
-| 13 | KB | Build いただきます from kana | Review |
+| 11 | MA | Match: おはようございます, こんにちは, こんばんは, さようなら to morning, afternoon, evening, goodbye | Review |
+| 12 | MC | "Which greeting is NOT tied to a time of day?" → さようなら | Review |
+| 13 | KB | Build おはよう from kana: お は よ う | Review |
 | 14 | MC | "Friend says こんにちは. What time is it likely?" → Afternoon | Review |
 
 ---
@@ -209,7 +212,7 @@ This table shows what the student knows after completing each unit:
 
 **New vocabulary:** None
 **Grammar:** None
-**Review:** Full Unit 1 — all 7 words
+**Review:** Full Unit 1 — all 4 words
 **Lesson flow:** Quiz format, mixed exercises, slightly harder
 
 **Exercises (15):**
@@ -217,27 +220,27 @@ This table shows what the student knows after completing each unit:
 |---|------|----------|------------|
 | 1 | MC | "What does こんにちは mean?" → hello | Review |
 | 2 | MC | "What does おはようございます mean?" → good morning | Review |
-| 3 | MA | Match all 7 words to English meanings | Review |
-| 4 | MC | "You're going to sleep. You say:" → おやすみなさい | Review |
-| 5 | KB | Build ごちそうさまでした from kana (hard — long word) | Review |
+| 3 | MA | Match all 4 words to English meanings | Review |
+| 4 | MC | "You're going home. You say:" → さようなら | Review |
+| 5 | KB | Build こんばんは from kana | Review |
 | 6 | MC | "Pick the WRONG pairing:" → こんばんは = good morning (trap) | Review |
 | 7 | MC | "Which phrase means 'goodbye'?" → さようなら | Review |
 | 8 | KB | Build こんにちは from kana | Review |
-| 9 | MC | "Before eating, you say ___. After eating, you say ___." → いただきます, ごちそうさまでした | Review |
+| 9 | MC | "At 8pm, you greet someone with ___." → こんばんは | Review |
 | 10 | MC | "It's 6am. You greet someone:" → おはようございます | Review |
-| 11 | MA | Match time-of-day to greeting: morning→おはよう, afternoon→こんにちは, evening→こんばんは, night→おやすみなさい | Review |
+| 11 | MA | Match time-of-day to greeting: morning→おはようございます, afternoon→こんにちは, evening→こんばんは, leaving→さようなら | Review |
 | 12 | KB | Build おはようございます from kana | Review |
-| 13 | MC | "Which is NOT a greeting?" → いただきます | Review |
-| 14 | MC | "You leave a restaurant after dinner. You say:" → ごちそうさまでした | Review |
+| 13 | MC | "Which is NOT tied to a time of day?" → さようなら | Review |
+| 14 | MC | "You leave school. You say:" → さようなら | Review |
 | 15 | KB | Build さようなら from kana | Review |
 
 ---
 
 ## Unit 2: Please & Thank You
 
-**Theme:** Polite expressions, yes/no, casual thanks
+**Theme:** Social survival with short useful phrases
 **Grammar:** None (pure vocabulary, set phrases)
-**New vocabulary:** 7 words across 3 content lessons
+**New vocabulary:** 5 words across 3 content lessons
 **Review material:** Unit 1 (greetings)
 
 ---
@@ -266,9 +269,9 @@ This table shows what the student knows after completing each unit:
 | 8 | MC | "すみません can also mean:" → sorry | New |
 | 9 | MC | **Review U1:** "It's 8am. You say:" → おはようございます | Review |
 | 10 | MC | **Review U1:** "Which means 'goodbye'?" → さようなら | Review |
-| 11 | MA | **Review U1:** Match こんにちは, こんばんは, おやすみなさい to meanings | Review |
+| 11 | MA | **Review U1:** Match こんにちは, こんばんは, さようなら to meanings | Review |
 | 12 | MC | "A stranger drops their wallet. You call out:" → すみません | New |
-| 13 | MC | **Review U1:** "Before eating, you say:" → いただきます | Review |
+| 13 | MC | **Review U1:** "Which means 'goodbye'?" → さようなら | Review |
 
 ---
 
@@ -296,42 +299,39 @@ This table shows what the student knows after completing each unit:
 | 8 | MC | "はい is the opposite of:" → いいえ | New |
 | 9 | MC | **Review L2.1:** "Which means 'thank you'?" → ありがとうございます | Review |
 | 10 | MC | **Review L2.1:** "You accidentally step on someone's foot. You say:" → すみません | Review |
-| 11 | MC | **Review U1:** "It's 10pm, time for bed. You say:" → おやすみなさい | Review |
+| 11 | MC | **Review U1:** "It's 10pm. You greet someone:" → こんばんは | Review |
 | 12 | MA | **Review:** Match ありがとうございます, すみません, はい, いいえ to meanings | Review |
-| 13 | MC | **Review U1:** "You just finished eating. You say:" → ごちそうさまでした | Review |
+| 13 | MC | **Review U1:** "You arrive at 8am. You say:" → おはようございます | Review |
 
 ---
 
-### Lesson 2.3: Please & Casual Thanks
+### Lesson 2.3: Please
 
-**New vocabulary (3 words):**
+**New vocabulary (1 word):**
 | Japanese | Reading | English |
 |----------|---------|---------|
 | おねがいします | onegaishimasu | please |
-| どうも | doumo | thanks (casual) |
-| おはよう | ohayou | morning (casual) |
 
 **Grammar:** None
-**Note:** おはよう is introduced as the casual form of おはようございます from Unit 1.
 **Review:** L2.1-2.2 + Unit 1
 
 **Exercises (14):**
 | # | Type | Exercise | New/Review |
 |---|------|----------|------------|
 | 1 | MC | "Which means 'please'?" → おねがいします | New |
-| 2 | MC | "Which is a casual way to say 'thanks'?" → どうも | New |
-| 3 | MC | "おはよう is the casual form of:" → おはようございます | New |
-| 4 | MC | "You want water at a restaurant. You say: みず, ___" → おねがいします | New |
-| 5 | MA | Match おねがいします, どうも, おはよう to please, thanks (casual), morning (casual) | New |
+| 2 | MC | "You want water at a restaurant. You say: みず, ___" → おねがいします | New |
+| 3 | MC | "You ask for help politely. You add:" → おねがいします | New |
+| 4 | MC | "Which phrase sounds like a request?" → おねがいします | New |
+| 5 | MA | Match ありがとうございます, すみません, おねがいします to thank you, excuse me, please | Review |
 | 6 | KB | Build おねがいします from kana: お ね が い し ま す | New |
-| 7 | MC | "A friend passes you a pen. You say casually:" → どうも | New |
-| 8 | KB | Build どうも from kana: ど う も (distractors: お, ね, が) | New |
+| 7 | MC | "At a cafe, you say: みず ___" → おねがいします | New |
+| 8 | MC | "Which phrase would you use to request something?" → おねがいします | New |
 | 9 | MC | **Review L2.2:** "Someone asks if you want coffee. You do:" → はい | Review |
 | 10 | MC | **Review L2.1:** "Which means 'excuse me'?" → すみません | Review |
 | 11 | MC | **Review U1:** "It's 3pm. You greet someone:" → こんにちは | Review |
 | 12 | MA | **Review:** Match はい, いいえ, ありがとうございます, すみません to meanings | Review |
-| 13 | MC | **Review U1:** "Which means 'good night'?" → おやすみなさい | Review |
-| 14 | MC | "おねがいします is more polite than どうも. True?" → はい | New |
+| 13 | MC | **Review U1:** "Which means 'good evening'?" → こんばんは | Review |
+| 14 | MC | "Which phrase is most useful for asking politely?" → おねがいします | New |
 
 ---
 
@@ -339,25 +339,25 @@ This table shows what the student knows after completing each unit:
 
 **New vocabulary:** None
 **Grammar:** None
-**Review:** All Unit 2 (7 words) + Unit 1 (7 words)
+**Review:** All Unit 2 (5 words) + Unit 1 (4 words)
 
 **Exercises (14):**
 | # | Type | Exercise | New/Review |
 |---|------|----------|------------|
-| 1 | MA | Match all 7 Unit 2 words to meanings | Review |
+| 1 | MA | Match all 5 Unit 2 words to meanings | Review |
 | 2 | MC | "Someone gives you a gift. You say:" → ありがとうございます | Review |
 | 3 | MC | "You want the check at a restaurant. You say: ___" → すみません | Review |
 | 4 | MC | "A friend asks: Coffee? You want some. You say:" → はい | Review |
 | 5 | MC | "You don't want more rice. You say:" → いいえ | Review |
 | 6 | MC | "You'd like a window seat. You add: まどがわ, ___" → おねがいします | Review |
-| 7 | MC | "A classmate lends you an eraser. You say quickly:" → どうも | Review |
+| 7 | MC | "Which phrase means 'please'?" → おねがいします | Review |
 | 8 | KB | Build ありがとうございます from kana | Review |
 | 9 | KB | Build すみません from kana | Review |
-| 10 | MC | **Review U1:** "It's morning. You say casually:" → おはよう | Review |
+| 10 | MC | **Review U1:** "It's morning. You say:" → おはようございます | Review |
 | 11 | MC | **Review U1:** "You leave school. You say:" → さようなら | Review |
 | 12 | MA | **Review U1:** Match all greetings to time of day | Review |
-| 13 | MC | **Review U1:** "Before eating:" → いただきます | Review |
-| 14 | MC | "Which is more formal: どうも or ありがとうございます?" → ありがとうございます | Review |
+| 13 | MC | **Review U1:** "It's evening. You greet someone:" → こんばんは | Review |
+| 14 | MC | "Which phrase is most useful in a polite request?" → おねがいします | Review |
 
 ---
 
@@ -365,25 +365,25 @@ This table shows what the student knows after completing each unit:
 
 **New vocabulary:** None
 **Grammar:** None
-**Review:** All Units 1-2 (14 words total)
+**Review:** All Units 1-2 (9 words total)
 
 **Exercises (15):**
 | # | Type | Exercise | New/Review |
 |---|------|----------|------------|
-| 1 | MA | Match 7 Unit 2 words to meanings | Review |
+| 1 | MA | Match 5 Unit 2 words to meanings | Review |
 | 2 | MC | "Someone holds the door for you. You say:" → ありがとうございます | Review |
 | 3 | MC | "You bump into someone. You say:" → すみません | Review |
 | 4 | MC | "Do you understand? You do. You say:" → はい | Review |
 | 5 | MC | "Do you want more? You don't. You say:" → いいえ | Review |
 | 6 | KB | Build おねがいします from kana | Review |
-| 7 | MC | "A colleague hands you a paper. Quick thanks:" → どうも | Review |
+| 7 | MC | "You want help politely. You say:" → おねがいします | Review |
 | 8 | MC | "Pick the WRONG pairing:" → はい = no (trap) | Review |
 | 9 | MC | **Review U1:** "It's evening. You greet someone:" → こんばんは | Review |
-| 10 | MC | **Review U1:** "It's bedtime. You say:" → おやすみなさい | Review |
+| 10 | MC | **Review U1:** "You're leaving. You say:" → さようなら | Review |
 | 11 | MA | **Review U1+2:** Match 8 mixed words from both units | Review |
 | 12 | KB | Build ありがとう from kana | Review |
-| 13 | MC | **Review U1:** "After finishing a meal:" → ごちそうさまでした | Review |
-| 14 | MC | "Casual morning greeting:" → おはよう | Review |
+| 13 | MC | **Review U1:** "Which means 'hello'?" → こんにちは | Review |
+| 14 | MC | "Which phrase would you use in a polite request?" → おねがいします | Review |
 | 15 | MC | "Formal morning greeting:" → おはようございます | Review |
 
 ---
@@ -456,9 +456,9 @@ This table shows what the student knows after completing each unit:
 | 8 | FB | "わたしは ＿ です" (picture of student) → がくせい | New |
 | 9 | MC | "は is pronounced ___ when used as a particle:" → wa | New |
 | 10 | MC | **Review U2:** "Which means 'yes'?" → はい | Review |
-| 11 | MC | **Review U2:** "Quick casual thanks:" → どうも | Review |
-| 12 | MC | **Review U1:** "Before eating:" → いただきます | Review |
-| 13 | MA | **Review U1:** Match おはようございます, こんにちは, こんばんは, おやすみなさい to time of day | Review |
+| 11 | MC | **Review U2:** "Which means 'please'?" → おねがいします | Review |
+| 12 | MC | **Review U1:** "Which means 'goodbye'?" → さようなら | Review |
+| 13 | MA | **Review U1:** Match おはようございます, こんにちは, こんばんは, さようなら to meaning/time use | Review |
 | 14 | KB | **Review L3.1:** Build せんせい from kana | Review |
 
 ---
@@ -528,7 +528,7 @@ This table shows what the student knows after completing each unit:
 | 10 | MC | **Review L3.3:** "おなまえは means:" → What is your name? | Review |
 | 11 | FB | **Review L3.2:** "わたし ＿ せんせいです" → は | Review |
 | 12 | MC | **Review U2:** "Which means 'no'?" → いいえ | Review |
-| 13 | MC | **Review U1:** "After finishing a meal:" → ごちそうさまでした | Review |
+| 13 | MC | **Review U1:** "Which means 'good evening'?" → こんばんは | Review |
 | 14 | MA | **Review:** Match わたし, がくせい, せんせい, なまえ to meanings | Review |
 
 ---
@@ -584,6 +584,8 @@ This table shows what the student knows after completing each unit:
 > から means "from". Combined with きました (came), it expresses where someone is from.
 > アメリカからきました = "I came from America"
 
+**Pacing note:** This is the most stretch-like part of Unit 3. If Unit 3 ever feels too dense in implementation, this is the first lesson to simplify, delay, or split.
+
 **Review:** All Unit 3 + Units 1-2
 
 **Exercises (14):**
@@ -610,7 +612,7 @@ This table shows what the student knows after completing each unit:
 
 **New vocabulary:** None
 **Grammar:** None
-**Review:** All Unit 3 (10 words, 3 grammar points) + Units 1-2 (14 words)
+**Review:** All Unit 3 (10 words, 3 grammar points) + Units 1-2 (9 words)
 **Note:** This is a 6th lesson for Unit 3 because it introduced complex grammar.
 
 **Exercises (15):**
@@ -627,7 +629,7 @@ This table shows what the student knows after completing each unit:
 | 9 | MC | "わたしはいしゃじゃないです means:" → I am not a doctor | Review |
 | 10 | FB | "にほん ＿ きました" → から | Review |
 | 11 | MC | **Review U2:** "You want to say 'please':" → おねがいします | Review |
-| 12 | MC | **Review U1:** "Before eating:" → いただきます | Review |
+| 12 | MC | **Review U1:** "Which means 'good morning'?" → おはようございます | Review |
 | 13 | WO | Build: わたし / も / がくせい / です (preview of も — exposure only) | Review |
 | 14 | MA | **Review U1+2:** Match 6 mixed words from Units 1-2 | Review |
 | 15 | MC | "Someone says はじめまして. You reply:" → どうぞよろしく | Review |
@@ -737,7 +739,7 @@ This table shows what the student knows after completing each unit:
 | 10 | FB | **Review L4.2:** "＿ はほんです" (near me) → これ | Review |
 | 11 | MA | **Review:** Match ほん, ペン, かばん, でんわ to book, pen, bag, phone | Review |
 | 12 | MC | **Review U3:** "はじめまして means:" → Nice to meet you | Review |
-| 13 | MC | **Review U1:** "After finishing a meal:" → ごちそうさまでした | Review |
+| 13 | MC | **Review U1:** "Which means 'goodbye'?" → さようなら | Review |
 
 ---
 
@@ -761,7 +763,7 @@ This table shows what the student knows after completing each unit:
 | 9 | WO | Build: これ / は / でんわ / です / か | Review |
 | 10 | MC | **Review U3:** "わたしはせんせいじゃないです means:" → I am not a teacher | Review |
 | 11 | FB | **Review U3:** "にほん ＿ きました" → から | Review |
-| 12 | MC | **Review U2:** "Casual thanks:" → どうも | Review |
+| 12 | MC | **Review U2:** "Which means 'please'?" → おねがいします | Review |
 | 13 | MC | **Review U1:** "Good morning (formal):" → おはようございます | Review |
 | 14 | MA | **Review:** Match all 4 objects: ほん, ペン, かばん, でんわ to English | Review |
 
@@ -897,7 +899,7 @@ This table shows what the student knows after completing each unit:
 | 10 | FB | **Review L5.2:** "＿ くるまはせんせいのです" → あの | Review |
 | 11 | MA | **Review:** Match all objects: とけい, くるま, かさ, テーブル, いす to meanings | Review |
 | 12 | MC | **Review U3:** "わたしはいしゃじゃないです means:" → I am not a doctor | Review |
-| 13 | MC | **Review U1:** "Before eating:" → いただきます | Review |
+| 13 | MC | **Review U1:** "Which means 'hello'?" → こんにちは | Review |
 
 ---
 
@@ -958,7 +960,7 @@ This table shows what the student knows after completing each unit:
 | 10 | MC | **Review U4:** "あれはなんですか means:" → What is that (over there)? | Review |
 | 11 | MC | **Review U3:** "がくせいですか means:" → Are you a student? | Review |
 | 12 | FB | **Review U3:** "わたしはせんせい ＿" (negative) → じゃないです | Review |
-| 13 | MC | **Review U2:** "Quick casual thanks:" → どうも | Review |
+| 13 | MC | **Review U2:** "Which means 'please'?" → おねがいします | Review |
 | 14 | MC | **Review U1:** "Good evening:" → こんばんは | Review |
 
 ---
@@ -993,7 +995,7 @@ This table shows what the student knows after completing each unit:
 ## Unit 6: Also & Where?
 
 **Theme:** The particle も (also), location words, question words
-**Grammar:** も (L6.2), ここ/そこ/あそこ/どこ (L6.3), どれ/どの (L6.5)
+**Grammar:** も (L6.1), ここ/そこ/あそこ (L6.2), どこ (L6.3), どれ/どの (L6.4)
 **New vocabulary:** 9 words across 4 content lessons
 **Review material:** Units 1-5
 
@@ -1170,7 +1172,7 @@ This table shows what the student knows after completing each unit:
 | 11 | WO | **Review U5:** Build: この / かさ / は / わたし / の / です | Review |
 | 12 | MC | **Review U3:** "いしゃじゃないです means:" → is not a doctor | Review |
 | 13 | MC | **Review U2:** "すみません means:" → excuse me / sorry | Review |
-| 14 | MC | **Review U1:** "After eating:" → ごちそうさまでした | Review |
+| 14 | MC | **Review U1:** "Which means 'good evening'?" → こんばんは | Review |
 
 ---
 
@@ -1206,24 +1208,24 @@ This table shows what the student knows after completing each unit:
 ### Lesson Count by Unit
 | Unit | Lessons | Content Lessons | Practice/Quiz Lessons |
 |------|---------|----------------|-----------------------|
-| 1: Hello! | 5 | 3 | 2 |
+| 1: Hello! | 5 | 2 | 3 |
 | 2: Please & Thank You | 5 | 3 | 2 |
 | 3: I Am... | 7 | 4 (+bonus grammar) | 2 (+1 bonus review) |
 | 4: What Is This? | 5 | 3 | 2 |
 | 5: My Things | 6 | 4 | 2 |
 | 6: Also & Where? | 6 | 4 (+1 has new vocab) | 2 |
-| **TOTAL** | **34** | **21** | **13** |
+| **TOTAL** | **34** | **20** | **14** |
 
 ### Vocabulary Distribution
 | Unit | New Words | Cumulative |
 |------|-----------|-----------|
-| 1 | 7 | 7 |
-| 2 | 7 | 14 |
-| 3 | 10 | 24 |
-| 4 | 8 | 32 |
-| 5 | 9 | 41 |
-| 6 | 9 | 50 |
-| **TOTAL** | **50** | |
+| 1 | 4 | 4 |
+| 2 | 5 | 9 |
+| 3 | 16 | 25 |
+| 4 | 8 | 33 |
+| 5 | 9 | 42 |
+| 6 | 10 | 52 |
+| **TOTAL** | **52** | |
 
 ### Grammar Distribution
 | Unit | Grammar Points | Cumulative |
@@ -1266,7 +1268,7 @@ This table shows what the student knows after completing each unit:
 
 ## Complete Vocabulary Reference (Units 1-6)
 
-All 50 words covered in this course section, in order of introduction:
+All 52 words covered in this course section, in order of introduction:
 
 | # | Japanese | Reading | English | Introduced |
 |---|----------|---------|---------|-----------|
@@ -1274,59 +1276,54 @@ All 50 words covered in this course section, in order of introduction:
 | 2 | おはようございます | ohayou gozaimasu | good morning | L1.1 |
 | 3 | こんばんは | konbanwa | good evening | L1.2 |
 | 4 | さようなら | sayounara | goodbye | L1.2 |
-| 5 | おやすみなさい | oyasuminasai | good night | L1.3 |
-| 6 | いただきます | itadakimasu | before eating | L1.3 |
-| 7 | ごちそうさまでした | gochisousama deshita | after eating | L1.3 |
-| 8 | ありがとうございます | arigatou gozaimasu | thank you | L2.1 |
-| 9 | すみません | sumimasen | excuse me / sorry | L2.1 |
-| 10 | はい | hai | yes | L2.2 |
-| 11 | いいえ | iie | no | L2.2 |
-| 12 | おねがいします | onegaishimasu | please | L2.3 |
-| 13 | どうも | doumo | thanks (casual) | L2.3 |
-| 14 | おはよう | ohayou | morning (casual) | L2.3 |
-| 15 | わたし | watashi | I, me | L3.1 |
-| 16 | がくせい | gakusei | student | L3.1 |
-| 17 | せんせい | sensei | teacher | L3.1 |
-| 18 | です | desu | am/is/are | L3.2 |
-| 19 | なまえ | namae | name | L3.3 |
-| 20 | おなまえは？ | onamae wa? | What is your name? | L3.3 |
-| 21 | ～さん | -san | Mr./Ms./Mrs. | L3.3 |
-| 22 | か | ka | question particle | L3.4 |
-| 23 | にほんじん | nihonjin | Japanese person | L3.4 |
-| 24 | アメリカじん | amerikajin | American person | L3.4 |
-| 25 | じゃないです | ja nai desu | is not | L3.5 |
-| 26 | ともだち | tomodachi | friend | L3.5 |
-| 27 | いしゃ | isha | doctor | L3.5 |
-| 28 | はじめまして | hajimemashite | nice to meet you | L3.6 |
-| 29 | どうぞよろしく | douzo yoroshiku | pleased to meet you | L3.6 |
-| 30 | ～からきました | kara kimashita | came from ~ | L3.6 |
-| 31 | ほん | hon | book | L4.1 |
-| 32 | ペン | pen | pen | L4.1 |
-| 33 | これ | kore | this | L4.2 |
-| 34 | それ | sore | that (near you) | L4.2 |
-| 35 | あれ | are | that (over there) | L4.2 |
-| 36 | なん | nan | what | L4.2 |
-| 37 | かばん | kaban | bag | L4.3 |
-| 38 | でんわ | denwa | phone | L4.3 |
-| 39 | とけい | tokei | watch/clock | L5.1 |
-| 40 | くるま | kuruma | car | L5.1 |
-| 41 | かさ | kasa | umbrella | L5.1 |
-| 42 | この | kono | this ~ | L5.2 |
-| 43 | その | sono | that ~ | L5.2 |
-| 44 | あの | ano | that ~ (over there) | L5.2 |
-| 45 | テーブル | teeburu | table | L5.3 |
-| 46 | いす | isu | chair | L5.3 |
-| 47 | の | no | possession particle | L5.4 |
-| 48 | も | mo | also, too | L6.1 |
-| 49 | だれ | dare | who | L6.1 |
-| 50 | ここ | koko | here | L6.2 |
-| 51 | そこ | soko | there | L6.2 |
-| 52 | あそこ | asoko | over there | L6.2 |
-| 53 | どこ | doko | where | L6.3 |
-| 54 | トイレ | toire | bathroom | L6.3 |
-| 55 | どれ | dore | which one | L6.4 |
-| 56 | どの | dono | which ~ | L6.4 |
-| 57 | えき | eki | station | L6.5 |
+| 5 | ありがとうございます | arigatou gozaimasu | thank you | L2.1 |
+| 6 | すみません | sumimasen | excuse me / sorry | L2.1 |
+| 7 | はい | hai | yes | L2.2 |
+| 8 | いいえ | iie | no | L2.2 |
+| 9 | おねがいします | onegaishimasu | please | L2.3 |
+| 10 | わたし | watashi | I, me | L3.1 |
+| 11 | がくせい | gakusei | student | L3.1 |
+| 12 | せんせい | sensei | teacher | L3.1 |
+| 13 | です | desu | am/is/are | L3.2 |
+| 14 | なまえ | namae | name | L3.3 |
+| 15 | おなまえは？ | onamae wa? | What is your name? | L3.3 |
+| 16 | ～さん | -san | Mr./Ms./Mrs. | L3.3 |
+| 17 | か | ka | question particle | L3.4 |
+| 18 | にほんじん | nihonjin | Japanese person | L3.4 |
+| 19 | アメリカじん | amerikajin | American person | L3.4 |
+| 20 | じゃないです | ja nai desu | is not | L3.5 |
+| 21 | ともだち | tomodachi | friend | L3.5 |
+| 22 | いしゃ | isha | doctor | L3.5 |
+| 23 | はじめまして | hajimemashite | nice to meet you | L3.6 |
+| 24 | どうぞよろしく | douzo yoroshiku | pleased to meet you | L3.6 |
+| 25 | ～からきました | kara kimashita | came from ~ | L3.6 |
+| 26 | ほん | hon | book | L4.1 |
+| 27 | ペン | pen | pen | L4.1 |
+| 28 | これ | kore | this | L4.2 |
+| 29 | それ | sore | that (near you) | L4.2 |
+| 30 | あれ | are | that (over there) | L4.2 |
+| 31 | なん | nan | what | L4.2 |
+| 32 | かばん | kaban | bag | L4.3 |
+| 33 | でんわ | denwa | phone | L4.3 |
+| 34 | とけい | tokei | watch/clock | L5.1 |
+| 35 | くるま | kuruma | car | L5.1 |
+| 36 | かさ | kasa | umbrella | L5.1 |
+| 37 | この | kono | this ~ | L5.2 |
+| 38 | その | sono | that ~ | L5.2 |
+| 39 | あの | ano | that ~ (over there) | L5.2 |
+| 40 | テーブル | teeburu | table | L5.3 |
+| 41 | いす | isu | chair | L5.3 |
+| 42 | の | no | possession particle | L5.4 |
+| 43 | も | mo | also, too | L6.1 |
+| 44 | だれ | dare | who | L6.1 |
+| 45 | ここ | koko | here | L6.2 |
+| 46 | そこ | soko | there | L6.2 |
+| 47 | あそこ | asoko | over there | L6.2 |
+| 48 | どこ | doko | where | L6.3 |
+| 49 | トイレ | toire | bathroom | L6.3 |
+| 50 | どれ | dore | which one | L6.4 |
+| 51 | どの | dono | which ~ | L6.4 |
+| 52 | えき | eki | station | L6.5 |
 
 ---
 

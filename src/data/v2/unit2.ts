@@ -1,7 +1,6 @@
 import type { Lesson } from '../types.ts';
 
 export const unit2Lessons: Lesson[] = [
-  // ─── Lesson 2.1: Thank You & Excuse Me ───
   {
     id: 'u2-l1',
     unitId: 'unit-2',
@@ -38,7 +37,7 @@ export const unit2Lessons: Lesson[] = [
         id: 'u2-l1-e4',
         type: 'multiple_choice',
         prompt: 'Someone helps you carry bags. You say:',
-        options: ['ありがとうございます', 'すみません', 'いただきます', 'おやすみなさい'],
+        options: ['ありがとうございます', 'すみません', 'こんにちは', 'さようなら'],
         correctIndex: 0,
       },
       {
@@ -59,7 +58,7 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l1-e7',
         type: 'kana_build',
-        prompt: "thank you (short form)",
+        prompt: 'thank you (short form)',
         emoji: '🙏',
         correctChars: ['あ', 'り', 'が', 'と', 'う'],
         distractors: ['す', 'み', 'ま'],
@@ -67,7 +66,7 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l1-e8',
         type: 'kana_build',
-        prompt: "excuse me",
+        prompt: 'excuse me',
         emoji: '🙇',
         correctChars: ['す', 'み', 'ま', 'せ', 'ん'],
         distractors: ['あ', 'り', 'が'],
@@ -83,7 +82,7 @@ export const unit2Lessons: Lesson[] = [
         id: 'u2-l1-e10',
         type: 'multiple_choice',
         prompt: "Review: It's 8am. You say:",
-        options: ['おはようございます', 'こんにちは', 'こんばんは', 'おやすみなさい'],
+        options: ['おはようございます', 'こんにちは', 'こんばんは', 'さようなら'],
         correctIndex: 0,
       },
       {
@@ -99,7 +98,7 @@ export const unit2Lessons: Lesson[] = [
         pairs: [
           { left: 'こんにちは', right: 'hello' },
           { left: 'こんばんは', right: 'good evening' },
-          { left: 'おやすみなさい', right: 'good night' },
+          { left: 'さようなら', right: 'goodbye' },
         ],
       },
       {
@@ -112,14 +111,12 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l1-e14',
         type: 'multiple_choice',
-        prompt: 'Review: Before eating, you say:',
-        options: ['いただきます', 'ごちそうさまでした', 'ありがとうございます', 'すみません'],
+        prompt: "Review: Which means 'goodbye'?",
+        options: ['さようなら', 'こんばんは', 'こんにちは', 'おはようございます'],
         correctIndex: 0,
       },
     ],
   },
-
-  // ─── Lesson 2.2: Yes & No ───
   {
     id: 'u2-l2',
     unitId: 'unit-2',
@@ -177,7 +174,7 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l2-e7',
         type: 'kana_build',
-        prompt: "yes",
+        prompt: 'yes',
         emoji: '✅',
         correctChars: ['は', 'い'],
         distractors: ['い', 'え', 'す'],
@@ -185,7 +182,7 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l2-e8',
         type: 'kana_build',
-        prompt: "no",
+        prompt: 'no',
         emoji: '❌',
         correctChars: ['い', 'い', 'え'],
         distractors: ['は', 'す', 'み'],
@@ -214,8 +211,8 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l2-e12',
         type: 'multiple_choice',
-        prompt: "Review: It's 10pm, time for bed. You say:",
-        options: ['おやすみなさい', 'こんばんは', 'さようなら', 'すみません'],
+        prompt: "Review: It's 10pm. You greet someone:",
+        options: ['こんばんは', 'おはようございます', 'こんにちは', 'さようなら'],
         correctIndex: 0,
       },
       {
@@ -231,23 +228,19 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l2-e14',
         type: 'multiple_choice',
-        prompt: 'Review: You just finished eating. You say:',
-        options: ['ごちそうさまでした', 'いただきます', 'ありがとうございます', 'すみません'],
+        prompt: 'Review: You arrive at 8am. You say:',
+        options: ['おはようございます', 'こんにちは', 'こんばんは', 'さようなら'],
         correctIndex: 0,
       },
     ],
   },
-
-  // ─── Lesson 2.3: Please & Friendly Phrases ───
   {
     id: 'u2-l3',
     unitId: 'unit-2',
-    title: 'Please & Friendly Phrases',
-    titleJp: 'おねがいします・どうも',
+    title: 'Please',
+    titleJp: 'おねがいします',
     vocabulary: [
       { japanese: 'おねがいします', reading: 'onegaishimasu', english: 'please', emoji: '🙏' },
-      { japanese: 'どうも', reading: 'doumo', english: 'thanks (friendly)', emoji: '👍' },
-      { japanese: 'おはよう', reading: 'ohayou', english: 'good morning (friendly)', emoji: '🌅' },
     ],
     exercises: [
       {
@@ -255,89 +248,86 @@ export const unit2Lessons: Lesson[] = [
         type: 'vocab_intro',
         words: [
           { japanese: 'おねがいします', reading: 'onegaishimasu', english: 'please', emoji: '🙏' },
-          { japanese: 'どうも', reading: 'doumo', english: 'thanks (friendly)', emoji: '👍' },
-          { japanese: 'おはよう', reading: 'ohayou', english: 'good morning (friendly)', emoji: '🌅' },
         ],
       },
       {
         id: 'u2-l3-e2',
         type: 'multiple_choice',
         prompt: "Which means 'please'?",
-        options: ['おねがいします', 'どうも', 'おはよう', 'すみません'],
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'はい'],
         correctIndex: 0,
       },
       {
         id: 'u2-l3-e3',
         type: 'multiple_choice',
-        prompt: "Which is a friendly way to say 'thanks'?",
-        options: ['どうも', 'ありがとうございます', 'おねがいします', 'すみません'],
+        prompt: 'You want water at a restaurant. You say: みず, ___',
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'はい'],
         correctIndex: 0,
       },
       {
         id: 'u2-l3-e4',
         type: 'multiple_choice',
-        prompt: 'おはよう is the short form of:',
-        options: ['おはようございます', 'こんにちは', 'こんばんは', 'おやすみなさい'],
+        prompt: 'You ask for help politely. You add:',
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'いいえ'],
         correctIndex: 0,
       },
       {
         id: 'u2-l3-e5',
         type: 'multiple_choice',
-        prompt: 'You want water at a restaurant. You say: みず, ___',
-        options: ['おねがいします', 'ありがとうございます', 'すみません', 'どうも'],
+        prompt: 'Which phrase sounds like a request?',
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'はい'],
         correctIndex: 0,
       },
       {
         id: 'u2-l3-e6',
         type: 'matching',
         pairs: [
+          { left: 'ありがとうございます', right: 'thank you' },
+          { left: 'すみません', right: 'excuse me' },
           { left: 'おねがいします', right: 'please' },
-          { left: 'どうも', right: 'thanks (friendly)' },
-          { left: 'おはよう', right: 'good morning (friendly)' },
         ],
       },
       {
         id: 'u2-l3-e7',
         type: 'kana_build',
-        prompt: "please",
+        prompt: 'please',
         emoji: '🙏',
         correctChars: ['お', 'ね', 'が', 'い', 'し', 'ま', 'す'],
-        distractors: ['ど', 'う', 'も'],
+        distractors: ['あ', 'り', 'が'],
       },
       {
         id: 'u2-l3-e8',
         type: 'multiple_choice',
-        prompt: 'A friend passes you a pen. You say to a friend:',
-        options: ['どうも', 'ありがとうございます', 'おねがいします', 'すみません'],
+        prompt: 'At a cafe, you say: みず ___',
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'はい'],
         correctIndex: 0,
       },
       {
         id: 'u2-l3-e9',
-        type: 'kana_build',
-        prompt: "thanks (friendly)",
-        emoji: '👍',
-        correctChars: ['ど', 'う', 'も'],
-        distractors: ['お', 'ね', 'が'],
+        type: 'multiple_choice',
+        prompt: 'Which phrase would you use to request something?',
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'いいえ'],
+        correctIndex: 0,
       },
       {
         id: 'u2-l3-e10',
         type: 'multiple_choice',
         prompt: 'Review: Someone asks if you want coffee. You do:',
-        options: ['はい', 'いいえ', 'すみません', 'どうも'],
+        options: ['はい', 'いいえ', 'すみません', 'ありがとうございます'],
         correctIndex: 0,
       },
       {
         id: 'u2-l3-e11',
         type: 'multiple_choice',
         prompt: "Review: Which means 'excuse me'?",
-        options: ['すみません', 'ありがとうございます', 'おねがいします', 'どうも'],
+        options: ['すみません', 'ありがとうございます', 'おねがいします', 'はい'],
         correctIndex: 0,
       },
       {
         id: 'u2-l3-e12',
         type: 'multiple_choice',
         prompt: "Review: It's 3pm. You greet someone:",
-        options: ['こんにちは', 'おはようございます', 'こんばんは', 'おやすみなさい'],
+        options: ['こんにちは', 'おはようございます', 'こんばんは', 'さようなら'],
         correctIndex: 0,
       },
       {
@@ -353,21 +343,19 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l3-e14',
         type: 'multiple_choice',
-        prompt: "Review: Which means 'good night'?",
-        options: ['おやすみなさい', 'こんばんは', 'さようなら', 'おはよう'],
+        prompt: "Review: Which means 'good evening'?",
+        options: ['こんばんは', 'おはようございます', 'こんにちは', 'さようなら'],
         correctIndex: 0,
       },
       {
         id: 'u2-l3-e15',
         type: 'multiple_choice',
-        prompt: 'おねがいします is more polite than どうも. True?',
-        options: ['はい', 'いいえ', 'すみません', 'ありがとうございます'],
+        prompt: 'Which phrase is most useful for asking politely?',
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'はい'],
         correctIndex: 0,
       },
     ],
   },
-
-  // ─── Lesson 2.4: Practice — Polite Phrases ───
   {
     id: 'u2-l4',
     unitId: 'unit-2',
@@ -379,8 +367,6 @@ export const unit2Lessons: Lesson[] = [
       { japanese: 'はい', reading: 'hai', english: 'yes', emoji: '✅' },
       { japanese: 'いいえ', reading: 'iie', english: 'no', emoji: '❌' },
       { japanese: 'おねがいします', reading: 'onegaishimasu', english: 'please', emoji: '🙏' },
-      { japanese: 'どうも', reading: 'doumo', english: 'thanks (friendly)', emoji: '👍' },
-      { japanese: 'おはよう', reading: 'ohayou', english: 'good morning (friendly)', emoji: '🌅' },
     ],
     exercises: [
       {
@@ -392,15 +378,13 @@ export const unit2Lessons: Lesson[] = [
           { left: 'はい', right: 'yes' },
           { left: 'いいえ', right: 'no' },
           { left: 'おねがいします', right: 'please' },
-          { left: 'どうも', right: 'thanks (friendly)' },
-          { left: 'おはよう', right: 'good morning (friendly)' },
         ],
       },
       {
         id: 'u2-l4-e2',
         type: 'multiple_choice',
         prompt: 'Someone gives you a gift. You say:',
-        options: ['ありがとうございます', 'すみません', 'おねがいします', 'どうも'],
+        options: ['ありがとうございます', 'すみません', 'おねがいします', 'はい'],
         correctIndex: 0,
       },
       {
@@ -414,7 +398,7 @@ export const unit2Lessons: Lesson[] = [
         id: 'u2-l4-e4',
         type: 'multiple_choice',
         prompt: 'A friend asks: Coffee? You want some. You say:',
-        options: ['はい', 'いいえ', 'どうも', 'すみません'],
+        options: ['はい', 'いいえ', 'すみません', 'ありがとうございます'],
         correctIndex: 0,
       },
       {
@@ -428,20 +412,20 @@ export const unit2Lessons: Lesson[] = [
         id: 'u2-l4-e6',
         type: 'multiple_choice',
         prompt: "You'd like a window seat. You add: まどがわ, ___",
-        options: ['おねがいします', 'ありがとうございます', 'すみません', 'どうも'],
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'はい'],
         correctIndex: 0,
       },
       {
         id: 'u2-l4-e7',
         type: 'multiple_choice',
-        prompt: 'A classmate lends you an eraser. You say quickly:',
-        options: ['どうも', 'ありがとうございます', 'おねがいします', 'すみません'],
+        prompt: "Which phrase means 'please'?",
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'はい'],
         correctIndex: 0,
       },
       {
         id: 'u2-l4-e8',
         type: 'kana_build',
-        prompt: "thank you (formal)",
+        prompt: 'thank you (formal)',
         emoji: '🙏',
         correctChars: ['あ', 'り', 'が', 'と', 'う', 'ご', 'ざ', 'い', 'ま', 'す'],
         distractors: ['す', 'み', 'せ'],
@@ -449,7 +433,7 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l4-e9',
         type: 'kana_build',
-        prompt: "excuse me",
+        prompt: 'excuse me',
         emoji: '🙇',
         correctChars: ['す', 'み', 'ま', 'せ', 'ん'],
         distractors: ['あ', 'り', 'が'],
@@ -457,15 +441,15 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l4-e10',
         type: 'multiple_choice',
-        prompt: "Review: It's morning. You say to a friend:",
-        options: ['おはよう', 'おはようございます', 'こんにちは', 'こんばんは'],
+        prompt: "Review: It's morning. You say:",
+        options: ['おはようございます', 'こんにちは', 'こんばんは', 'さようなら'],
         correctIndex: 0,
       },
       {
         id: 'u2-l4-e11',
         type: 'multiple_choice',
         prompt: 'Review: You leave school. You say:',
-        options: ['さようなら', 'おやすみなさい', 'こんばんは', 'すみません'],
+        options: ['さようなら', 'こんばんは', 'こんにちは', 'すみません'],
         correctIndex: 0,
       },
       {
@@ -475,27 +459,25 @@ export const unit2Lessons: Lesson[] = [
           { left: 'おはようございます', right: 'good morning' },
           { left: 'こんにちは', right: 'hello' },
           { left: 'こんばんは', right: 'good evening' },
-          { left: 'おやすみなさい', right: 'good night' },
+          { left: 'さようなら', right: 'goodbye' },
         ],
       },
       {
         id: 'u2-l4-e13',
         type: 'multiple_choice',
-        prompt: 'Review: Before eating:',
-        options: ['いただきます', 'ごちそうさまでした', 'ありがとうございます', 'おねがいします'],
+        prompt: "Review: It's evening. You greet someone:",
+        options: ['こんばんは', 'こんにちは', 'おはようございます', 'さようなら'],
         correctIndex: 0,
       },
       {
         id: 'u2-l4-e14',
         type: 'multiple_choice',
-        prompt: 'Which is more formal: どうも or ありがとうございます?',
-        options: ['ありがとうございます', 'どうも', 'おねがいします', 'すみません'],
+        prompt: "Which phrase is most useful in a polite request?",
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'はい'],
         correctIndex: 0,
       },
     ],
   },
-
-  // ─── Lesson 2.5: Unit 2 Quiz ───
   {
     id: 'u2-l5',
     unitId: 'unit-2',
@@ -507,8 +489,6 @@ export const unit2Lessons: Lesson[] = [
       { japanese: 'はい', reading: 'hai', english: 'yes', emoji: '✅' },
       { japanese: 'いいえ', reading: 'iie', english: 'no', emoji: '❌' },
       { japanese: 'おねがいします', reading: 'onegaishimasu', english: 'please', emoji: '🙏' },
-      { japanese: 'どうも', reading: 'doumo', english: 'thanks (friendly)', emoji: '👍' },
-      { japanese: 'おはよう', reading: 'ohayou', english: 'good morning (friendly)', emoji: '🌅' },
     ],
     exercises: [
       {
@@ -520,8 +500,6 @@ export const unit2Lessons: Lesson[] = [
           { left: 'はい', right: 'yes' },
           { left: 'いいえ', right: 'no' },
           { left: 'おねがいします', right: 'please' },
-          { left: 'どうも', right: 'thanks (friendly)' },
-          { left: 'おはよう', right: 'good morning (friendly)' },
         ],
       },
       {
@@ -535,14 +513,14 @@ export const unit2Lessons: Lesson[] = [
         id: 'u2-l5-e3',
         type: 'multiple_choice',
         prompt: 'You bump into someone. You say:',
-        options: ['すみません', 'ありがとうございます', 'いいえ', 'どうも'],
+        options: ['すみません', 'ありがとうございます', 'いいえ', 'はい'],
         correctIndex: 0,
       },
       {
         id: 'u2-l5-e4',
         type: 'multiple_choice',
         prompt: 'Do you understand? You do. You say:',
-        options: ['はい', 'いいえ', 'すみません', 'どうも'],
+        options: ['はい', 'いいえ', 'すみません', 'ありがとうございます'],
         correctIndex: 0,
       },
       {
@@ -555,16 +533,16 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l5-e6',
         type: 'kana_build',
-        prompt: "please",
+        prompt: 'please',
         emoji: '🙏',
         correctChars: ['お', 'ね', 'が', 'い', 'し', 'ま', 'す'],
-        distractors: ['ど', 'う', 'も'],
+        distractors: ['あ', 'り', 'が'],
       },
       {
         id: 'u2-l5-e7',
         type: 'multiple_choice',
-        prompt: 'A colleague hands you a paper. Quick thanks:',
-        options: ['どうも', 'ありがとうございます', 'おねがいします', 'すみません'],
+        prompt: 'You want help politely. You say:',
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'はい'],
         correctIndex: 0,
       },
       {
@@ -583,14 +561,14 @@ export const unit2Lessons: Lesson[] = [
         id: 'u2-l5-e9',
         type: 'multiple_choice',
         prompt: "Review: It's evening. You greet someone:",
-        options: ['こんばんは', 'こんにちは', 'おはようございます', 'おやすみなさい'],
+        options: ['こんばんは', 'こんにちは', 'おはようございます', 'さようなら'],
         correctIndex: 0,
       },
       {
         id: 'u2-l5-e10',
         type: 'multiple_choice',
-        prompt: "Review: It's bedtime. You say:",
-        options: ['おやすみなさい', 'こんばんは', 'さようなら', 'おはよう'],
+        prompt: "Review: You're leaving. You say:",
+        options: ['さようなら', 'こんばんは', 'こんにちは', 'おはようございます'],
         correctIndex: 0,
       },
       {
@@ -604,13 +582,12 @@ export const unit2Lessons: Lesson[] = [
           { left: 'はい', right: 'yes' },
           { left: 'いいえ', right: 'no' },
           { left: 'おねがいします', right: 'please' },
-          { left: 'どうも', right: 'thanks (friendly)' },
         ],
       },
       {
         id: 'u2-l5-e12',
         type: 'kana_build',
-        prompt: "thank you (short form)",
+        prompt: 'thank you (short form)',
         emoji: '🙏',
         correctChars: ['あ', 'り', 'が', 'と', 'う'],
         distractors: ['す', 'み', 'ま'],
@@ -618,22 +595,22 @@ export const unit2Lessons: Lesson[] = [
       {
         id: 'u2-l5-e13',
         type: 'multiple_choice',
-        prompt: 'Review: After finishing a meal:',
-        options: ['ごちそうさまでした', 'いただきます', 'ありがとうございます', 'おねがいします'],
+        prompt: "Review: Which means 'hello'?",
+        options: ['こんにちは', 'こんばんは', 'さようなら', 'おはようございます'],
         correctIndex: 0,
       },
       {
         id: 'u2-l5-e14',
         type: 'multiple_choice',
-        prompt: 'Casual morning greeting:',
-        options: ['おはよう', 'おはようございます', 'こんにちは', 'どうも'],
+        prompt: 'Which phrase would you use in a polite request?',
+        options: ['おねがいします', 'ありがとうございます', 'すみません', 'はい'],
         correctIndex: 0,
       },
       {
         id: 'u2-l5-e15',
         type: 'multiple_choice',
         prompt: 'Formal morning greeting:',
-        options: ['おはようございます', 'おはよう', 'こんにちは', 'こんばんは'],
+        options: ['おはようございます', 'こんにちは', 'こんばんは', 'さようなら'],
         correctIndex: 0,
       },
     ],

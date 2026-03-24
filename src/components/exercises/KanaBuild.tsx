@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import type { KanaBuildExercise } from '../../data/types';
 import { cn, shuffleArray } from '../../lib/utils';
+import { VisualIcon } from '../common/VisualIcon';
 import { speakJapanese } from '../../lib/speech';
 import { playTap, playCorrect, playIncorrect } from '../../lib/sounds';
 
@@ -64,7 +65,7 @@ export function KanaBuild({ exercise, onAnswer }: Props) {
           Build this word
         </h2>
         <div className="flex items-center justify-center gap-2 mb-6">
-          {exercise.emoji && <span className="text-3xl">{exercise.emoji}</span>}
+          {exercise.emoji && <VisualIcon text={targetWord} sizeClass="w-10 h-10" />}
           <p className="text-xl text-gray-700 font-medium">"{exercise.prompt}"</p>
         </div>
 

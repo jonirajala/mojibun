@@ -3,10 +3,12 @@ import { normalizeTtsText } from './ttsText';
 
 const DEFAULT_RATE = 1;
 const SLOW_RATE = 0.78;
+const AUDIO_CACHE_NAME = 'moshimoshi-audio-v1';
 
 let japaneseVoice: SpeechSynthesisVoice | null = null;
 let activeLessonId: string | null = null;
 let currentAudio: HTMLAudioElement | null = null;
+const objectUrlCache = new Map<string, string>();
 
 const clipUrlCache = new Map<string, string>();
 const preloadPromiseCache = new Map<string, Promise<void>>();
@@ -42,6 +44,51 @@ function fallbackSpeak(text: string, rate: number) {
   speechSynthesis.speak(utterance);
 }
 
+async function getAudioCache(): Promise<Cache | null> {
+  if (typeof caches === 'undefined') return null;
+  try {
+    return await caches.open(AUDIO_CACHE_NAME);
+  } catch {
+    return null;
+  }
+}
+
+async function responseToObjectUrl(cacheKey: string, response: Response): Promise<string> {
+  const existing = objectUrlCache.get(cacheKey);
+  if (existing) return existing;
+
+  const blob = await response.blob();
+  const objectUrl = URL.createObjectURL(blob);
+  objectUrlCache.set(cacheKey, objectUrl);
+  return objectUrl;
+}
+
+async function getCachedOrFetchAudioUrl(cacheKey: string, publicUrl: string): Promise<string | null> {
+  const cachedObjectUrl = objectUrlCache.get(cacheKey);
+  if (cachedObjectUrl) return cachedObjectUrl;
+
+  const cache = await getAudioCache();
+  if (cache) {
+    const cachedResponse = await cache.match(publicUrl);
+    if (cachedResponse) {
+      return responseToObjectUrl(cacheKey, cachedResponse);
+    }
+  }
+
+  const response = await fetch(publicUrl);
+  if (!response.ok) return null;
+
+  if (cache) {
+    try {
+      await cache.put(publicUrl, response.clone());
+    } catch {
+      // Ignore cache write failures and still use the fetched audio.
+    }
+  }
+
+  return responseToObjectUrl(cacheKey, response);
+}
+
 async function resolveClipUrl(text: string, voiceOverride?: string): Promise<string | null> {
   const manifest = await getAudioManifest();
   if (!manifest) return null;
@@ -61,8 +108,11 @@ async function resolveClipUrl(text: string, voiceOverride?: string): Promise<str
   const publicUrl = getSupabasePublicUrl(manifest.storageBucket, variant.path);
   if (!publicUrl) return null;
 
-  clipUrlCache.set(cacheKey, publicUrl);
-  return publicUrl;
+  const resolvedUrl = await getCachedOrFetchAudioUrl(cacheKey, publicUrl);
+  if (!resolvedUrl) return null;
+
+  clipUrlCache.set(cacheKey, resolvedUrl);
+  return resolvedUrl;
 }
 
 async function playGeneratedClip(text: string, rate: number): Promise<boolean> {
@@ -102,10 +152,9 @@ async function preloadClip(clipId: string, voice: string): Promise<void> {
     const publicUrl = getSupabasePublicUrl(manifest.storageBucket, variant.path);
     if (!publicUrl) return;
 
-    clipUrlCache.set(cacheKey, publicUrl);
-    const audio = new Audio(publicUrl);
-    audio.preload = 'auto';
-    audio.load();
+    const resolvedUrl = await getCachedOrFetchAudioUrl(cacheKey, publicUrl);
+    if (!resolvedUrl) return;
+    clipUrlCache.set(cacheKey, resolvedUrl);
   })();
 
   preloadPromiseCache.set(cacheKey, preloadPromise);
@@ -132,7 +181,20 @@ export async function preloadLessonAudio(lessonId: string, voiceOverride?: strin
 
   const voice = voiceOverride ?? manifest.defaultVoice;
   const clipIds = manifest.lessons[lessonId] ?? [];
-  await Promise.all(clipIds.map((clipId) => preloadClip(clipId, voice)));
+  const highPriority = clipIds.slice(0, 4);
+  const background = clipIds.slice(4);
+
+  await Promise.all(highPriority.map((clipId) => preloadClip(clipId, voice)));
+  void Promise.all(background.map((clipId) => preloadClip(clipId, voice)));
+}
+
+export async function preloadLessonAudioInBackground(lessonId: string, voiceOverride?: string) {
+  const manifest = await getAudioManifest();
+  if (!manifest) return;
+
+  const voice = voiceOverride ?? manifest.defaultVoice;
+  const clipIds = manifest.lessons[lessonId] ?? [];
+  void Promise.all(clipIds.map((clipId) => preloadClip(clipId, voice)));
 }
 
 export function speakJapanese(text: string, rate: number = DEFAULT_RATE) {
