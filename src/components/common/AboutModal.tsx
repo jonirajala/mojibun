@@ -53,6 +53,9 @@ export function AboutModal({ onClose }: AboutModalProps) {
                 joni.m.rajala@gmail.com
               </a>
             </p>
+            <p className="text-xs text-gray-500 pt-1">
+              Visual icons powered by OpenMoji, licensed under CC BY-SA 4.0.
+            </p>
           </div>
         </div>
 
