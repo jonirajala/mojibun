@@ -1,4 +1,4 @@
-import type { Lesson } from '../types';
+import type { Lesson } from '../types.ts';
 
 export const unit1Lessons: Lesson[] = [
   // ─── Lesson 1.1: Good Morning, Good Afternoon ───

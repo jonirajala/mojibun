@@ -1,4 +1,4 @@
-import type { Lesson } from '../types';
+import type { Lesson } from '../types.ts';
 
 export const unit6Lessons: Lesson[] = [
   // === Lesson 6.1: Also! (も Particle) ===

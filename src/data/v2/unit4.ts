@@ -1,4 +1,4 @@
-import type { Lesson } from '../types';
+import type { Lesson } from '../types.ts';
 
 export const unit4Lessons: Lesson[] = [
   // === Lesson 4.1: Book & Pen ===

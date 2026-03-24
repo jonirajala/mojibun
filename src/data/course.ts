@@ -1,10 +1,10 @@
-import type { Unit } from './types';
-import { unit1Lessons } from './v2/unit1';
-import { unit2Lessons } from './v2/unit2';
-import { unit3Lessons } from './v2/unit3';
-import { unit4Lessons } from './v2/unit4';
-import { unit5Lessons } from './v2/unit5';
-import { unit6Lessons } from './v2/unit6';
+import type { Unit } from './types.ts';
+import { unit1Lessons } from './v2/unit1.ts';
+import { unit2Lessons } from './v2/unit2.ts';
+import { unit3Lessons } from './v2/unit3.ts';
+import { unit4Lessons } from './v2/unit4.ts';
+import { unit5Lessons } from './v2/unit5.ts';
+import { unit6Lessons } from './v2/unit6.ts';
 
 export const course: Unit[] = [
   {

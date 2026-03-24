@@ -1,0 +1,4858 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-03-24T14:55:29.409Z",
+  "defaultVoice": "jf_alpha",
+  "storageBucket": "tts-audio",
+  "lessons": {
+    "u1-l1": [
+      "20427a708c3f6f07",
+      "5a3c5f71eeac31a3",
+      "800001ba24419b65",
+      "cce1862bcbd9c1bf",
+      "eabdada4abd08bd2"
+    ],
+    "u1-l2": [
+      "17b912b634f34ada",
+      "20427a708c3f6f07",
+      "5a3c5f71eeac31a3",
+      "800001ba24419b65",
+      "eabdada4abd08bd2"
+    ],
+    "u1-l3": [
+      "11c8fca7e223c891",
+      "17b912b634f34ada",
+      "20427a708c3f6f07",
+      "22d1ecbca027189e",
+      "25567f8581d3214b",
+      "5a3c5f71eeac31a3",
+      "800001ba24419b65",
+      "eab3d932d73e8d72",
+      "eabdada4abd08bd2"
+    ],
+    "u1-l4": [
+      "11c8fca7e223c891",
+      "17b912b634f34ada",
+      "20427a708c3f6f07",
+      "25567f8581d3214b",
+      "5a3c5f71eeac31a3",
+      "6d4ce442f6c2470a",
+      "800001ba24419b65",
+      "d5203062dae9802b",
+      "e094a9cb05ff2895",
+      "e8c2262cab152f0c",
+      "eabdada4abd08bd2"
+    ],
+    "u1-l5": [
+      "11c8fca7e223c891",
+      "17b912b634f34ada",
+      "20427a708c3f6f07",
+      "25567f8581d3214b",
+      "4e1935fa06cb0998",
+      "56af807bf38e211e",
+      "5a3c5f71eeac31a3",
+      "800001ba24419b65",
+      "8068f9b56ac23c99",
+      "a838b4c05e1a771d",
+      "af769dd9d9f38057",
+      "b3d19d6ac2cf1fd0",
+      "d891b5355c4b1cbe",
+      "dbc239dfdaa9d5da",
+      "eabdada4abd08bd2"
+    ],
+    "u2-l1": [
+      "11c8fca7e223c891",
+      "17b912b634f34ada",
+      "20427a708c3f6f07",
+      "24afcca10e22ce78",
+      "25567f8581d3214b",
+      "42d0969029e92111",
+      "5a3c5f71eeac31a3",
+      "800001ba24419b65",
+      "cce1862bcbd9c1bf",
+      "eabdada4abd08bd2"
+    ],
+    "u2-l2": [
+      "11c8fca7e223c891",
+      "17b912b634f34ada",
+      "24afcca10e22ce78",
+      "25567f8581d3214b",
+      "800001ba24419b65",
+      "c92b4cda8bdf50d2",
+      "cce1862bcbd9c1bf",
+      "eabdada4abd08bd2",
+      "f901585367d6f495"
+    ],
+    "u2-l3": [
+      "17b912b634f34ada",
+      "20427a708c3f6f07",
+      "24afcca10e22ce78",
+      "2d6e22246673b8bc",
+      "5a3c5f71eeac31a3",
+      "800001ba24419b65",
+      "a481ff73f54dffec",
+      "c92b4cda8bdf50d2",
+      "cce1862bcbd9c1bf",
+      "eab3d932d73e8d72",
+      "eabdada4abd08bd2",
+      "f901585367d6f495"
+    ],
+    "u2-l4": [
+      "11c8fca7e223c891",
+      "17b912b634f34ada",
+      "20427a708c3f6f07",
+      "24afcca10e22ce78",
+      "25567f8581d3214b",
+      "2d6e22246673b8bc",
+      "5a3c5f71eeac31a3",
+      "800001ba24419b65",
+      "a481ff73f54dffec",
+      "c92b4cda8bdf50d2",
+      "cce1862bcbd9c1bf",
+      "eab3d932d73e8d72",
+      "eabdada4abd08bd2",
+      "f901585367d6f495"
+    ],
+    "u2-l5": [
+      "11c8fca7e223c891",
+      "17b912b634f34ada",
+      "20427a708c3f6f07",
+      "21549d00d6c70a8f",
+      "24afcca10e22ce78",
+      "25567f8581d3214b",
+      "2d6e22246673b8bc",
+      "42d0969029e92111",
+      "5a3c5f71eeac31a3",
+      "68aecf8ea8f3d3bd",
+      "800001ba24419b65",
+      "84c187206ebad9ed",
+      "890dd55f5942fc53",
+      "a481ff73f54dffec",
+      "c92b4cda8bdf50d2",
+      "cce1862bcbd9c1bf",
+      "eab3d932d73e8d72",
+      "eabdada4abd08bd2",
+      "f901585367d6f495"
+    ],
+    "lesson-3-1": [
+      "17b912b634f34ada",
+      "17d0cfcdf57eed8b",
+      "20427a708c3f6f07",
+      "24afcca10e22ce78",
+      "4ca0d0546bc29f04",
+      "58f16b7e1247ee7e",
+      "5a3c5f71eeac31a3",
+      "800001ba24419b65",
+      "a481ff73f54dffec",
+      "b68960b205eb72b8",
+      "b8020da03ae5ffb2",
+      "cce1862bcbd9c1bf",
+      "eab3d932d73e8d72",
+      "eabdada4abd08bd2",
+      "fa04cb341f011a2c"
+    ],
+    "lesson-3-2": [
+      "11c8fca7e223c891",
+      "15ed7e6f575696e1",
+      "17b912b634f34ada",
+      "1b409b8ed487863f",
+      "1fa0519cfd095c24",
+      "24afcca10e22ce78",
+      "25567f8581d3214b",
+      "288c9e077190b860",
+      "3c6945772d72d388",
+      "4ca0d0546bc29f04",
+      "58f16b7e1247ee7e",
+      "800001ba24419b65",
+      "a142816563b38903",
+      "a481ff73f54dffec",
+      "b76f99438b3523d4",
+      "b8020da03ae5ffb2",
+      "c92b4cda8bdf50d2",
+      "cce1862bcbd9c1bf",
+      "de3d1ecc94b26d28",
+      "eab3d932d73e8d72",
+      "eba95ba0c66639b9",
+      "f901585367d6f495",
+      "f92610f7e865c77a",
+      "fc44371ae27e26e6"
+    ],
+    "lesson-3-3": [
+      "0d0fd2531ac75ba5",
+      "17b912b634f34ada",
+      "17d0cfcdf57eed8b",
+      "1b409b8ed487863f",
+      "1fa0519cfd095c24",
+      "20427a708c3f6f07",
+      "24afcca10e22ce78",
+      "288c9e077190b860",
+      "4ca0d0546bc29f04",
+      "53baab0da1fab221",
+      "56377d14d4ef532a",
+      "565b4b1900dc10c7",
+      "58f16b7e1247ee7e",
+      "61dc939aa9563b2a",
+      "6faae07d7191a45e",
+      "7eb703e402b6eaa0",
+      "800001ba24419b65",
+      "8c04f06a41f0d3ba",
+      "95a511dce1f8921e",
+      "9986afa22644ec17",
+      "9b0469a353b1d18f",
+      "a142816563b38903",
+      "a481ff73f54dffec",
+      "b76f99438b3523d4",
+      "b8020da03ae5ffb2",
+      "cce1862bcbd9c1bf",
+      "ce6555015bd5df0a",
+      "e0bc898fd1943f7a",
+      "eab3d932d73e8d72",
+      "eabdada4abd08bd2",
+      "eba95ba0c66639b9"
+    ],
+    "lesson-3-4": [
+      "17d0cfcdf57eed8b",
+      "1b409b8ed487863f",
+      "1fa0519cfd095c24",
+      "288c9e077190b860",
+      "386f6a23a18e8f02",
+      "3c6945772d72d388",
+      "4ca0d0546bc29f04",
+      "4f551027169414ee",
+      "542b9a32d9b323c4",
+      "58f16b7e1247ee7e",
+      "60df58eb7c2e23d0",
+      "98a461886e85b7bc",
+      "9a3401c1abf205b5",
+      "a142816563b38903",
+      "a481ff73f54dffec",
+      "b76f99438b3523d4",
+      "b8020da03ae5ffb2",
+      "b9d9ec34d4d9f5d1",
+      "c92b4cda8bdf50d2",
+      "ccb5408b95d1e98a",
+      "cce1862bcbd9c1bf",
+      "d13a0fc29c11a471",
+      "e24568baed7bd340",
+      "e66c68c548828391",
+      "eba95ba0c66639b9",
+      "f901585367d6f495"
+    ],
+    "lesson-3-5": [
+      "1fa0519cfd095c24",
+      "24afcca10e22ce78",
+      "251d38f61199fe00",
+      "288c9e077190b860",
+      "2a62c1629a33c99c",
+      "386f6a23a18e8f02",
+      "3c6945772d72d388",
+      "4ca0d0546bc29f04",
+      "5778d116a641d979",
+      "58f16b7e1247ee7e",
+      "71e806bb0819f52a",
+      "80804fcfb0b16ee7",
+      "822de97849b147e4",
+      "890ced192e14ccd2",
+      "97d2784c1de4ded7",
+      "98a461886e85b7bc",
+      "a481ff73f54dffec",
+      "b68960b205eb72b8",
+      "b76f99438b3523d4",
+      "b8020da03ae5ffb2",
+      "c248a123de6d5c84",
+      "ccb5408b95d1e98a",
+      "cce1862bcbd9c1bf",
+      "eab3d932d73e8d72",
+      "ed450c9d707f2496",
+      "fa04cb341f011a2c"
+    ],
+    "lesson-3-6": [
+      "02f1153ecf53e995",
+      "15ed7e6f575696e1",
+      "1fa0519cfd095c24",
+      "24afcca10e22ce78",
+      "288c9e077190b860",
+      "2b696ea37eae786e",
+      "32c7a85f193af5c8",
+      "386f6a23a18e8f02",
+      "46d67218d6224c2c",
+      "706f50a691bde669",
+      "75f97f586024f4ae",
+      "79f3943bb29c126a",
+      "800001ba24419b65",
+      "822de97849b147e4",
+      "890ced192e14ccd2",
+      "a481ff73f54dffec",
+      "b76f99438b3523d4",
+      "b8020da03ae5ffb2",
+      "cce1862bcbd9c1bf",
+      "e22989497e1244d8",
+      "eab3d932d73e8d72"
+    ],
+    "lesson-4-1": [
+      "090c4c1158c0d2c7",
+      "17d0cfcdf57eed8b",
+      "1b409b8ed487863f",
+      "1fa0519cfd095c24",
+      "20427a708c3f6f07",
+      "288c9e077190b860",
+      "4ca0d0546bc29f04",
+      "58f16b7e1247ee7e",
+      "5a3c5f71eeac31a3",
+      "78b47ae41b4f8aea",
+      "800001ba24419b65",
+      "85e03a8cd4d1017d",
+      "93943573d27f7139",
+      "a142816563b38903",
+      "a481ff73f54dffec",
+      "b8020da03ae5ffb2",
+      "c92b4cda8bdf50d2",
+      "cce1862bcbd9c1bf",
+      "eabdada4abd08bd2",
+      "eba95ba0c66639b9",
+      "f901585367d6f495"
+    ],
+    "lesson-4-2": [
+      "01dd1d4130bb05d3",
+      "090c4c1158c0d2c7",
+      "1fa0519cfd095c24",
+      "386f6a23a18e8f02",
+      "41fa8f0546268f6d",
+      "47cf2e9676cca9a6",
+      "525ad0aaa9c9454e",
+      "78b47ae41b4f8aea",
+      "80376a4a9c86132b",
+      "822de97849b147e4",
+      "85e03a8cd4d1017d",
+      "878caa7173b7c1a9",
+      "890ced192e14ccd2",
+      "93943573d27f7139",
+      "98bd08f18ff16189",
+      "ac62cbc2adadd5c2",
+      "b76f99438b3523d4",
+      "e98841ee4bcc7a9e",
+      "ed84237ed6887015"
+    ],
+    "lesson-4-3": [
+      "01dd1d4130bb05d3",
+      "090c4c1158c0d2c7",
+      "11c8fca7e223c891",
+      "17b912b634f34ada",
+      "25567f8581d3214b",
+      "41fa8f0546268f6d",
+      "47cf2e9676cca9a6",
+      "78b47ae41b4f8aea",
+      "800001ba24419b65",
+      "85e03a8cd4d1017d",
+      "93943573d27f7139",
+      "98bd08f18ff16189",
+      "9feb28cb0bb1abdd",
+      "ac62cbc2adadd5c2",
+      "fc4f9ba1acbe996b"
+    ],
+    "lesson-4-4": [
+      "01dd1d4130bb05d3",
+      "090c4c1158c0d2c7",
+      "1fa0519cfd095c24",
+      "20427a708c3f6f07",
+      "24afcca10e22ce78",
+      "288c9e077190b860",
+      "2b696ea37eae786e",
+      "2d6e22246673b8bc",
+      "3023f89db7f4af06",
+      "32c7a85f193af5c8",
+      "41fa8f0546268f6d",
+      "551558b617fa78f6",
+      "5a3c5f71eeac31a3",
+      "5b76c1073adbcb9c",
+      "78b47ae41b4f8aea",
+      "7d793000f8165438",
+      "80376a4a9c86132b",
+      "85e03a8cd4d1017d",
+      "93943573d27f7139",
+      "98bd08f18ff16189",
+      "a481ff73f54dffec",
+      "ac62cbc2adadd5c2",
+      "b76f99438b3523d4",
+      "cce1862bcbd9c1bf",
+      "eab3d932d73e8d72",
+      "eabdada4abd08bd2",
+      "ed84237ed6887015"
+    ],
+    "lesson-4-5": [
+      "01dd1d4130bb05d3",
+      "090c4c1158c0d2c7",
+      "17b912b634f34ada",
+      "1fa0519cfd095c24",
+      "20427a708c3f6f07",
+      "24afcca10e22ce78",
+      "288c9e077190b860",
+      "3c6945772d72d388",
+      "41fa8f0546268f6d",
+      "47cf2e9676cca9a6",
+      "4ca0d0546bc29f04",
+      "525ad0aaa9c9454e",
+      "58f16b7e1247ee7e",
+      "5a3c5f71eeac31a3",
+      "66bd6cc0a28a39b1",
+      "78b47ae41b4f8aea",
+      "7d793000f8165438",
+      "800001ba24419b65",
+      "85e03a8cd4d1017d",
+      "878caa7173b7c1a9",
+      "9281fb76291c4100",
+      "93943573d27f7139",
+      "98bd08f18ff16189",
+      "a481ff73f54dffec",
+      "a72b26d12e3d3e6a",
+      "ac62cbc2adadd5c2",
+      "b68960b205eb72b8",
+      "b76f99438b3523d4",
+      "c083ecbe197bcab0",
+      "ccb5408b95d1e98a",
+      "cce1862bcbd9c1bf",
+      "cfa701e046eb5e16",
+      "dad29e6886ca1f4a",
+      "e98841ee4bcc7a9e",
+      "eab3d932d73e8d72",
+      "fa04cb341f011a2c"
+    ],
+    "lesson-4-6": [
+      "01dd1d4130bb05d3",
+      "090c4c1158c0d2c7",
+      "11c8fca7e223c891",
+      "15ed7e6f575696e1",
+      "17b912b634f34ada",
+      "1fa0519cfd095c24",
+      "24afcca10e22ce78",
+      "25567f8581d3214b",
+      "386f6a23a18e8f02",
+      "41fa8f0546268f6d",
+      "47cf2e9676cca9a6",
+      "525ad0aaa9c9454e",
+      "78b47ae41b4f8aea",
+      "800001ba24419b65",
+      "822de97849b147e4",
+      "85e03a8cd4d1017d",
+      "890ced192e14ccd2",
+      "93943573d27f7139",
+      "98bd08f18ff16189",
+      "9feb28cb0bb1abdd",
+      "a481ff73f54dffec",
+      "ac62cbc2adadd5c2",
+      "b76f99438b3523d4",
+      "cce1862bcbd9c1bf",
+      "eab3d932d73e8d72",
+      "ed84237ed6887015"
+    ],
+    "lesson-5-1": [
+      "090c4c1158c0d2c7",
+      "27b6a68a3360c556",
+      "47cf2e9676cca9a6",
+      "4eb7b7e8dd3a0913",
+      "554662dab3452ef7",
+      "78b47ae41b4f8aea",
+      "85e03a8cd4d1017d",
+      "93943573d27f7139",
+      "9d05d4a1b1d0d892",
+      "ac62cbc2adadd5c2",
+      "d4af6eb1ccdc85ee",
+      "d671d977f5123f7d"
+    ],
+    "lesson-5-2": [
+      "01dd1d4130bb05d3",
+      "0892f17bc0738e0b",
+      "090c4c1158c0d2c7",
+      "24afcca10e22ce78",
+      "3af082e48f7db883",
+      "41fa8f0546268f6d",
+      "4a0d6789a8289230",
+      "4eb7b7e8dd3a0913",
+      "554662dab3452ef7",
+      "575fcb4cc2f4160e",
+      "67098d282047b694",
+      "73fa8a479d5e1fbc",
+      "7589ea474cb1c76a",
+      "79b62a48586ee5cf",
+      "7b146784d559d550",
+      "7fc7e89af992fc76",
+      "86ea330bc83bf2d3",
+      "989379a92e13e7ba",
+      "9a6d76d89169683d",
+      "9d05d4a1b1d0d892",
+      "a481ff73f54dffec",
+      "ac62cbc2adadd5c2",
+      "b07225102e926816",
+      "cce1862bcbd9c1bf",
+      "d4af6eb1ccdc85ee",
+      "d671d977f5123f7d",
+      "dc3e61880d43f3e3",
+      "e6838998f3d37812",
+      "eab3d932d73e8d72",
+      "ed338562305612e6",
+      "efc93f9eb7ed85ea",
+      "f647f89212e38129",
+      "fd2fdb675631bdf7"
+    ],
+    "lesson-5-3": [
+      "01dd1d4130bb05d3",
+      "0892f17bc0738e0b",
+      "11c8fca7e223c891",
+      "24afcca10e22ce78",
+      "25567f8581d3214b",
+      "4eb7b7e8dd3a0913",
+      "554662dab3452ef7",
+      "58a4f32c8740d271",
+      "85e03a8cd4d1017d",
+      "9d05d4a1b1d0d892",
+      "ac62cbc2adadd5c2",
+      "ad4232da13b03860",
+      "c5197e840132c4af",
+      "d4af6eb1ccdc85ee",
+      "d671d977f5123f7d",
+      "dc3e61880d43f3e3",
+      "eab3d932d73e8d72"
+    ],
+    "lesson-5-4": [
+      "11caa9c9eed8e66f",
+      "1461371811bfa27b",
+      "1fa0519cfd095c24",
+      "288c9e077190b860",
+      "3c6945772d72d388",
+      "469445ddfdc4e4c7",
+      "4eb7b7e8dd3a0913",
+      "554662dab3452ef7",
+      "56377d14d4ef532a",
+      "575fcb4cc2f4160e",
+      "67098d282047b694",
+      "6afe4f3fdcea32c0",
+      "86ea330bc83bf2d3",
+      "9110ddf5757a0d33",
+      "9d05d4a1b1d0d892",
+      "9f524b0918bb470b",
+      "ac62cbc2adadd5c2",
+      "ad4232da13b03860",
+      "ae05529c4de75f02",
+      "c5197e840132c4af",
+      "d671d977f5123f7d",
+      "d8407de3f16c6bb1",
+      "d8b9fe32524566bf",
+      "dc3e61880d43f3e3",
+      "de27cb2e30425a6e"
+    ],
+    "lesson-5-5": [
+      "0892f17bc0738e0b",
+      "154e190802048f1d",
+      "17b912b634f34ada",
+      "1fa0519cfd095c24",
+      "20427a708c3f6f07",
+      "24afcca10e22ce78",
+      "251d38f61199fe00",
+      "288c9e077190b860",
+      "386f6a23a18e8f02",
+      "3c6945772d72d388",
+      "4eb7b7e8dd3a0913",
+      "554662dab3452ef7",
+      "56377d14d4ef532a",
+      "58a4f32c8740d271",
+      "5a3c5f71eeac31a3",
+      "7c0b1b7877c093db",
+      "7d3db0dadfa34a6f",
+      "9144061d9b55301a",
+      "9d05d4a1b1d0d892",
+      "a481ff73f54dffec",
+      "ac62cbc2adadd5c2",
+      "ad4232da13b03860",
+      "b76f99438b3523d4",
+      "c5197e840132c4af",
+      "cce1862bcbd9c1bf",
+      "d4af6eb1ccdc85ee",
+      "d671d977f5123f7d",
+      "dc3e61880d43f3e3",
+      "eab3d932d73e8d72",
+      "eabdada4abd08bd2"
+    ],
+    "lesson-5-6": [
+      "090c4c1158c0d2c7",
+      "1fa0519cfd095c24",
+      "24afcca10e22ce78",
+      "2745813641e73fd7",
+      "288c9e077190b860",
+      "3c6945772d72d388",
+      "40c73d8ccfd9e7e3",
+      "41fa8f0546268f6d",
+      "4eb7b7e8dd3a0913",
+      "554662dab3452ef7",
+      "56377d14d4ef532a",
+      "5a2447bea1b54582",
+      "616f2f62ddbb0795",
+      "6774a3c5d78672ac",
+      "78b47ae41b4f8aea",
+      "85e03a8cd4d1017d",
+      "881a52b614ed0071",
+      "9d05d4a1b1d0d892",
+      "a3f3aa3e7f062d4d",
+      "a481ff73f54dffec",
+      "c946fae9aa1ec14b",
+      "cce1862bcbd9c1bf",
+      "d4af6eb1ccdc85ee",
+      "d671d977f5123f7d",
+      "dc3e61880d43f3e3",
+      "eab3d932d73e8d72"
+    ],
+    "lesson-6-1": [
+      "03c40e47ce6c300b",
+      "1fa0519cfd095c24",
+      "20d6ac61ef00aab8",
+      "288c9e077190b860",
+      "2fb84bb825f84d07",
+      "3c6945772d72d388",
+      "56377d14d4ef532a",
+      "9d05d4a1b1d0d892",
+      "b236715ae87f42e3",
+      "b76f99438b3523d4",
+      "cc17eae746d904bd",
+      "d671d977f5123f7d",
+      "d8407de3f16c6bb1",
+      "dc3e61880d43f3e3",
+      "e7e2f600f85933a8",
+      "f140dd34524e2036"
+    ],
+    "lesson-6-2": [
+      "01dd1d4130bb05d3",
+      "1fa0519cfd095c24",
+      "201c703b4640430d",
+      "27b6a68a3360c556",
+      "288c9e077190b860",
+      "3c6945772d72d388",
+      "40f491b0947fac28",
+      "4114d1351d54ea92",
+      "41fa8f0546268f6d",
+      "56377d14d4ef532a",
+      "71283cbf5700f964",
+      "793b833d8a251824",
+      "7a54197289b2e853",
+      "86e9d7ae1373da94",
+      "a979a4afd0d4810e",
+      "ac62cbc2adadd5c2",
+      "b1f9df0f30759055",
+      "c92a9d33a651a367",
+      "dca841ae1d794829",
+      "f9346027e76e4667"
+    ],
+    "lesson-6-3": [
+      "071860d7c35082b6",
+      "1fa0519cfd095c24",
+      "27b6a68a3360c556",
+      "288c9e077190b860",
+      "3c6945772d72d388",
+      "4114d1351d54ea92",
+      "4bdd080a827c1b27",
+      "554662dab3452ef7",
+      "56377d14d4ef532a",
+      "5d52bcd566e4d3c5",
+      "6e5abc638a23f342",
+      "761f87ea947f6a36",
+      "78b47ae41b4f8aea",
+      "a481ff73f54dffec",
+      "ad4232da13b03860",
+      "b1f9df0f30759055",
+      "baba1e976a6e2abe",
+      "c92a9d33a651a367",
+      "c92b4cda8bdf50d2",
+      "cce1862bcbd9c1bf",
+      "ecfd235a60da1a80",
+      "f238b4f3f57922b0",
+      "f901585367d6f495"
+    ],
+    "lesson-6-4": [
+      "031c032ee763276e",
+      "032b83c72ed9c711",
+      "1fa0519cfd095c24",
+      "27b6a68a3360c556",
+      "288c9e077190b860",
+      "2fb84bb825f84d07",
+      "3143d54bcf0bf83b",
+      "3c6945772d72d388",
+      "4114d1351d54ea92",
+      "56377d14d4ef532a",
+      "764fe0195896e09b",
+      "793b833d8a251824",
+      "88d5e5900e847a06",
+      "98bd08f18ff16189",
+      "b1f9df0f30759055",
+      "baba1e976a6e2abe",
+      "c92a9d33a651a367",
+      "d671d977f5123f7d",
+      "d8b9fe32524566bf",
+      "dc3e61880d43f3e3",
+      "e82ac2e22dbaa2c3",
+      "faab6336c8f2b646"
+    ],
+    "lesson-6-5": [
+      "11c8fca7e223c891",
+      "1f819272ac2b4436",
+      "1fa0519cfd095c24",
+      "24afcca10e22ce78",
+      "25567f8581d3214b",
+      "27b6a68a3360c556",
+      "288c9e077190b860",
+      "2fb84bb825f84d07",
+      "3c6945772d72d388",
+      "4114d1351d54ea92",
+      "426b407360f4bb95",
+      "56377d14d4ef532a",
+      "6f04ee742a208fe4",
+      "793b833d8a251824",
+      "82ac4b553af6b39e",
+      "88d5e5900e847a06",
+      "94ebbb1b0560723f",
+      "b1f9df0f30759055",
+      "b265d09df7d6b5b3",
+      "b5401469120fb2de",
+      "c92a9d33a651a367",
+      "eab3d932d73e8d72"
+    ],
+    "lesson-6-6": [
+      "1094ec3a15d0c9ca",
+      "1f819272ac2b4436",
+      "1fa0519cfd095c24",
+      "24afcca10e22ce78",
+      "27b6a68a3360c556",
+      "288c9e077190b860",
+      "299c743a9f61908d",
+      "2fb84bb825f84d07",
+      "3c6945772d72d388",
+      "3c97173c629f7c39",
+      "4114d1351d54ea92",
+      "4bdd080a827c1b27",
+      "56377d14d4ef532a",
+      "706f50a691bde669",
+      "793b833d8a251824",
+      "88d5e5900e847a06",
+      "9144061d9b55301a",
+      "91ec7eb9b87615a9",
+      "a481ff73f54dffec",
+      "b06ec3c2e91b75aa",
+      "b1f9df0f30759055",
+      "b5401469120fb2de",
+      "baba1e976a6e2abe",
+      "c92a9d33a651a367",
+      "cce1862bcbd9c1bf",
+      "e71cb256a37669c3",
+      "eab3d932d73e8d72"
+    ]
+  },
+  "textIndex": {
+    "～からきました": "79f3943bb29c126a",
+    "～さん": "53baab0da1fab221",
+    "Addかtotheend": "4f551027169414ee",
+    "あそこ": "b1f9df0f30759055",
+    "あそこ=overthere": "91ec7eb9b87615a9",
+    "あの": "9d05d4a1b1d0d892",
+    "あの=that~overthere": "6774a3c5d78672ac",
+    "あのかさ": "86ea330bc83bf2d3",
+    "あのくるま": "f647f89212e38129",
+    "あのくるまはせんせいのです": "0892f17bc0738e0b",
+    "あのペンはともだちのです": "616f2f62ddbb0795",
+    "あのほん": "9a6d76d89169683d",
+    "アメリカからきました": "e22989497e1244d8",
+    "アメリカじん": "542b9a32d9b323c4",
+    "ありがとう": "42d0969029e92111",
+    "ありがとうございます": "24afcca10e22ce78",
+    "ありがとうございます=thankyou": "21549d00d6c70a8f",
+    "あれ": "01dd1d4130bb05d3",
+    "あれ—あの—あそこ": "86e9d7ae1373da94",
+    "あれ=thatoverthere": "9281fb76291c4100",
+    "あれかさ": "73fa8a479d5e1fbc",
+    "あれはかばんです": "c083ecbe197bcab0",
+    "あれはでんわです": "9feb28cb0bb1abdd",
+    "あれはなんですか": "878caa7173b7c1a9",
+    "あれはペンです": "e98841ee4bcc7a9e",
+    "あれはほんです": "3023f89db7f4af06",
+    "いいえ": "f901585367d6f495",
+    "いいえ、がくせいじゃないです": "97d2784c1de4ded7",
+    "いいえ、せんせいです": "2a62c1629a33c99c",
+    "いいえ、にほんじんじゃないです": "5778d116a641d979",
+    "いいえ=no": "84c187206ebad9ed",
+    "いしゃ": "b68960b205eb72b8",
+    "いす": "c5197e840132c4af",
+    "いただきます": "25567f8581d3214b",
+    "いただきます,ごちそうさまでした": "a838b4c05e1a771d",
+    "いただきます&ごちそうさまでした": "e8c2262cab152f0c",
+    "えき": "1f819272ac2b4436",
+    "えきはあそこです": "6f04ee742a208fe4",
+    "えきはどこですか": "b5401469120fb2de",
+    "おたなか": "61dc939aa9563b2a",
+    "おなまえは？": "7eb703e402b6eaa0",
+    "おなまえはやまだ": "ce6555015bd5df0a",
+    "おねがいします": "eab3d932d73e8d72",
+    "おはよう": "2d6e22246673b8bc",
+    "おはようございます": "5a3c5f71eeac31a3",
+    "おはようございます,おやすみなさい": "56af807bf38e211e",
+    "おはようございます&おやすみなさい": "d5203062dae9802b",
+    "おやすみ": "22d1ecbca027189e",
+    "おやすみなさい": "17b912b634f34ada",
+    "おやすみなさい=goodnight": "dbc239dfdaa9d5da",
+    "か": "288c9e077190b860",
+    "が": "a142816563b38903",
+    "がくせい": "58f16b7e1247ee7e",
+    "がくせいですか": "ccb5408b95d1e98a",
+    "がくせいですか？": "b9d9ec34d4d9f5d1",
+    "かさ": "4eb7b7e8dd3a0913",
+    "がっこうはここです": "71283cbf5700f964",
+    "かばん": "090c4c1158c0d2c7",
+    "から": "32c7a85f193af5c8",
+    "くるま": "d4af6eb1ccdc85ee",
+    "ここ": "c92a9d33a651a367",
+    "ここ=there": "b06ec3c2e91b75aa",
+    "ここです": "40f491b0947fac28",
+    "ごちそうさまでした": "11c8fca7e223c891",
+    "ごちそうさまでした,いただきます": "8068f9b56ac23c99",
+    "この": "dc3e61880d43f3e3",
+    "この=that": "a3f3aa3e7f062d4d",
+    "この=this~": "881a52b614ed0071",
+    "このismorepolite": "3af082e48f7db883",
+    "このneedsanounafterit": "989379a92e13e7ba",
+    "このかさ": "575fcb4cc2f4160e",
+    "このかさはわたしのです": "94ebbb1b0560723f",
+    "このくるま": "efc93f9eb7ed85ea",
+    "このくるまはせんせいのです": "11caa9c9eed8e66f",
+    "このテーブルはおおきいです": "58a4f32c8740d271",
+    "このとけいはだれのですか": "9144061d9b55301a",
+    "このペンはわたしのです": "9110ddf5757a0d33",
+    "このほん": "7b146784d559d550",
+    "このほんはなんですか": "ed338562305612e6",
+    "このほんはわたしのです": "7fc7e89af992fc76",
+    "これ": "ac62cbc2adadd5c2",
+    "これ—この—ここ": "dca841ae1d794829",
+    "これ=this": "a72b26d12e3d3e6a",
+    "これneedsanounafterit": "fd2fdb675631bdf7",
+    "これはかばんです": "fc4f9ba1acbe996b",
+    "これはテーブルです。それもテーブルです": "b236715ae87f42e3",
+    "これはでんわです": "ae05529c4de75f02",
+    "これはでんわですか": "5b76c1073adbcb9c",
+    "これはともだちのでんわです": "154e190802048f1d",
+    "これはなんですか": "ed84237ed6887015",
+    "これはペンです": "7d793000f8165438",
+    "これはほんです": "47cf2e9676cca9a6",
+    "これはわたしのかばんです": "7c0b1b7877c093db",
+    "これはわたしのとけいです": "1461371811bfa27b",
+    "これほん": "e6838998f3d37812",
+    "これもほんです": "f140dd34524e2036",
+    "こんにちは": "20427a708c3f6f07",
+    "こんにちは,さようなら": "d891b5355c4b1cbe",
+    "こんにちは&さようなら": "e094a9cb05ff2895",
+    "こんにちは=hello": "4e1935fa06cb0998",
+    "こんばんは": "eabdada4abd08bd2",
+    "こんばんは&いただきます": "6d4ce442f6c2470a",
+    "こんばんは=goodmorning": "af769dd9d9f38057",
+    "さようなら": "800001ba24419b65",
+    "さようなら=goodbye": "b3d19d6ac2cf1fd0",
+    "さん": "0d0fd2531ac75ba5",
+    "じゃないです": "386f6a23a18e8f02",
+    "すみません": "cce1862bcbd9c1bf",
+    "すみません=excuseme": "68aecf8ea8f3d3bd",
+    "せんせい": "4ca0d0546bc29f04",
+    "せんせいですか": "c248a123de6d5c84",
+    "せんせいのかさ": "6afe4f3fdcea32c0",
+    "せんせいのくるま": "d8b9fe32524566bf",
+    "せんせいはわたしです": "f92610f7e865c77a",
+    "そこ": "4114d1351d54ea92",
+    "そこ=there": "299c743a9f61908d",
+    "その": "d671d977f5123f7d",
+    "その=that~": "c946fae9aa1ec14b",
+    "そのかさ": "67098d282047b694",
+    "そのかさはわたしのです": "40c73d8ccfd9e7e3",
+    "そのくるま": "7589ea474cb1c76a",
+    "そのペン": "4a0d6789a8289230",
+    "そのほん": "b07225102e926816",
+    "それ": "41fa8f0546268f6d",
+    "それ—その—そこ": "7a54197289b2e853",
+    "それ=this": "dad29e6886ca1f4a",
+    "それかさ": "9f524b0918bb470b",
+    "それくるま": "79b62a48586ee5cf",
+    "それはかばんです": "551558b617fa78f6",
+    "それはだれのかばんですか": "de27cb2e30425a6e",
+    "それはだれのとけいですか": "5a2447bea1b54582",
+    "それはでんわですか": "66bd6cc0a28a39b1",
+    "それはペンです": "525ad0aaa9c9454e",
+    "それはほんです": "80376a4a9c86132b",
+    "それはわたしのペンです": "7d3db0dadfa34a6f",
+    "それもほんです": "f238b4f3f57922b0",
+    "たなかさん": "9986afa22644ec17",
+    "たなかさんのペン": "d8407de3f16c6bb1",
+    "たなかさんのほん": "2745813641e73fd7",
+    "たなかさんはがくせいじゃないです": "71e806bb0819f52a",
+    "たなかさんはがくせいです。やまださんもがくせいです": "20d6ac61ef00aab8",
+    "たなかさんはがくせいです。やまださんもがくせいです。": "cc17eae746d904bd",
+    "たなかさんはにほんじんですか": "9a3401c1abf205b5",
+    "たなかです": "e0bc898fd1943f7a",
+    "たなかは": "8c04f06a41f0d3ba",
+    "だれ": "2fb84bb825f84d07",
+    "テーブル": "ad4232da13b03860",
+    "でした": "ed450c9d707f2496",
+    "です": "b76f99438b3523d4",
+    "ですか": "890ced192e14ccd2",
+    "ではない": "80804fcfb0b16ee7",
+    "でんわ": "78b47ae41b4f8aea",
+    "でんわはあそこです": "f9346027e76e4667",
+    "でんわはどこですか": "761f87ea947f6a36",
+    "でんわはどこですか？": "ecfd235a60da1a80",
+    "トイレ": "4bdd080a827c1b27",
+    "トイレはあそこです": "baba1e976a6e2abe",
+    "トイレはあそこです。": "6e5abc638a23f342",
+    "トイレはどこですか": "5d52bcd566e4d3c5",
+    "トイレはどこですか？": "071860d7c35082b6",
+    "どうぞよろしく": "02f1153ecf53e995",
+    "どうも": "a481ff73f54dffec",
+    "とけい": "554662dab3452ef7",
+    "どこ": "27b6a68a3360c556",
+    "どこ=where": "e71cb256a37669c3",
+    "どの": "88d5e5900e847a06",
+    "どのかばんがやまださんのですか": "426b407360f4bb95",
+    "どのくるまですか？": "032b83c72ed9c711",
+    "どのペンがすきですか": "031c032ee763276e",
+    "どのほんがたなかさんのですか": "faab6336c8f2b646",
+    "どのほんですか？": "e82ac2e22dbaa2c3",
+    "ともだち": "fa04cb341f011a2c",
+    "どれ": "793b833d8a251824",
+    "どれがあなたのですか？": "764fe0195896e09b",
+    "どれがたなかさんのかばんですか": "3143d54bcf0bf83b",
+    "どれがたなかさんのですか": "b265d09df7d6b5b3",
+    "どれがわたしのです": "3c97173c629f7c39",
+    "なまえ": "17d0cfcdf57eed8b",
+    "なん": "98bd08f18ff16189",
+    "なん=what": "cfa701e046eb5e16",
+    "に": "de3d1ecc94b26d28",
+    "にほんからきました": "2b696ea37eae786e",
+    "にほんじん": "d13a0fc29c11a471",
+    "にほんじんですか？": "60df58eb7c2e23d0",
+    "の": "56377d14d4ef532a",
+    "は": "1fa0519cfd095c24",
+    "はい": "c92b4cda8bdf50d2",
+    "はい、がくせいです": "98a461886e85b7bc",
+    "はい、にほんじんです": "e24568baed7bd340",
+    "はい=no": "890dd55f5942fc53",
+    "はじめまして": "75f97f586024f4ae",
+    "はじめまして、わたしはたなかです、どうぞよろしく": "46d67218d6224c2c",
+    "はじめましてわたしはたなかですどうぞよろしく": "706f50a691bde669",
+    "ペン": "93943573d27f7139",
+    "ほん": "85e03a8cd4d1017d",
+    "ほんはそこです": "201c703b4640430d",
+    "も": "3c6945772d72d388",
+    "やまだがくせいです": "9b0469a353b1d18f",
+    "やまださんもがくせいです": "1094ec3a15d0c9ca",
+    "やまださんもせんせいです": "a979a4afd0d4810e",
+    "やまださんもにほんじんです": "03c40e47ce6c300b",
+    "やまだはわたしです": "6faae07d7191a45e",
+    "わたし": "b8020da03ae5ffb2",
+    "わたしのほん": "469445ddfdc4e4c7",
+    "わたしはアメリカじんです": "e66c68c548828391",
+    "わたしはいしゃじゃないです": "822de97849b147e4",
+    "わたしはがくせいです": "15ed7e6f575696e1",
+    "わたしはせんせいじゃないです": "251d38f61199fe00",
+    "わたしはせんせいです": "1b409b8ed487863f",
+    "わたしはたなかです": "95a511dce1f8921e",
+    "わたしはです": "fc44371ae27e26e6",
+    "わたしはやまだです": "565b4b1900dc10c7",
+    "わたしもせんせいです": "e7e2f600f85933a8",
+    "わたしもにほんじんです": "82ac4b553af6b39e",
+    "を": "eba95ba0c66639b9"
+  },
+  "clips": {
+    "01dd1d4130bb05d3": {
+      "id": "01dd1d4130bb05d3",
+      "text": "あれ",
+      "lessons": [
+        "lesson-4-2",
+        "lesson-4-3",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/01dd1d4130bb05d3.wav",
+          "generatedAt": "2026-03-24T14:55:32Z",
+          "uploadedAt": "2026-03-24T14:55:32Z",
+          "checksumSha1": "ebfd6159966e0fab75ccb18edb0841f77917834f"
+        }
+      }
+    },
+    "02f1153ecf53e995": {
+      "id": "02f1153ecf53e995",
+      "text": "どうぞよろしく",
+      "lessons": [
+        "lesson-3-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/02f1153ecf53e995.wav",
+          "generatedAt": "2026-03-24T14:55:34Z",
+          "uploadedAt": "2026-03-24T14:55:34Z",
+          "checksumSha1": "84688ea2ceb9f1c9a575d15be8b2353b1cc6aa20"
+        }
+      }
+    },
+    "031c032ee763276e": {
+      "id": "031c032ee763276e",
+      "text": "どのペンがすきですか",
+      "lessons": [
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/031c032ee763276e.wav",
+          "generatedAt": "2026-03-24T14:55:36Z",
+          "uploadedAt": "2026-03-24T14:55:36Z",
+          "checksumSha1": "eb6df71ecf9d4c63f7db29d550c1ffac8d3a5c01"
+        }
+      }
+    },
+    "032b83c72ed9c711": {
+      "id": "032b83c72ed9c711",
+      "text": "どのくるまですか？",
+      "lessons": [
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/032b83c72ed9c711.wav",
+          "generatedAt": "2026-03-24T14:55:37Z",
+          "uploadedAt": "2026-03-24T14:55:37Z",
+          "checksumSha1": "6a5ba95a6d44416716cf31d8c32c940a47803387"
+        }
+      }
+    },
+    "03c40e47ce6c300b": {
+      "id": "03c40e47ce6c300b",
+      "text": "やまださんもにほんじんです",
+      "lessons": [
+        "lesson-6-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/03c40e47ce6c300b.wav",
+          "generatedAt": "2026-03-24T14:55:39Z",
+          "uploadedAt": "2026-03-24T14:55:39Z",
+          "checksumSha1": "fde8a149a47c7ba4bdd7b2d35b3e8bd326707095"
+        }
+      }
+    },
+    "071860d7c35082b6": {
+      "id": "071860d7c35082b6",
+      "text": "トイレはどこですか？",
+      "lessons": [
+        "lesson-6-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/071860d7c35082b6.wav",
+          "generatedAt": "2026-03-24T14:55:40Z",
+          "uploadedAt": "2026-03-24T14:55:40Z",
+          "checksumSha1": "37b1ab2d7cfff138025db1a2ed3502d0d3628993"
+        }
+      }
+    },
+    "0892f17bc0738e0b": {
+      "id": "0892f17bc0738e0b",
+      "text": "あのくるまはせんせいのです",
+      "lessons": [
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-5-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/0892f17bc0738e0b.wav",
+          "generatedAt": "2026-03-24T14:55:42Z",
+          "uploadedAt": "2026-03-24T14:55:42Z",
+          "checksumSha1": "6a675ffd4ecd58846fc7b0c248f85dcbe4ef0c2e"
+        }
+      }
+    },
+    "090c4c1158c0d2c7": {
+      "id": "090c4c1158c0d2c7",
+      "text": "かばん",
+      "lessons": [
+        "lesson-4-1",
+        "lesson-4-2",
+        "lesson-4-3",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-1",
+        "lesson-5-2",
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/090c4c1158c0d2c7.wav",
+          "generatedAt": "2026-03-24T14:55:43Z",
+          "uploadedAt": "2026-03-24T14:55:43Z",
+          "checksumSha1": "bdf30367fa86cc976c96878e2096911ac2dbb434"
+        }
+      }
+    },
+    "0d0fd2531ac75ba5": {
+      "id": "0d0fd2531ac75ba5",
+      "text": "さん",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/0d0fd2531ac75ba5.wav",
+          "generatedAt": "2026-03-24T14:55:44Z",
+          "uploadedAt": "2026-03-24T14:55:44Z",
+          "checksumSha1": "e3f60b2b1eeff41d202f9f14447517f19900b148"
+        }
+      }
+    },
+    "1094ec3a15d0c9ca": {
+      "id": "1094ec3a15d0c9ca",
+      "text": "やまださんもがくせいです",
+      "lessons": [
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/1094ec3a15d0c9ca.wav",
+          "generatedAt": "2026-03-24T14:55:45Z",
+          "uploadedAt": "2026-03-24T14:55:45Z",
+          "checksumSha1": "280cd3e9fe85359962157b040abe6d51f3e4d146"
+        }
+      }
+    },
+    "11c8fca7e223c891": {
+      "id": "11c8fca7e223c891",
+      "text": "ごちそうさまでした",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-4-3",
+        "lesson-4-6",
+        "lesson-5-3",
+        "lesson-6-5",
+        "u1-l3",
+        "u1-l4",
+        "u1-l5",
+        "u2-l1",
+        "u2-l2",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/11c8fca7e223c891.wav",
+          "generatedAt": "2026-03-24T14:55:47Z",
+          "uploadedAt": "2026-03-24T14:55:47Z",
+          "checksumSha1": "2b643003972145c42f624b74d2c72fcfa9293b39"
+        }
+      }
+    },
+    "11caa9c9eed8e66f": {
+      "id": "11caa9c9eed8e66f",
+      "text": "このくるまはせんせいのです",
+      "lessons": [
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/11caa9c9eed8e66f.wav",
+          "generatedAt": "2026-03-24T14:55:49Z",
+          "uploadedAt": "2026-03-24T14:55:49Z",
+          "checksumSha1": "a17a827235eccc2a564cdb16b14d5516411d0762"
+        }
+      }
+    },
+    "1461371811bfa27b": {
+      "id": "1461371811bfa27b",
+      "text": "これはわたしのとけいです",
+      "lessons": [
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/1461371811bfa27b.wav",
+          "generatedAt": "2026-03-24T14:55:50Z",
+          "uploadedAt": "2026-03-24T14:55:50Z",
+          "checksumSha1": "2c6c2e47a91f684d339844e3b352c9a269459613"
+        }
+      }
+    },
+    "154e190802048f1d": {
+      "id": "154e190802048f1d",
+      "text": "これはともだちのでんわです",
+      "lessons": [
+        "lesson-5-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/154e190802048f1d.wav",
+          "generatedAt": "2026-03-24T14:55:53Z",
+          "uploadedAt": "2026-03-24T14:55:53Z",
+          "checksumSha1": "be8671e7f606a1945104d5990f27cc859a1557c6"
+        }
+      }
+    },
+    "15ed7e6f575696e1": {
+      "id": "15ed7e6f575696e1",
+      "text": "わたしはがくせいです",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-3-6",
+        "lesson-4-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/15ed7e6f575696e1.wav",
+          "generatedAt": "2026-03-24T14:55:54Z",
+          "uploadedAt": "2026-03-24T14:55:54Z",
+          "checksumSha1": "3878c1d6a0a22967d07129a4a98003baf6d391db"
+        }
+      }
+    },
+    "17b912b634f34ada": {
+      "id": "17b912b634f34ada",
+      "text": "おやすみなさい",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-4-3",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-5",
+        "u1-l2",
+        "u1-l3",
+        "u1-l4",
+        "u1-l5",
+        "u2-l1",
+        "u2-l2",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/17b912b634f34ada.wav",
+          "generatedAt": "2026-03-24T14:55:56Z",
+          "uploadedAt": "2026-03-24T14:55:56Z",
+          "checksumSha1": "389804e40ae5d4954c5645dd95ffdd8c80c61ef4"
+        }
+      }
+    },
+    "17d0cfcdf57eed8b": {
+      "id": "17d0cfcdf57eed8b",
+      "text": "なまえ",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-4-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/17d0cfcdf57eed8b.wav",
+          "generatedAt": "2026-03-24T14:55:57Z",
+          "uploadedAt": "2026-03-24T14:55:57Z",
+          "checksumSha1": "08994b2023aada40b106c89b2bf29b3cd8bdba64"
+        }
+      }
+    },
+    "1b409b8ed487863f": {
+      "id": "1b409b8ed487863f",
+      "text": "わたしはせんせいです",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-4-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/1b409b8ed487863f.wav",
+          "generatedAt": "2026-03-24T14:55:58Z",
+          "uploadedAt": "2026-03-24T14:55:58Z",
+          "checksumSha1": "ef32fca1d2b457560e3be1950c957ab6e70c0846"
+        }
+      }
+    },
+    "1f819272ac2b4436": {
+      "id": "1f819272ac2b4436",
+      "text": "えき",
+      "lessons": [
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/1f819272ac2b4436.wav",
+          "generatedAt": "2026-03-24T14:55:59Z",
+          "uploadedAt": "2026-03-24T14:55:59Z",
+          "checksumSha1": "88ed926238f488471d1b6e0eb0491c4cbf59a3ff"
+        }
+      }
+    },
+    "1fa0519cfd095c24": {
+      "id": "1fa0519cfd095c24",
+      "text": "は",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-1",
+        "lesson-4-2",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-1",
+        "lesson-6-2",
+        "lesson-6-3",
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/1fa0519cfd095c24.wav",
+          "generatedAt": "2026-03-24T14:56:00Z",
+          "uploadedAt": "2026-03-24T14:56:00Z",
+          "checksumSha1": "1ef417cac2cb18a9adf5aa8aeeee95308c637b37"
+        }
+      }
+    },
+    "201c703b4640430d": {
+      "id": "201c703b4640430d",
+      "text": "ほんはそこです",
+      "lessons": [
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/201c703b4640430d.wav",
+          "generatedAt": "2026-03-24T14:56:01Z",
+          "uploadedAt": "2026-03-24T14:56:01Z",
+          "checksumSha1": "626e5af11e324f7bd621560a6b801bf3bdc8eb25"
+        }
+      }
+    },
+    "20427a708c3f6f07": {
+      "id": "20427a708c3f6f07",
+      "text": "こんにちは",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-3",
+        "lesson-4-1",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-5-5",
+        "u1-l1",
+        "u1-l2",
+        "u1-l3",
+        "u1-l4",
+        "u1-l5",
+        "u2-l1",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/20427a708c3f6f07.wav",
+          "generatedAt": "2026-03-24T14:56:03Z",
+          "uploadedAt": "2026-03-24T14:56:03Z",
+          "checksumSha1": "3028d1bee98cbdba317f4e9a412c7ddf8691b038"
+        }
+      }
+    },
+    "20d6ac61ef00aab8": {
+      "id": "20d6ac61ef00aab8",
+      "text": "たなかさんはがくせいです。やまださんもがくせいです",
+      "lessons": [
+        "lesson-6-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/20d6ac61ef00aab8.wav",
+          "generatedAt": "2026-03-24T14:56:05Z",
+          "uploadedAt": "2026-03-24T14:56:05Z",
+          "checksumSha1": "8b6564002a40fd4ba68c4efc7447829f6af2b472"
+        }
+      }
+    },
+    "21549d00d6c70a8f": {
+      "id": "21549d00d6c70a8f",
+      "text": "ありがとうございます=thankyou",
+      "lessons": [
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/21549d00d6c70a8f.wav",
+          "generatedAt": "2026-03-24T14:56:07Z",
+          "uploadedAt": "2026-03-24T14:56:07Z",
+          "checksumSha1": "97a27033fb59ed09efb74bae358985ccc39abe0a"
+        }
+      }
+    },
+    "22d1ecbca027189e": {
+      "id": "22d1ecbca027189e",
+      "text": "おやすみ",
+      "lessons": [
+        "u1-l3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/22d1ecbca027189e.wav",
+          "generatedAt": "2026-03-24T14:56:08Z",
+          "uploadedAt": "2026-03-24T14:56:08Z",
+          "checksumSha1": "9c2aeaf823faf1c632258a14038dc09fe72ae02c"
+        }
+      }
+    },
+    "24afcca10e22ce78": {
+      "id": "24afcca10e22ce78",
+      "text": "ありがとうございます",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-5",
+        "lesson-6-6",
+        "u2-l1",
+        "u2-l2",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/24afcca10e22ce78.wav",
+          "generatedAt": "2026-03-24T14:56:10Z",
+          "uploadedAt": "2026-03-24T14:56:10Z",
+          "checksumSha1": "ded05df61d69ba38e99fd23bd7fe618b2b882a44"
+        }
+      }
+    },
+    "251d38f61199fe00": {
+      "id": "251d38f61199fe00",
+      "text": "わたしはせんせいじゃないです",
+      "lessons": [
+        "lesson-3-5",
+        "lesson-5-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/251d38f61199fe00.wav",
+          "generatedAt": "2026-03-24T14:56:12Z",
+          "uploadedAt": "2026-03-24T14:56:12Z",
+          "checksumSha1": "0f4f68c6a3335c6cc7a6fc4ac1b1c2deb83764d8"
+        }
+      }
+    },
+    "25567f8581d3214b": {
+      "id": "25567f8581d3214b",
+      "text": "いただきます",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-4-3",
+        "lesson-4-6",
+        "lesson-5-3",
+        "lesson-6-5",
+        "u1-l3",
+        "u1-l4",
+        "u1-l5",
+        "u2-l1",
+        "u2-l2",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/25567f8581d3214b.wav",
+          "generatedAt": "2026-03-24T14:56:14Z",
+          "uploadedAt": "2026-03-24T14:56:14Z",
+          "checksumSha1": "f4afe60ca005f1f3117ff747900ec8c7317727f7"
+        }
+      }
+    },
+    "2745813641e73fd7": {
+      "id": "2745813641e73fd7",
+      "text": "たなかさんのほん",
+      "lessons": [
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/2745813641e73fd7.wav",
+          "generatedAt": "2026-03-24T14:56:15Z",
+          "uploadedAt": "2026-03-24T14:56:15Z",
+          "checksumSha1": "e88c389b644c55a2659422efcf6d8e447b85dc7e"
+        }
+      }
+    },
+    "27b6a68a3360c556": {
+      "id": "27b6a68a3360c556",
+      "text": "どこ",
+      "lessons": [
+        "lesson-5-1",
+        "lesson-6-2",
+        "lesson-6-3",
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/27b6a68a3360c556.wav",
+          "generatedAt": "2026-03-24T14:56:16Z",
+          "uploadedAt": "2026-03-24T14:56:16Z",
+          "checksumSha1": "2ca59e7faa79763b7b1313d81b6d292561a86061"
+        }
+      }
+    },
+    "288c9e077190b860": {
+      "id": "288c9e077190b860",
+      "text": "か",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-1",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-1",
+        "lesson-6-2",
+        "lesson-6-3",
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/288c9e077190b860.wav",
+          "generatedAt": "2026-03-24T14:56:17Z",
+          "uploadedAt": "2026-03-24T14:56:17Z",
+          "checksumSha1": "386b7d56b6d0955af827340b4fa198601a3da156"
+        }
+      }
+    },
+    "299c743a9f61908d": {
+      "id": "299c743a9f61908d",
+      "text": "そこ=there",
+      "lessons": [
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/299c743a9f61908d.wav",
+          "generatedAt": "2026-03-24T14:56:18Z",
+          "uploadedAt": "2026-03-24T14:56:18Z",
+          "checksumSha1": "1a1c5bf5bfd3264ea3d54b87d85d60b88b8f14ac"
+        }
+      }
+    },
+    "2a62c1629a33c99c": {
+      "id": "2a62c1629a33c99c",
+      "text": "いいえ、せんせいです",
+      "lessons": [
+        "lesson-3-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/2a62c1629a33c99c.wav",
+          "generatedAt": "2026-03-24T14:56:20Z",
+          "uploadedAt": "2026-03-24T14:56:20Z",
+          "checksumSha1": "77c38f3cda54c23577fa66eacbdd4b8166298fa9"
+        }
+      }
+    },
+    "2b696ea37eae786e": {
+      "id": "2b696ea37eae786e",
+      "text": "にほんからきました",
+      "lessons": [
+        "lesson-3-6",
+        "lesson-4-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/2b696ea37eae786e.wav",
+          "generatedAt": "2026-03-24T14:56:21Z",
+          "uploadedAt": "2026-03-24T14:56:21Z",
+          "checksumSha1": "154343820c5b6af940c696252e0a5443379e0bce"
+        }
+      }
+    },
+    "2d6e22246673b8bc": {
+      "id": "2d6e22246673b8bc",
+      "text": "おはよう",
+      "lessons": [
+        "lesson-4-4",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/2d6e22246673b8bc.wav",
+          "generatedAt": "2026-03-24T14:56:22Z",
+          "uploadedAt": "2026-03-24T14:56:22Z",
+          "checksumSha1": "4b417dfa4e7bf0b83bdb0c5529d8e82d907dbeae"
+        }
+      }
+    },
+    "2fb84bb825f84d07": {
+      "id": "2fb84bb825f84d07",
+      "text": "だれ",
+      "lessons": [
+        "lesson-6-1",
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/2fb84bb825f84d07.wav",
+          "generatedAt": "2026-03-24T14:56:23Z",
+          "uploadedAt": "2026-03-24T14:56:23Z",
+          "checksumSha1": "1abadb6d7cf31a28659036d0da4e9267474e3a52"
+        }
+      }
+    },
+    "3023f89db7f4af06": {
+      "id": "3023f89db7f4af06",
+      "text": "あれはほんです",
+      "lessons": [
+        "lesson-4-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/3023f89db7f4af06.wav",
+          "generatedAt": "2026-03-24T14:56:25Z",
+          "uploadedAt": "2026-03-24T14:56:25Z",
+          "checksumSha1": "809c40d0bf152ea3942b0adc9e0ca734549ec41b"
+        }
+      }
+    },
+    "3143d54bcf0bf83b": {
+      "id": "3143d54bcf0bf83b",
+      "text": "どれがたなかさんのかばんですか",
+      "lessons": [
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/3143d54bcf0bf83b.wav",
+          "generatedAt": "2026-03-24T14:56:27Z",
+          "uploadedAt": "2026-03-24T14:56:27Z",
+          "checksumSha1": "b7992f5635ae5148fcb5d8f6554809ae76ef01bd"
+        }
+      }
+    },
+    "32c7a85f193af5c8": {
+      "id": "32c7a85f193af5c8",
+      "text": "から",
+      "lessons": [
+        "lesson-3-6",
+        "lesson-4-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/32c7a85f193af5c8.wav",
+          "generatedAt": "2026-03-24T14:56:28Z",
+          "uploadedAt": "2026-03-24T14:56:28Z",
+          "checksumSha1": "8875bcaa8479e377aaf40113b7b5c3d739e15016"
+        }
+      }
+    },
+    "386f6a23a18e8f02": {
+      "id": "386f6a23a18e8f02",
+      "text": "じゃないです",
+      "lessons": [
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-2",
+        "lesson-4-6",
+        "lesson-5-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/386f6a23a18e8f02.wav",
+          "generatedAt": "2026-03-24T14:56:29Z",
+          "uploadedAt": "2026-03-24T14:56:29Z",
+          "checksumSha1": "c7388f0402e7c9f41371158625953c708d34aefb"
+        }
+      }
+    },
+    "3af082e48f7db883": {
+      "id": "3af082e48f7db883",
+      "text": "このismorepolite",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/3af082e48f7db883.wav",
+          "generatedAt": "2026-03-24T14:56:31Z",
+          "uploadedAt": "2026-03-24T14:56:31Z",
+          "checksumSha1": "91d9120a0eb26c0f73492206fb3f8115107a552b"
+        }
+      }
+    },
+    "3c6945772d72d388": {
+      "id": "3c6945772d72d388",
+      "text": "も",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-4-5",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-1",
+        "lesson-6-2",
+        "lesson-6-3",
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/3c6945772d72d388.wav",
+          "generatedAt": "2026-03-24T14:56:32Z",
+          "uploadedAt": "2026-03-24T14:56:32Z",
+          "checksumSha1": "bb4b7245d4300a0d508170fb330feb6bbdd10710"
+        }
+      }
+    },
+    "3c97173c629f7c39": {
+      "id": "3c97173c629f7c39",
+      "text": "どれがわたしのです",
+      "lessons": [
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/3c97173c629f7c39.wav",
+          "generatedAt": "2026-03-24T14:56:33Z",
+          "uploadedAt": "2026-03-24T14:56:33Z",
+          "checksumSha1": "39918674686b15b4b7c3308af190ea71e581a4c7"
+        }
+      }
+    },
+    "40c73d8ccfd9e7e3": {
+      "id": "40c73d8ccfd9e7e3",
+      "text": "そのかさはわたしのです",
+      "lessons": [
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/40c73d8ccfd9e7e3.wav",
+          "generatedAt": "2026-03-24T14:56:35Z",
+          "uploadedAt": "2026-03-24T14:56:35Z",
+          "checksumSha1": "9f43841af30a92c15da128f4adadf08c788725a4"
+        }
+      }
+    },
+    "40f491b0947fac28": {
+      "id": "40f491b0947fac28",
+      "text": "ここです",
+      "lessons": [
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/40f491b0947fac28.wav",
+          "generatedAt": "2026-03-24T14:56:37Z",
+          "uploadedAt": "2026-03-24T14:56:37Z",
+          "checksumSha1": "7003df475937168cf410469c9a76e2351e95a98f"
+        }
+      }
+    },
+    "4114d1351d54ea92": {
+      "id": "4114d1351d54ea92",
+      "text": "そこ",
+      "lessons": [
+        "lesson-6-2",
+        "lesson-6-3",
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/4114d1351d54ea92.wav",
+          "generatedAt": "2026-03-24T14:56:38Z",
+          "uploadedAt": "2026-03-24T14:56:38Z",
+          "checksumSha1": "18cd063cd51c90897889cd27955892e50ce4f4ca"
+        }
+      }
+    },
+    "41fa8f0546268f6d": {
+      "id": "41fa8f0546268f6d",
+      "text": "それ",
+      "lessons": [
+        "lesson-4-2",
+        "lesson-4-3",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-2",
+        "lesson-5-6",
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/41fa8f0546268f6d.wav",
+          "generatedAt": "2026-03-24T14:56:38Z",
+          "uploadedAt": "2026-03-24T14:56:38Z",
+          "checksumSha1": "e7acdbcf47eedbdf3ea036fa437d9fc1ec0a6ace"
+        }
+      }
+    },
+    "426b407360f4bb95": {
+      "id": "426b407360f4bb95",
+      "text": "どのかばんがやまださんのですか",
+      "lessons": [
+        "lesson-6-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/426b407360f4bb95.wav",
+          "generatedAt": "2026-03-24T14:56:40Z",
+          "uploadedAt": "2026-03-24T14:56:40Z",
+          "checksumSha1": "310f894cb0488ab7ab34a95f02131e857d729a97"
+        }
+      }
+    },
+    "42d0969029e92111": {
+      "id": "42d0969029e92111",
+      "text": "ありがとう",
+      "lessons": [
+        "u2-l1",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/42d0969029e92111.wav",
+          "generatedAt": "2026-03-24T14:56:42Z",
+          "uploadedAt": "2026-03-24T14:56:42Z",
+          "checksumSha1": "38da6ce5e0483783279ae412fb9d5603ea9f5a03"
+        }
+      }
+    },
+    "469445ddfdc4e4c7": {
+      "id": "469445ddfdc4e4c7",
+      "text": "わたしのほん",
+      "lessons": [
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/469445ddfdc4e4c7.wav",
+          "generatedAt": "2026-03-24T14:56:44Z",
+          "uploadedAt": "2026-03-24T14:56:44Z",
+          "checksumSha1": "c8c8047952180e4da1607b6a5d4619e1d9755555"
+        }
+      }
+    },
+    "46d67218d6224c2c": {
+      "id": "46d67218d6224c2c",
+      "text": "はじめまして、わたしはたなかです、どうぞよろしく",
+      "lessons": [
+        "lesson-3-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/46d67218d6224c2c.wav",
+          "generatedAt": "2026-03-24T14:56:46Z",
+          "uploadedAt": "2026-03-24T14:56:46Z",
+          "checksumSha1": "b1f91d8ae27cdd43f98e12ba005e0dbac2eed96e"
+        }
+      }
+    },
+    "47cf2e9676cca9a6": {
+      "id": "47cf2e9676cca9a6",
+      "text": "これはほんです",
+      "lessons": [
+        "lesson-4-2",
+        "lesson-4-3",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/47cf2e9676cca9a6.wav",
+          "generatedAt": "2026-03-24T14:56:47Z",
+          "uploadedAt": "2026-03-24T14:56:47Z",
+          "checksumSha1": "74ab6d68cf6992303282265c5f01a351f46d08bb"
+        }
+      }
+    },
+    "4a0d6789a8289230": {
+      "id": "4a0d6789a8289230",
+      "text": "そのペン",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/4a0d6789a8289230.wav",
+          "generatedAt": "2026-03-24T14:56:48Z",
+          "uploadedAt": "2026-03-24T14:56:48Z",
+          "checksumSha1": "ad41c8f5f8419a94e441bbe83ebea7105bc48fec"
+        }
+      }
+    },
+    "4bdd080a827c1b27": {
+      "id": "4bdd080a827c1b27",
+      "text": "トイレ",
+      "lessons": [
+        "lesson-6-3",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/4bdd080a827c1b27.wav",
+          "generatedAt": "2026-03-24T14:56:50Z",
+          "uploadedAt": "2026-03-24T14:56:50Z",
+          "checksumSha1": "0718ce0601b6ca4ba461c50699065838cdc1ce53"
+        }
+      }
+    },
+    "4ca0d0546bc29f04": {
+      "id": "4ca0d0546bc29f04",
+      "text": "せんせい",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-4-1",
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/4ca0d0546bc29f04.wav",
+          "generatedAt": "2026-03-24T14:56:51Z",
+          "uploadedAt": "2026-03-24T14:56:51Z",
+          "checksumSha1": "4730570271201302bf446e47016bbb7fc2e00e03"
+        }
+      }
+    },
+    "4e1935fa06cb0998": {
+      "id": "4e1935fa06cb0998",
+      "text": "こんにちは=hello",
+      "lessons": [
+        "u1-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/4e1935fa06cb0998.wav",
+          "generatedAt": "2026-03-24T14:56:52Z",
+          "uploadedAt": "2026-03-24T14:56:52Z",
+          "checksumSha1": "7bd7266aa19099593cee78829f19359b00884430"
+        }
+      }
+    },
+    "4eb7b7e8dd3a0913": {
+      "id": "4eb7b7e8dd3a0913",
+      "text": "かさ",
+      "lessons": [
+        "lesson-5-1",
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/4eb7b7e8dd3a0913.wav",
+          "generatedAt": "2026-03-24T14:56:53Z",
+          "uploadedAt": "2026-03-24T14:56:53Z",
+          "checksumSha1": "de909ac22182ba9a11ccaca9af35ea17d7f1e59c"
+        }
+      }
+    },
+    "4f551027169414ee": {
+      "id": "4f551027169414ee",
+      "text": "Addかtotheend",
+      "lessons": [
+        "lesson-3-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/4f551027169414ee.wav",
+          "generatedAt": "2026-03-24T14:56:55Z",
+          "uploadedAt": "2026-03-24T14:56:55Z",
+          "checksumSha1": "73caad898a639a76ae38f6b25ada98a96d0b8754"
+        }
+      }
+    },
+    "525ad0aaa9c9454e": {
+      "id": "525ad0aaa9c9454e",
+      "text": "それはペンです",
+      "lessons": [
+        "lesson-4-2",
+        "lesson-4-5",
+        "lesson-4-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/525ad0aaa9c9454e.wav",
+          "generatedAt": "2026-03-24T14:56:56Z",
+          "uploadedAt": "2026-03-24T14:56:56Z",
+          "checksumSha1": "b944ef616d510e52484d2f655e54634eded6ff7b"
+        }
+      }
+    },
+    "53baab0da1fab221": {
+      "id": "53baab0da1fab221",
+      "text": "～さん",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/53baab0da1fab221.wav",
+          "generatedAt": "2026-03-24T14:56:57Z",
+          "uploadedAt": "2026-03-24T14:56:57Z",
+          "checksumSha1": "5f4e9c8f27620af070323adc3edf36a5a53327d8"
+        }
+      }
+    },
+    "542b9a32d9b323c4": {
+      "id": "542b9a32d9b323c4",
+      "text": "アメリカじん",
+      "lessons": [
+        "lesson-3-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/542b9a32d9b323c4.wav",
+          "generatedAt": "2026-03-24T14:56:59Z",
+          "uploadedAt": "2026-03-24T14:56:59Z",
+          "checksumSha1": "829d7495c6d3409c334240a539b0f7816bee5ccd"
+        }
+      }
+    },
+    "551558b617fa78f6": {
+      "id": "551558b617fa78f6",
+      "text": "それはかばんです",
+      "lessons": [
+        "lesson-4-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/551558b617fa78f6.wav",
+          "generatedAt": "2026-03-24T14:57:00Z",
+          "uploadedAt": "2026-03-24T14:57:00Z",
+          "checksumSha1": "4f6466a1a98fc44907efbf92be33f867dc1e21a2"
+        }
+      }
+    },
+    "554662dab3452ef7": {
+      "id": "554662dab3452ef7",
+      "text": "とけい",
+      "lessons": [
+        "lesson-5-1",
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/554662dab3452ef7.wav",
+          "generatedAt": "2026-03-24T14:57:01Z",
+          "uploadedAt": "2026-03-24T14:57:01Z",
+          "checksumSha1": "703cbffe1a4996de977c68f70862710841939032"
+        }
+      }
+    },
+    "56377d14d4ef532a": {
+      "id": "56377d14d4ef532a",
+      "text": "の",
+      "lessons": [
+        "lesson-3-3",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-1",
+        "lesson-6-2",
+        "lesson-6-3",
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/56377d14d4ef532a.wav",
+          "generatedAt": "2026-03-24T14:57:02Z",
+          "uploadedAt": "2026-03-24T14:57:02Z",
+          "checksumSha1": "aa06ecb922088db6f67c11b2d44957fdc3496dc3"
+        }
+      }
+    },
+    "565b4b1900dc10c7": {
+      "id": "565b4b1900dc10c7",
+      "text": "わたしはやまだです",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/565b4b1900dc10c7.wav",
+          "generatedAt": "2026-03-24T14:57:04Z",
+          "uploadedAt": "2026-03-24T14:57:04Z",
+          "checksumSha1": "7dc2a0fb933181fc99676b756369e725e321a71a"
+        }
+      }
+    },
+    "56af807bf38e211e": {
+      "id": "56af807bf38e211e",
+      "text": "おはようございます,おやすみなさい",
+      "lessons": [
+        "u1-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/56af807bf38e211e.wav",
+          "generatedAt": "2026-03-24T14:57:06Z",
+          "uploadedAt": "2026-03-24T14:57:06Z",
+          "checksumSha1": "c6e8cecb9a0633e5970b2484659e9861c1605c74"
+        }
+      }
+    },
+    "575fcb4cc2f4160e": {
+      "id": "575fcb4cc2f4160e",
+      "text": "このかさ",
+      "lessons": [
+        "lesson-5-2",
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/575fcb4cc2f4160e.wav",
+          "generatedAt": "2026-03-24T14:57:07Z",
+          "uploadedAt": "2026-03-24T14:57:07Z",
+          "checksumSha1": "547635272b6f881441e16e6b272bc98f9176a18e"
+        }
+      }
+    },
+    "5778d116a641d979": {
+      "id": "5778d116a641d979",
+      "text": "いいえ、にほんじんじゃないです",
+      "lessons": [
+        "lesson-3-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/5778d116a641d979.wav",
+          "generatedAt": "2026-03-24T14:57:09Z",
+          "uploadedAt": "2026-03-24T14:57:09Z",
+          "checksumSha1": "b717e9e2392c51efc2f69deeff1b3c5cfc35aa4a"
+        }
+      }
+    },
+    "58a4f32c8740d271": {
+      "id": "58a4f32c8740d271",
+      "text": "このテーブルはおおきいです",
+      "lessons": [
+        "lesson-5-3",
+        "lesson-5-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/58a4f32c8740d271.wav",
+          "generatedAt": "2026-03-24T14:57:10Z",
+          "uploadedAt": "2026-03-24T14:57:10Z",
+          "checksumSha1": "525c5c883768d75a2d8b0573aec3c9249edd2be7"
+        }
+      }
+    },
+    "58f16b7e1247ee7e": {
+      "id": "58f16b7e1247ee7e",
+      "text": "がくせい",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-4-1",
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/58f16b7e1247ee7e.wav",
+          "generatedAt": "2026-03-24T14:57:11Z",
+          "uploadedAt": "2026-03-24T14:57:11Z",
+          "checksumSha1": "945f966dfece206cde3234c80f64ca6824652b37"
+        }
+      }
+    },
+    "5a2447bea1b54582": {
+      "id": "5a2447bea1b54582",
+      "text": "それはだれのとけいですか",
+      "lessons": [
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/5a2447bea1b54582.wav",
+          "generatedAt": "2026-03-24T14:57:13Z",
+          "uploadedAt": "2026-03-24T14:57:13Z",
+          "checksumSha1": "25abd9d461916a5e1c3ab83064e6a77f1cb369f2"
+        }
+      }
+    },
+    "5a3c5f71eeac31a3": {
+      "id": "5a3c5f71eeac31a3",
+      "text": "おはようございます",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-4-1",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-5-5",
+        "u1-l1",
+        "u1-l2",
+        "u1-l3",
+        "u1-l4",
+        "u1-l5",
+        "u2-l1",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/5a3c5f71eeac31a3.wav",
+          "generatedAt": "2026-03-24T14:57:15Z",
+          "uploadedAt": "2026-03-24T14:57:15Z",
+          "checksumSha1": "45a1659cf616d2c6cfb7859cbcceb6ade40a1b60"
+        }
+      }
+    },
+    "5b76c1073adbcb9c": {
+      "id": "5b76c1073adbcb9c",
+      "text": "これはでんわですか",
+      "lessons": [
+        "lesson-4-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/5b76c1073adbcb9c.wav",
+          "generatedAt": "2026-03-24T14:57:16Z",
+          "uploadedAt": "2026-03-24T14:57:16Z",
+          "checksumSha1": "e64c07277aafedecaf463beddad074330cc6e6f6"
+        }
+      }
+    },
+    "5d52bcd566e4d3c5": {
+      "id": "5d52bcd566e4d3c5",
+      "text": "トイレはどこですか",
+      "lessons": [
+        "lesson-6-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/5d52bcd566e4d3c5.wav",
+          "generatedAt": "2026-03-24T14:57:18Z",
+          "uploadedAt": "2026-03-24T14:57:18Z",
+          "checksumSha1": "a1cd1ab897472d156492489ead5f9eca93a68871"
+        }
+      }
+    },
+    "60df58eb7c2e23d0": {
+      "id": "60df58eb7c2e23d0",
+      "text": "にほんじんですか？",
+      "lessons": [
+        "lesson-3-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/60df58eb7c2e23d0.wav",
+          "generatedAt": "2026-03-24T14:57:19Z",
+          "uploadedAt": "2026-03-24T14:57:19Z",
+          "checksumSha1": "24535f9f850904c4ac22d6f9f95d051aa28b009e"
+        }
+      }
+    },
+    "616f2f62ddbb0795": {
+      "id": "616f2f62ddbb0795",
+      "text": "あのペンはともだちのです",
+      "lessons": [
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/616f2f62ddbb0795.wav",
+          "generatedAt": "2026-03-24T14:57:21Z",
+          "uploadedAt": "2026-03-24T14:57:21Z",
+          "checksumSha1": "2b0d46de340b6b3762be09fd92a512b4c9e84fa2"
+        }
+      }
+    },
+    "61dc939aa9563b2a": {
+      "id": "61dc939aa9563b2a",
+      "text": "おたなか",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/61dc939aa9563b2a.wav",
+          "generatedAt": "2026-03-24T14:57:22Z",
+          "uploadedAt": "2026-03-24T14:57:22Z",
+          "checksumSha1": "e44ea679b85671ccb42df5380ca6a7612d58dc5f"
+        }
+      }
+    },
+    "66bd6cc0a28a39b1": {
+      "id": "66bd6cc0a28a39b1",
+      "text": "それはでんわですか",
+      "lessons": [
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/66bd6cc0a28a39b1.wav",
+          "generatedAt": "2026-03-24T14:57:24Z",
+          "uploadedAt": "2026-03-24T14:57:24Z",
+          "checksumSha1": "b0968af3cad79762353d8adeb50acac55d7d0a67"
+        }
+      }
+    },
+    "67098d282047b694": {
+      "id": "67098d282047b694",
+      "text": "そのかさ",
+      "lessons": [
+        "lesson-5-2",
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/67098d282047b694.wav",
+          "generatedAt": "2026-03-24T14:57:25Z",
+          "uploadedAt": "2026-03-24T14:57:25Z",
+          "checksumSha1": "7857b898c6c5d6fed3ace49dc9e1fddca580dbe1"
+        }
+      }
+    },
+    "6774a3c5d78672ac": {
+      "id": "6774a3c5d78672ac",
+      "text": "あの=that~overthere",
+      "lessons": [
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/6774a3c5d78672ac.wav",
+          "generatedAt": "2026-03-24T14:57:27Z",
+          "uploadedAt": "2026-03-24T14:57:27Z",
+          "checksumSha1": "4e16293618a7922ea4c3b316df486c8ec86ead34"
+        }
+      }
+    },
+    "68aecf8ea8f3d3bd": {
+      "id": "68aecf8ea8f3d3bd",
+      "text": "すみません=excuseme",
+      "lessons": [
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/68aecf8ea8f3d3bd.wav",
+          "generatedAt": "2026-03-24T14:57:28Z",
+          "uploadedAt": "2026-03-24T14:57:28Z",
+          "checksumSha1": "5bd033ece71c84d3f2640e344d438334461afda5"
+        }
+      }
+    },
+    "6afe4f3fdcea32c0": {
+      "id": "6afe4f3fdcea32c0",
+      "text": "せんせいのかさ",
+      "lessons": [
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/6afe4f3fdcea32c0.wav",
+          "generatedAt": "2026-03-24T14:57:30Z",
+          "uploadedAt": "2026-03-24T14:57:30Z",
+          "checksumSha1": "95534b61e73c36422057a40999d6a004b7dfcd11"
+        }
+      }
+    },
+    "6d4ce442f6c2470a": {
+      "id": "6d4ce442f6c2470a",
+      "text": "こんばんは&いただきます",
+      "lessons": [
+        "u1-l4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/6d4ce442f6c2470a.wav",
+          "generatedAt": "2026-03-24T14:57:31Z",
+          "uploadedAt": "2026-03-24T14:57:31Z",
+          "checksumSha1": "b448fb9574760440dda196d3764676ef8c8f7ff3"
+        }
+      }
+    },
+    "6e5abc638a23f342": {
+      "id": "6e5abc638a23f342",
+      "text": "トイレはあそこです。",
+      "lessons": [
+        "lesson-6-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/6e5abc638a23f342.wav",
+          "generatedAt": "2026-03-24T14:57:33Z",
+          "uploadedAt": "2026-03-24T14:57:33Z",
+          "checksumSha1": "2c85a04ef30fce21b7818697de13223324807f10"
+        }
+      }
+    },
+    "6f04ee742a208fe4": {
+      "id": "6f04ee742a208fe4",
+      "text": "えきはあそこです",
+      "lessons": [
+        "lesson-6-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/6f04ee742a208fe4.wav",
+          "generatedAt": "2026-03-24T14:57:34Z",
+          "uploadedAt": "2026-03-24T14:57:34Z",
+          "checksumSha1": "98566d88743e26079f3ba4468d6339238c8a1e38"
+        }
+      }
+    },
+    "6faae07d7191a45e": {
+      "id": "6faae07d7191a45e",
+      "text": "やまだはわたしです",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/6faae07d7191a45e.wav",
+          "generatedAt": "2026-03-24T14:57:36Z",
+          "uploadedAt": "2026-03-24T14:57:36Z",
+          "checksumSha1": "bb0bfa622eaa610ec2a273f212a60ffd40a7e53d"
+        }
+      }
+    },
+    "706f50a691bde669": {
+      "id": "706f50a691bde669",
+      "text": "はじめましてわたしはたなかですどうぞよろしく",
+      "lessons": [
+        "lesson-3-6",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/706f50a691bde669.wav",
+          "generatedAt": "2026-03-24T14:57:38Z",
+          "uploadedAt": "2026-03-24T14:57:38Z",
+          "checksumSha1": "52b787c54299b5b5cb72432a65cb719aee72fcfe"
+        }
+      }
+    },
+    "71283cbf5700f964": {
+      "id": "71283cbf5700f964",
+      "text": "がっこうはここです",
+      "lessons": [
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/71283cbf5700f964.wav",
+          "generatedAt": "2026-03-24T14:57:39Z",
+          "uploadedAt": "2026-03-24T14:57:39Z",
+          "checksumSha1": "a00e1e955522e7240d06b42ed94d093a725bfbad"
+        }
+      }
+    },
+    "71e806bb0819f52a": {
+      "id": "71e806bb0819f52a",
+      "text": "たなかさんはがくせいじゃないです",
+      "lessons": [
+        "lesson-3-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/71e806bb0819f52a.wav",
+          "generatedAt": "2026-03-24T14:57:41Z",
+          "uploadedAt": "2026-03-24T14:57:41Z",
+          "checksumSha1": "353f3c70f43347593d2d2d46763a06b314d07931"
+        }
+      }
+    },
+    "73fa8a479d5e1fbc": {
+      "id": "73fa8a479d5e1fbc",
+      "text": "あれかさ",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/73fa8a479d5e1fbc.wav",
+          "generatedAt": "2026-03-24T14:57:42Z",
+          "uploadedAt": "2026-03-24T14:57:42Z",
+          "checksumSha1": "a7410e62c43a314794cbbf0cdfad66c7f5124311"
+        }
+      }
+    },
+    "7589ea474cb1c76a": {
+      "id": "7589ea474cb1c76a",
+      "text": "そのくるま",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/7589ea474cb1c76a.wav",
+          "generatedAt": "2026-03-24T14:57:43Z",
+          "uploadedAt": "2026-03-24T14:57:43Z",
+          "checksumSha1": "e729b88c3d78c893f717bc75f9d63182b8937f87"
+        }
+      }
+    },
+    "75f97f586024f4ae": {
+      "id": "75f97f586024f4ae",
+      "text": "はじめまして",
+      "lessons": [
+        "lesson-3-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/75f97f586024f4ae.wav",
+          "generatedAt": "2026-03-24T14:57:45Z",
+          "uploadedAt": "2026-03-24T14:57:45Z",
+          "checksumSha1": "c1fdad975acff259fc1eb8b976263058cd29dfb9"
+        }
+      }
+    },
+    "761f87ea947f6a36": {
+      "id": "761f87ea947f6a36",
+      "text": "でんわはどこですか",
+      "lessons": [
+        "lesson-6-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/761f87ea947f6a36.wav",
+          "generatedAt": "2026-03-24T14:57:46Z",
+          "uploadedAt": "2026-03-24T14:57:46Z",
+          "checksumSha1": "c78c6b10a263178e51341937b792f5f0f40415e9"
+        }
+      }
+    },
+    "764fe0195896e09b": {
+      "id": "764fe0195896e09b",
+      "text": "どれがあなたのですか？",
+      "lessons": [
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/764fe0195896e09b.wav",
+          "generatedAt": "2026-03-24T14:57:48Z",
+          "uploadedAt": "2026-03-24T14:57:48Z",
+          "checksumSha1": "85030cf8228b10f65dfa9f37f1f477b8b0d4ca66"
+        }
+      }
+    },
+    "78b47ae41b4f8aea": {
+      "id": "78b47ae41b4f8aea",
+      "text": "でんわ",
+      "lessons": [
+        "lesson-4-1",
+        "lesson-4-2",
+        "lesson-4-3",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-1",
+        "lesson-5-6",
+        "lesson-6-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/78b47ae41b4f8aea.wav",
+          "generatedAt": "2026-03-24T14:57:49Z",
+          "uploadedAt": "2026-03-24T14:57:49Z",
+          "checksumSha1": "e2adc262f5288e4c50872a31c63d4af2b6d03304"
+        }
+      }
+    },
+    "793b833d8a251824": {
+      "id": "793b833d8a251824",
+      "text": "どれ",
+      "lessons": [
+        "lesson-6-2",
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/793b833d8a251824.wav",
+          "generatedAt": "2026-03-24T14:57:50Z",
+          "uploadedAt": "2026-03-24T14:57:50Z",
+          "checksumSha1": "7a072106f1972c04e6f1eabae0c9e251ec9d4913"
+        }
+      }
+    },
+    "79b62a48586ee5cf": {
+      "id": "79b62a48586ee5cf",
+      "text": "それくるま",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/79b62a48586ee5cf.wav",
+          "generatedAt": "2026-03-24T14:57:51Z",
+          "uploadedAt": "2026-03-24T14:57:51Z",
+          "checksumSha1": "9137b4e33b3fa112f5fac9f6c4642ab3ccf8e391"
+        }
+      }
+    },
+    "79f3943bb29c126a": {
+      "id": "79f3943bb29c126a",
+      "text": "～からきました",
+      "lessons": [
+        "lesson-3-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/79f3943bb29c126a.wav",
+          "generatedAt": "2026-03-24T14:57:53Z",
+          "uploadedAt": "2026-03-24T14:57:53Z",
+          "checksumSha1": "63883d989b6e124e56e5629dc84a31b15ee4685d"
+        }
+      }
+    },
+    "7a54197289b2e853": {
+      "id": "7a54197289b2e853",
+      "text": "それ—その—そこ",
+      "lessons": [
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/7a54197289b2e853.wav",
+          "generatedAt": "2026-03-24T14:57:54Z",
+          "uploadedAt": "2026-03-24T14:57:54Z",
+          "checksumSha1": "dd20cf7349d27e6a1e06a19c9e10040ed5c5eebb"
+        }
+      }
+    },
+    "7b146784d559d550": {
+      "id": "7b146784d559d550",
+      "text": "このほん",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/7b146784d559d550.wav",
+          "generatedAt": "2026-03-24T14:57:56Z",
+          "uploadedAt": "2026-03-24T14:57:56Z",
+          "checksumSha1": "4ed52a0bc7fe42add4c55e11dbe4b031d23da048"
+        }
+      }
+    },
+    "7c0b1b7877c093db": {
+      "id": "7c0b1b7877c093db",
+      "text": "これはわたしのかばんです",
+      "lessons": [
+        "lesson-5-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/7c0b1b7877c093db.wav",
+          "generatedAt": "2026-03-24T14:57:57Z",
+          "uploadedAt": "2026-03-24T14:57:57Z",
+          "checksumSha1": "e07e1826bf93e9651bd7e86a0555f01494c07fe5"
+        }
+      }
+    },
+    "7d3db0dadfa34a6f": {
+      "id": "7d3db0dadfa34a6f",
+      "text": "それはわたしのペンです",
+      "lessons": [
+        "lesson-5-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/7d3db0dadfa34a6f.wav",
+          "generatedAt": "2026-03-24T14:57:59Z",
+          "uploadedAt": "2026-03-24T14:57:59Z",
+          "checksumSha1": "e032ab7118265149f0ce2d6e8b32445742bbd86c"
+        }
+      }
+    },
+    "7d793000f8165438": {
+      "id": "7d793000f8165438",
+      "text": "これはペンです",
+      "lessons": [
+        "lesson-4-4",
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/7d793000f8165438.wav",
+          "generatedAt": "2026-03-24T14:58:01Z",
+          "uploadedAt": "2026-03-24T14:58:01Z",
+          "checksumSha1": "4ed2f95f3e8e681f5f67cc1272c3e56e349f2dc3"
+        }
+      }
+    },
+    "7eb703e402b6eaa0": {
+      "id": "7eb703e402b6eaa0",
+      "text": "おなまえは？",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/7eb703e402b6eaa0.wav",
+          "generatedAt": "2026-03-24T14:58:02Z",
+          "uploadedAt": "2026-03-24T14:58:02Z",
+          "checksumSha1": "68df1875a82e92884a4c18824eb8329b854519c0"
+        }
+      }
+    },
+    "7fc7e89af992fc76": {
+      "id": "7fc7e89af992fc76",
+      "text": "このほんはわたしのです",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/7fc7e89af992fc76.wav",
+          "generatedAt": "2026-03-24T14:58:04Z",
+          "uploadedAt": "2026-03-24T14:58:04Z",
+          "checksumSha1": "f3c4c6c1b3f7040de13e91ba23dd069ad58daedd"
+        }
+      }
+    },
+    "800001ba24419b65": {
+      "id": "800001ba24419b65",
+      "text": "さようなら",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-6",
+        "lesson-4-1",
+        "lesson-4-3",
+        "lesson-4-5",
+        "lesson-4-6",
+        "u1-l1",
+        "u1-l2",
+        "u1-l3",
+        "u1-l4",
+        "u1-l5",
+        "u2-l1",
+        "u2-l2",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/800001ba24419b65.wav",
+          "generatedAt": "2026-03-24T14:58:05Z",
+          "uploadedAt": "2026-03-24T14:58:05Z",
+          "checksumSha1": "8af5babea058d227c06f02c963d1415ee9862aea"
+        }
+      }
+    },
+    "80376a4a9c86132b": {
+      "id": "80376a4a9c86132b",
+      "text": "それはほんです",
+      "lessons": [
+        "lesson-4-2",
+        "lesson-4-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/80376a4a9c86132b.wav",
+          "generatedAt": "2026-03-24T14:58:06Z",
+          "uploadedAt": "2026-03-24T14:58:06Z",
+          "checksumSha1": "f4946a970b6dd5f1b237c451ccb285e121184d0a"
+        }
+      }
+    },
+    "8068f9b56ac23c99": {
+      "id": "8068f9b56ac23c99",
+      "text": "ごちそうさまでした,いただきます",
+      "lessons": [
+        "u1-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/8068f9b56ac23c99.wav",
+          "generatedAt": "2026-03-24T14:58:08Z",
+          "uploadedAt": "2026-03-24T14:58:08Z",
+          "checksumSha1": "6d387bfc1467ad4739a0823e464aff85c1976969"
+        }
+      }
+    },
+    "80804fcfb0b16ee7": {
+      "id": "80804fcfb0b16ee7",
+      "text": "ではない",
+      "lessons": [
+        "lesson-3-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/80804fcfb0b16ee7.wav",
+          "generatedAt": "2026-03-24T14:58:09Z",
+          "uploadedAt": "2026-03-24T14:58:09Z",
+          "checksumSha1": "5541f2864d5eef757729654f1745a24e3427ca43"
+        }
+      }
+    },
+    "822de97849b147e4": {
+      "id": "822de97849b147e4",
+      "text": "わたしはいしゃじゃないです",
+      "lessons": [
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-2",
+        "lesson-4-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/822de97849b147e4.wav",
+          "generatedAt": "2026-03-24T14:58:11Z",
+          "uploadedAt": "2026-03-24T14:58:11Z",
+          "checksumSha1": "abdc99a1bb8de8fdfc6c78effe79fc043c752c32"
+        }
+      }
+    },
+    "82ac4b553af6b39e": {
+      "id": "82ac4b553af6b39e",
+      "text": "わたしもにほんじんです",
+      "lessons": [
+        "lesson-6-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/82ac4b553af6b39e.wav",
+          "generatedAt": "2026-03-24T14:58:13Z",
+          "uploadedAt": "2026-03-24T14:58:13Z",
+          "checksumSha1": "f94cb28563424c2bcc2ecc771fc4c15650eac779"
+        }
+      }
+    },
+    "84c187206ebad9ed": {
+      "id": "84c187206ebad9ed",
+      "text": "いいえ=no",
+      "lessons": [
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/84c187206ebad9ed.wav",
+          "generatedAt": "2026-03-24T14:58:14Z",
+          "uploadedAt": "2026-03-24T14:58:14Z",
+          "checksumSha1": "db55468340759d7304064c3735dadb6f10b5c710"
+        }
+      }
+    },
+    "85e03a8cd4d1017d": {
+      "id": "85e03a8cd4d1017d",
+      "text": "ほん",
+      "lessons": [
+        "lesson-4-1",
+        "lesson-4-2",
+        "lesson-4-3",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-1",
+        "lesson-5-3",
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/85e03a8cd4d1017d.wav",
+          "generatedAt": "2026-03-24T14:58:15Z",
+          "uploadedAt": "2026-03-24T14:58:15Z",
+          "checksumSha1": "00ecc034a3de9dead6b46c8114f46847979387c0"
+        }
+      }
+    },
+    "86e9d7ae1373da94": {
+      "id": "86e9d7ae1373da94",
+      "text": "あれ—あの—あそこ",
+      "lessons": [
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/86e9d7ae1373da94.wav",
+          "generatedAt": "2026-03-24T14:58:17Z",
+          "uploadedAt": "2026-03-24T14:58:17Z",
+          "checksumSha1": "6b311c7fff78343d204c3189d51a47bd7827991c"
+        }
+      }
+    },
+    "86ea330bc83bf2d3": {
+      "id": "86ea330bc83bf2d3",
+      "text": "あのかさ",
+      "lessons": [
+        "lesson-5-2",
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/86ea330bc83bf2d3.wav",
+          "generatedAt": "2026-03-24T14:58:18Z",
+          "uploadedAt": "2026-03-24T14:58:18Z",
+          "checksumSha1": "64671a0c37c99127b0ffff3aaefc236b1334b47a"
+        }
+      }
+    },
+    "878caa7173b7c1a9": {
+      "id": "878caa7173b7c1a9",
+      "text": "あれはなんですか",
+      "lessons": [
+        "lesson-4-2",
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/878caa7173b7c1a9.wav",
+          "generatedAt": "2026-03-24T14:58:19Z",
+          "uploadedAt": "2026-03-24T14:58:19Z",
+          "checksumSha1": "101623c3335b86f29f956a480da530b49481fa9c"
+        }
+      }
+    },
+    "881a52b614ed0071": {
+      "id": "881a52b614ed0071",
+      "text": "この=this~",
+      "lessons": [
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/881a52b614ed0071.wav",
+          "generatedAt": "2026-03-24T14:58:21Z",
+          "uploadedAt": "2026-03-24T14:58:21Z",
+          "checksumSha1": "db9de9e7cc89e6b881e9c52975d70bb0ed412822"
+        }
+      }
+    },
+    "88d5e5900e847a06": {
+      "id": "88d5e5900e847a06",
+      "text": "どの",
+      "lessons": [
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/88d5e5900e847a06.wav",
+          "generatedAt": "2026-03-24T14:58:21Z",
+          "uploadedAt": "2026-03-24T14:58:21Z",
+          "checksumSha1": "13769fcecb59f3ef67278a05ea249a91c39d3cdd"
+        }
+      }
+    },
+    "890ced192e14ccd2": {
+      "id": "890ced192e14ccd2",
+      "text": "ですか",
+      "lessons": [
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-2",
+        "lesson-4-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/890ced192e14ccd2.wav",
+          "generatedAt": "2026-03-24T14:58:22Z",
+          "uploadedAt": "2026-03-24T14:58:22Z",
+          "checksumSha1": "7089cea19422951cf5adf0a0188e42801804e92b"
+        }
+      }
+    },
+    "890dd55f5942fc53": {
+      "id": "890dd55f5942fc53",
+      "text": "はい=no",
+      "lessons": [
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/890dd55f5942fc53.wav",
+          "generatedAt": "2026-03-24T14:58:23Z",
+          "uploadedAt": "2026-03-24T14:58:23Z",
+          "checksumSha1": "1b464a9cc94d30157aebf5b6b0b1440bef4ac200"
+        }
+      }
+    },
+    "8c04f06a41f0d3ba": {
+      "id": "8c04f06a41f0d3ba",
+      "text": "たなかは",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/8c04f06a41f0d3ba.wav",
+          "generatedAt": "2026-03-24T14:58:25Z",
+          "uploadedAt": "2026-03-24T14:58:25Z",
+          "checksumSha1": "9c35c4fb576bccd90128517f1f0f347568d60e11"
+        }
+      }
+    },
+    "9110ddf5757a0d33": {
+      "id": "9110ddf5757a0d33",
+      "text": "このペンはわたしのです",
+      "lessons": [
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/9110ddf5757a0d33.wav",
+          "generatedAt": "2026-03-24T14:58:26Z",
+          "uploadedAt": "2026-03-24T14:58:26Z",
+          "checksumSha1": "fe5c89d066e23d4b380dda3818eb984dc3588b7e"
+        }
+      }
+    },
+    "9144061d9b55301a": {
+      "id": "9144061d9b55301a",
+      "text": "このとけいはだれのですか",
+      "lessons": [
+        "lesson-5-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/9144061d9b55301a.wav",
+          "generatedAt": "2026-03-24T14:58:29Z",
+          "uploadedAt": "2026-03-24T14:58:29Z",
+          "checksumSha1": "f200e15b98c0531bea765ad767f48feafe68d380"
+        }
+      }
+    },
+    "91ec7eb9b87615a9": {
+      "id": "91ec7eb9b87615a9",
+      "text": "あそこ=overthere",
+      "lessons": [
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/91ec7eb9b87615a9.wav",
+          "generatedAt": "2026-03-24T14:58:31Z",
+          "uploadedAt": "2026-03-24T14:58:31Z",
+          "checksumSha1": "0b8e086b4552650a65ecaea2ce2b429a1a20101c"
+        }
+      }
+    },
+    "9281fb76291c4100": {
+      "id": "9281fb76291c4100",
+      "text": "あれ=thatoverthere",
+      "lessons": [
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/9281fb76291c4100.wav",
+          "generatedAt": "2026-03-24T14:58:32Z",
+          "uploadedAt": "2026-03-24T14:58:32Z",
+          "checksumSha1": "341730bed8de3bc46d001266ba6a1f8331523839"
+        }
+      }
+    },
+    "93943573d27f7139": {
+      "id": "93943573d27f7139",
+      "text": "ペン",
+      "lessons": [
+        "lesson-4-1",
+        "lesson-4-2",
+        "lesson-4-3",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/93943573d27f7139.wav",
+          "generatedAt": "2026-03-24T14:58:33Z",
+          "uploadedAt": "2026-03-24T14:58:33Z",
+          "checksumSha1": "052cf3491043eabdb9d88c1a70bb7d8a045ba635"
+        }
+      }
+    },
+    "94ebbb1b0560723f": {
+      "id": "94ebbb1b0560723f",
+      "text": "このかさはわたしのです",
+      "lessons": [
+        "lesson-6-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/94ebbb1b0560723f.wav",
+          "generatedAt": "2026-03-24T14:58:35Z",
+          "uploadedAt": "2026-03-24T14:58:35Z",
+          "checksumSha1": "95bd0aefd9fc3fe6e34070a4025ad8c9c78fc48e"
+        }
+      }
+    },
+    "95a511dce1f8921e": {
+      "id": "95a511dce1f8921e",
+      "text": "わたしはたなかです",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/95a511dce1f8921e.wav",
+          "generatedAt": "2026-03-24T14:58:36Z",
+          "uploadedAt": "2026-03-24T14:58:36Z",
+          "checksumSha1": "54badcbaa69c07667790d33603ac4901f0f7099f"
+        }
+      }
+    },
+    "97d2784c1de4ded7": {
+      "id": "97d2784c1de4ded7",
+      "text": "いいえ、がくせいじゃないです",
+      "lessons": [
+        "lesson-3-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/97d2784c1de4ded7.wav",
+          "generatedAt": "2026-03-24T14:58:38Z",
+          "uploadedAt": "2026-03-24T14:58:38Z",
+          "checksumSha1": "c3c3ca345e0d573590d9c6c2e2340cbcfe9dd0d8"
+        }
+      }
+    },
+    "989379a92e13e7ba": {
+      "id": "989379a92e13e7ba",
+      "text": "このneedsanounafterit",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/989379a92e13e7ba.wav",
+          "generatedAt": "2026-03-24T14:58:40Z",
+          "uploadedAt": "2026-03-24T14:58:40Z",
+          "checksumSha1": "c28a27a62e2fe5db19ece44476db2c0aa2066d31"
+        }
+      }
+    },
+    "98a461886e85b7bc": {
+      "id": "98a461886e85b7bc",
+      "text": "はい、がくせいです",
+      "lessons": [
+        "lesson-3-4",
+        "lesson-3-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/98a461886e85b7bc.wav",
+          "generatedAt": "2026-03-24T14:58:42Z",
+          "uploadedAt": "2026-03-24T14:58:42Z",
+          "checksumSha1": "9405a81dabbf979abd784c86c11dd81618b578cf"
+        }
+      }
+    },
+    "98bd08f18ff16189": {
+      "id": "98bd08f18ff16189",
+      "text": "なん",
+      "lessons": [
+        "lesson-4-2",
+        "lesson-4-3",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/98bd08f18ff16189.wav",
+          "generatedAt": "2026-03-24T14:58:42Z",
+          "uploadedAt": "2026-03-24T14:58:42Z",
+          "checksumSha1": "cb2e3a62e17ea7f4dfd2030b807aff974373e6d9"
+        }
+      }
+    },
+    "9986afa22644ec17": {
+      "id": "9986afa22644ec17",
+      "text": "たなかさん",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/9986afa22644ec17.wav",
+          "generatedAt": "2026-03-24T14:58:44Z",
+          "uploadedAt": "2026-03-24T14:58:44Z",
+          "checksumSha1": "faf5be3074b2bf08fa6cce756e1bdaeaaf9e6413"
+        }
+      }
+    },
+    "9a3401c1abf205b5": {
+      "id": "9a3401c1abf205b5",
+      "text": "たなかさんはにほんじんですか",
+      "lessons": [
+        "lesson-3-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/9a3401c1abf205b5.wav",
+          "generatedAt": "2026-03-24T14:58:45Z",
+          "uploadedAt": "2026-03-24T14:58:45Z",
+          "checksumSha1": "89446d9cddd80d3e2e9942b1ad02ef114ff66315"
+        }
+      }
+    },
+    "9a6d76d89169683d": {
+      "id": "9a6d76d89169683d",
+      "text": "あのほん",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/9a6d76d89169683d.wav",
+          "generatedAt": "2026-03-24T14:58:47Z",
+          "uploadedAt": "2026-03-24T14:58:47Z",
+          "checksumSha1": "865fb5906edeccbc2b774bd57d8c9c1797afdbd4"
+        }
+      }
+    },
+    "9b0469a353b1d18f": {
+      "id": "9b0469a353b1d18f",
+      "text": "やまだがくせいです",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/9b0469a353b1d18f.wav",
+          "generatedAt": "2026-03-24T14:58:48Z",
+          "uploadedAt": "2026-03-24T14:58:48Z",
+          "checksumSha1": "641ec1b3ab9c510ce8d804a8fc07c14b6f81c878"
+        }
+      }
+    },
+    "9d05d4a1b1d0d892": {
+      "id": "9d05d4a1b1d0d892",
+      "text": "あの",
+      "lessons": [
+        "lesson-5-1",
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/9d05d4a1b1d0d892.wav",
+          "generatedAt": "2026-03-24T14:58:49Z",
+          "uploadedAt": "2026-03-24T14:58:49Z",
+          "checksumSha1": "e3b182ebf851c97e965f4c51752949de0cbbf4c9"
+        }
+      }
+    },
+    "9f524b0918bb470b": {
+      "id": "9f524b0918bb470b",
+      "text": "それかさ",
+      "lessons": [
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/9f524b0918bb470b.wav",
+          "generatedAt": "2026-03-24T14:58:50Z",
+          "uploadedAt": "2026-03-24T14:58:50Z",
+          "checksumSha1": "42935fe4a02ffed268cd21b0e13d5c6e64961a74"
+        }
+      }
+    },
+    "9feb28cb0bb1abdd": {
+      "id": "9feb28cb0bb1abdd",
+      "text": "あれはでんわです",
+      "lessons": [
+        "lesson-4-3",
+        "lesson-4-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/9feb28cb0bb1abdd.wav",
+          "generatedAt": "2026-03-24T14:58:52Z",
+          "uploadedAt": "2026-03-24T14:58:52Z",
+          "checksumSha1": "e3d3b21e095f988bdd37c55f99948aa7a02980aa"
+        }
+      }
+    },
+    "a142816563b38903": {
+      "id": "a142816563b38903",
+      "text": "が",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-4-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/a142816563b38903.wav",
+          "generatedAt": "2026-03-24T14:58:52Z",
+          "uploadedAt": "2026-03-24T14:58:52Z",
+          "checksumSha1": "91918cc65f6810a67f8148a11e157bb43ad023ed"
+        }
+      }
+    },
+    "a3f3aa3e7f062d4d": {
+      "id": "a3f3aa3e7f062d4d",
+      "text": "この=that",
+      "lessons": [
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/a3f3aa3e7f062d4d.wav",
+          "generatedAt": "2026-03-24T14:58:53Z",
+          "uploadedAt": "2026-03-24T14:58:53Z",
+          "checksumSha1": "fc8d27dbda93b55b71016c7f3479f6ce7d45f660"
+        }
+      }
+    },
+    "a481ff73f54dffec": {
+      "id": "a481ff73f54dffec",
+      "text": "どうも",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-1",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-2",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-3",
+        "lesson-6-6",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/a481ff73f54dffec.wav",
+          "generatedAt": "2026-03-24T14:58:54Z",
+          "uploadedAt": "2026-03-24T14:58:54Z",
+          "checksumSha1": "fa15264026f0ab87c3ee0578fff3a675601e81d8"
+        }
+      }
+    },
+    "a72b26d12e3d3e6a": {
+      "id": "a72b26d12e3d3e6a",
+      "text": "これ=this",
+      "lessons": [
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/a72b26d12e3d3e6a.wav",
+          "generatedAt": "2026-03-24T14:58:55Z",
+          "uploadedAt": "2026-03-24T14:58:55Z",
+          "checksumSha1": "3866178e652af148fc14f98b1cd9b760db257bfd"
+        }
+      }
+    },
+    "a838b4c05e1a771d": {
+      "id": "a838b4c05e1a771d",
+      "text": "いただきます,ごちそうさまでした",
+      "lessons": [
+        "u1-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/a838b4c05e1a771d.wav",
+          "generatedAt": "2026-03-24T14:58:57Z",
+          "uploadedAt": "2026-03-24T14:58:57Z",
+          "checksumSha1": "36e4da7798600e71699c2c50b318362be427c234"
+        }
+      }
+    },
+    "a979a4afd0d4810e": {
+      "id": "a979a4afd0d4810e",
+      "text": "やまださんもせんせいです",
+      "lessons": [
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/a979a4afd0d4810e.wav",
+          "generatedAt": "2026-03-24T14:58:59Z",
+          "uploadedAt": "2026-03-24T14:58:59Z",
+          "checksumSha1": "0c2ba9b30c548deb03ef142069aef51e61882146"
+        }
+      }
+    },
+    "ac62cbc2adadd5c2": {
+      "id": "ac62cbc2adadd5c2",
+      "text": "これ",
+      "lessons": [
+        "lesson-4-2",
+        "lesson-4-3",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-1",
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/ac62cbc2adadd5c2.wav",
+          "generatedAt": "2026-03-24T14:59:00Z",
+          "uploadedAt": "2026-03-24T14:59:00Z",
+          "checksumSha1": "4e30d417e7e4e4334afb947d6adaab59eda62e51"
+        }
+      }
+    },
+    "ad4232da13b03860": {
+      "id": "ad4232da13b03860",
+      "text": "テーブル",
+      "lessons": [
+        "lesson-5-3",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-6-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/ad4232da13b03860.wav",
+          "generatedAt": "2026-03-24T14:59:01Z",
+          "uploadedAt": "2026-03-24T14:59:01Z",
+          "checksumSha1": "b2d2fc9a8bdc70fc60882861eda5e5c8eb33794a"
+        }
+      }
+    },
+    "ae05529c4de75f02": {
+      "id": "ae05529c4de75f02",
+      "text": "これはでんわです",
+      "lessons": [
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/ae05529c4de75f02.wav",
+          "generatedAt": "2026-03-24T14:59:03Z",
+          "uploadedAt": "2026-03-24T14:59:03Z",
+          "checksumSha1": "3393dcd5f43eb271050a09b530a59b272fdc70de"
+        }
+      }
+    },
+    "af769dd9d9f38057": {
+      "id": "af769dd9d9f38057",
+      "text": "こんばんは=goodmorning",
+      "lessons": [
+        "u1-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/af769dd9d9f38057.wav",
+          "generatedAt": "2026-03-24T14:59:05Z",
+          "uploadedAt": "2026-03-24T14:59:05Z",
+          "checksumSha1": "96e263f4c6efb7cceb3ec5a1a7f73df395d7bb71"
+        }
+      }
+    },
+    "b06ec3c2e91b75aa": {
+      "id": "b06ec3c2e91b75aa",
+      "text": "ここ=there",
+      "lessons": [
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b06ec3c2e91b75aa.wav",
+          "generatedAt": "2026-03-24T14:59:06Z",
+          "uploadedAt": "2026-03-24T14:59:06Z",
+          "checksumSha1": "60ef9be1973505f900bdd908173889445a8afa93"
+        }
+      }
+    },
+    "b07225102e926816": {
+      "id": "b07225102e926816",
+      "text": "そのほん",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b07225102e926816.wav",
+          "generatedAt": "2026-03-24T14:59:08Z",
+          "uploadedAt": "2026-03-24T14:59:08Z",
+          "checksumSha1": "51b84d666d955d4bbb394cec5c1ca7141ea144eb"
+        }
+      }
+    },
+    "b1f9df0f30759055": {
+      "id": "b1f9df0f30759055",
+      "text": "あそこ",
+      "lessons": [
+        "lesson-6-2",
+        "lesson-6-3",
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b1f9df0f30759055.wav",
+          "generatedAt": "2026-03-24T14:59:09Z",
+          "uploadedAt": "2026-03-24T14:59:09Z",
+          "checksumSha1": "19e12dacd98c326a4ec43495d9705e43756e1383"
+        }
+      }
+    },
+    "b236715ae87f42e3": {
+      "id": "b236715ae87f42e3",
+      "text": "これはテーブルです。それもテーブルです",
+      "lessons": [
+        "lesson-6-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b236715ae87f42e3.wav",
+          "generatedAt": "2026-03-24T14:59:11Z",
+          "uploadedAt": "2026-03-24T14:59:11Z",
+          "checksumSha1": "9bb12e1d95b4a2159652766fb371822e95ba8878"
+        }
+      }
+    },
+    "b265d09df7d6b5b3": {
+      "id": "b265d09df7d6b5b3",
+      "text": "どれがたなかさんのですか",
+      "lessons": [
+        "lesson-6-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b265d09df7d6b5b3.wav",
+          "generatedAt": "2026-03-24T14:59:13Z",
+          "uploadedAt": "2026-03-24T14:59:13Z",
+          "checksumSha1": "18490070706f58d83ffdeb3f66d116252f97baab"
+        }
+      }
+    },
+    "b3d19d6ac2cf1fd0": {
+      "id": "b3d19d6ac2cf1fd0",
+      "text": "さようなら=goodbye",
+      "lessons": [
+        "u1-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b3d19d6ac2cf1fd0.wav",
+          "generatedAt": "2026-03-24T14:59:14Z",
+          "uploadedAt": "2026-03-24T14:59:14Z",
+          "checksumSha1": "1c4d449ce85782be48de88d29f9cbd9fc4e25e1a"
+        }
+      }
+    },
+    "b5401469120fb2de": {
+      "id": "b5401469120fb2de",
+      "text": "えきはどこですか",
+      "lessons": [
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b5401469120fb2de.wav",
+          "generatedAt": "2026-03-24T14:59:16Z",
+          "uploadedAt": "2026-03-24T14:59:16Z",
+          "checksumSha1": "9a92c43e608e8a025bd261215b5fb9f70682a6e1"
+        }
+      }
+    },
+    "b68960b205eb72b8": {
+      "id": "b68960b205eb72b8",
+      "text": "いしゃ",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-5",
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b68960b205eb72b8.wav",
+          "generatedAt": "2026-03-24T14:59:17Z",
+          "uploadedAt": "2026-03-24T14:59:17Z",
+          "checksumSha1": "5b13dd1e2837c4379b02ad9e829364b34b7f4619"
+        }
+      }
+    },
+    "b76f99438b3523d4": {
+      "id": "b76f99438b3523d4",
+      "text": "です",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-2",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-5",
+        "lesson-6-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b76f99438b3523d4.wav",
+          "generatedAt": "2026-03-24T14:59:18Z",
+          "uploadedAt": "2026-03-24T14:59:18Z",
+          "checksumSha1": "4acc1978668e7ed335e698bc8cce44224385f4f4"
+        }
+      }
+    },
+    "b8020da03ae5ffb2": {
+      "id": "b8020da03ae5ffb2",
+      "text": "わたし",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b8020da03ae5ffb2.wav",
+          "generatedAt": "2026-03-24T14:59:19Z",
+          "uploadedAt": "2026-03-24T14:59:19Z",
+          "checksumSha1": "4660e5cd924d9fab14ddf8036ac892ad5002e925"
+        }
+      }
+    },
+    "b9d9ec34d4d9f5d1": {
+      "id": "b9d9ec34d4d9f5d1",
+      "text": "がくせいですか？",
+      "lessons": [
+        "lesson-3-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/b9d9ec34d4d9f5d1.wav",
+          "generatedAt": "2026-03-24T14:59:20Z",
+          "uploadedAt": "2026-03-24T14:59:20Z",
+          "checksumSha1": "12f413146123e60c5402f9cd88fda984637fec1f"
+        }
+      }
+    },
+    "baba1e976a6e2abe": {
+      "id": "baba1e976a6e2abe",
+      "text": "トイレはあそこです",
+      "lessons": [
+        "lesson-6-3",
+        "lesson-6-4",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/baba1e976a6e2abe.wav",
+          "generatedAt": "2026-03-24T14:59:22Z",
+          "uploadedAt": "2026-03-24T14:59:22Z",
+          "checksumSha1": "2878c1bdf0308f9be3f18055d3a3a23690f6a08d"
+        }
+      }
+    },
+    "c083ecbe197bcab0": {
+      "id": "c083ecbe197bcab0",
+      "text": "あれはかばんです",
+      "lessons": [
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/c083ecbe197bcab0.wav",
+          "generatedAt": "2026-03-24T14:59:23Z",
+          "uploadedAt": "2026-03-24T14:59:23Z",
+          "checksumSha1": "b80240c308a2af2506b8a303b326e7e07af35ff8"
+        }
+      }
+    },
+    "c248a123de6d5c84": {
+      "id": "c248a123de6d5c84",
+      "text": "せんせいですか",
+      "lessons": [
+        "lesson-3-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/c248a123de6d5c84.wav",
+          "generatedAt": "2026-03-24T14:59:25Z",
+          "uploadedAt": "2026-03-24T14:59:25Z",
+          "checksumSha1": "a727644a141ecca4564875d3410684f88c9d62ba"
+        }
+      }
+    },
+    "c5197e840132c4af": {
+      "id": "c5197e840132c4af",
+      "text": "いす",
+      "lessons": [
+        "lesson-5-3",
+        "lesson-5-4",
+        "lesson-5-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/c5197e840132c4af.wav",
+          "generatedAt": "2026-03-24T14:59:26Z",
+          "uploadedAt": "2026-03-24T14:59:26Z",
+          "checksumSha1": "efbb74e71e5bf7cc03b46a459430b6838924098d"
+        }
+      }
+    },
+    "c92a9d33a651a367": {
+      "id": "c92a9d33a651a367",
+      "text": "ここ",
+      "lessons": [
+        "lesson-6-2",
+        "lesson-6-3",
+        "lesson-6-4",
+        "lesson-6-5",
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/c92a9d33a651a367.wav",
+          "generatedAt": "2026-03-24T14:59:27Z",
+          "uploadedAt": "2026-03-24T14:59:27Z",
+          "checksumSha1": "0d9dcbfe85f6c6415a94799fa3a8e6f2aacbc1c0"
+        }
+      }
+    },
+    "c92b4cda8bdf50d2": {
+      "id": "c92b4cda8bdf50d2",
+      "text": "はい",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-3-4",
+        "lesson-4-1",
+        "lesson-6-3",
+        "u2-l2",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/c92b4cda8bdf50d2.wav",
+          "generatedAt": "2026-03-24T14:59:27Z",
+          "uploadedAt": "2026-03-24T14:59:27Z",
+          "checksumSha1": "4d0f3f19a7651f9fdf526a67d4e2239cc0f7c1ba"
+        }
+      }
+    },
+    "c946fae9aa1ec14b": {
+      "id": "c946fae9aa1ec14b",
+      "text": "その=that~",
+      "lessons": [
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/c946fae9aa1ec14b.wav",
+          "generatedAt": "2026-03-24T14:59:29Z",
+          "uploadedAt": "2026-03-24T14:59:29Z",
+          "checksumSha1": "15b7a4bb65642071d95d2e853e980b2f5f4fbc79"
+        }
+      }
+    },
+    "cc17eae746d904bd": {
+      "id": "cc17eae746d904bd",
+      "text": "たなかさんはがくせいです。やまださんもがくせいです。",
+      "lessons": [
+        "lesson-6-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/cc17eae746d904bd.wav",
+          "generatedAt": "2026-03-24T14:59:31Z",
+          "uploadedAt": "2026-03-24T14:59:31Z",
+          "checksumSha1": "f8994d45e7a9e1d37608c1b648e3ba637cf4121a"
+        }
+      }
+    },
+    "ccb5408b95d1e98a": {
+      "id": "ccb5408b95d1e98a",
+      "text": "がくせいですか",
+      "lessons": [
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/ccb5408b95d1e98a.wav",
+          "generatedAt": "2026-03-24T14:59:32Z",
+          "uploadedAt": "2026-03-24T14:59:32Z",
+          "checksumSha1": "f9cfac93cd94b1d206c6e152e1959f929628c27a"
+        }
+      }
+    },
+    "cce1862bcbd9c1bf": {
+      "id": "cce1862bcbd9c1bf",
+      "text": "すみません",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-1",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-2",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-3",
+        "lesson-6-6",
+        "u1-l1",
+        "u2-l1",
+        "u2-l2",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/cce1862bcbd9c1bf.wav",
+          "generatedAt": "2026-03-24T14:59:34Z",
+          "uploadedAt": "2026-03-24T14:59:34Z",
+          "checksumSha1": "7c6a7142c08b19273685da0eedb9576bf23350c2"
+        }
+      }
+    },
+    "ce6555015bd5df0a": {
+      "id": "ce6555015bd5df0a",
+      "text": "おなまえはやまだ",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/ce6555015bd5df0a.wav",
+          "generatedAt": "2026-03-24T14:59:35Z",
+          "uploadedAt": "2026-03-24T14:59:35Z",
+          "checksumSha1": "3e3df027944f0c886f33a86c7deb137d0c5729cd"
+        }
+      }
+    },
+    "cfa701e046eb5e16": {
+      "id": "cfa701e046eb5e16",
+      "text": "なん=what",
+      "lessons": [
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/cfa701e046eb5e16.wav",
+          "generatedAt": "2026-03-24T14:59:36Z",
+          "uploadedAt": "2026-03-24T14:59:36Z",
+          "checksumSha1": "c170d4d96b64aa08cfd2ad9ae88f4007acdb8da9"
+        }
+      }
+    },
+    "d13a0fc29c11a471": {
+      "id": "d13a0fc29c11a471",
+      "text": "にほんじん",
+      "lessons": [
+        "lesson-3-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/d13a0fc29c11a471.wav",
+          "generatedAt": "2026-03-24T14:59:37Z",
+          "uploadedAt": "2026-03-24T14:59:37Z",
+          "checksumSha1": "661ceb79fff60f48cba298b713bb73cee851316a"
+        }
+      }
+    },
+    "d4af6eb1ccdc85ee": {
+      "id": "d4af6eb1ccdc85ee",
+      "text": "くるま",
+      "lessons": [
+        "lesson-5-1",
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-5-5",
+        "lesson-5-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/d4af6eb1ccdc85ee.wav",
+          "generatedAt": "2026-03-24T14:59:38Z",
+          "uploadedAt": "2026-03-24T14:59:38Z",
+          "checksumSha1": "141b9226a46a266a19befc38ae6567d6e3ed7673"
+        }
+      }
+    },
+    "d5203062dae9802b": {
+      "id": "d5203062dae9802b",
+      "text": "おはようございます&おやすみなさい",
+      "lessons": [
+        "u1-l4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/d5203062dae9802b.wav",
+          "generatedAt": "2026-03-24T14:59:40Z",
+          "uploadedAt": "2026-03-24T14:59:40Z",
+          "checksumSha1": "0a90d677d07205b05341f50b402ad3984c76e17c"
+        }
+      }
+    },
+    "d671d977f5123f7d": {
+      "id": "d671d977f5123f7d",
+      "text": "その",
+      "lessons": [
+        "lesson-5-1",
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-1",
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/d671d977f5123f7d.wav",
+          "generatedAt": "2026-03-24T14:59:41Z",
+          "uploadedAt": "2026-03-24T14:59:41Z",
+          "checksumSha1": "dbc63a71aa14dffff352b5a4e0721cc2c19a534c"
+        }
+      }
+    },
+    "d8407de3f16c6bb1": {
+      "id": "d8407de3f16c6bb1",
+      "text": "たなかさんのペン",
+      "lessons": [
+        "lesson-5-4",
+        "lesson-6-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/d8407de3f16c6bb1.wav",
+          "generatedAt": "2026-03-24T14:59:42Z",
+          "uploadedAt": "2026-03-24T14:59:42Z",
+          "checksumSha1": "44d30af98fbe97a97be97a5c2994a4351d6f7774"
+        }
+      }
+    },
+    "d891b5355c4b1cbe": {
+      "id": "d891b5355c4b1cbe",
+      "text": "こんにちは,さようなら",
+      "lessons": [
+        "u1-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/d891b5355c4b1cbe.wav",
+          "generatedAt": "2026-03-24T14:59:44Z",
+          "uploadedAt": "2026-03-24T14:59:44Z",
+          "checksumSha1": "3cf60cbd7f00cc5d67e640ddf177c9a2d65418ef"
+        }
+      }
+    },
+    "d8b9fe32524566bf": {
+      "id": "d8b9fe32524566bf",
+      "text": "せんせいのくるま",
+      "lessons": [
+        "lesson-5-4",
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/d8b9fe32524566bf.wav",
+          "generatedAt": "2026-03-24T14:59:46Z",
+          "uploadedAt": "2026-03-24T14:59:46Z",
+          "checksumSha1": "5108cb8a17ca58bf5164e54a15b3ffe3ea94a5c0"
+        }
+      }
+    },
+    "dad29e6886ca1f4a": {
+      "id": "dad29e6886ca1f4a",
+      "text": "それ=this",
+      "lessons": [
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/dad29e6886ca1f4a.wav",
+          "generatedAt": "2026-03-24T14:59:47Z",
+          "uploadedAt": "2026-03-24T14:59:47Z",
+          "checksumSha1": "a5cf49dfb62c4fbf5d0aedf6e28cb74f959f7cba"
+        }
+      }
+    },
+    "dbc239dfdaa9d5da": {
+      "id": "dbc239dfdaa9d5da",
+      "text": "おやすみなさい=goodnight",
+      "lessons": [
+        "u1-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/dbc239dfdaa9d5da.wav",
+          "generatedAt": "2026-03-24T14:59:49Z",
+          "uploadedAt": "2026-03-24T14:59:49Z",
+          "checksumSha1": "eb6104d7ee78e04de0b14f673b8c339bdb840562"
+        }
+      }
+    },
+    "dc3e61880d43f3e3": {
+      "id": "dc3e61880d43f3e3",
+      "text": "この",
+      "lessons": [
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-5-4",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-1",
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/dc3e61880d43f3e3.wav",
+          "generatedAt": "2026-03-24T14:59:49Z",
+          "uploadedAt": "2026-03-24T14:59:49Z",
+          "checksumSha1": "e85f7d94845662594fa24f962bed8644e275c931"
+        }
+      }
+    },
+    "dca841ae1d794829": {
+      "id": "dca841ae1d794829",
+      "text": "これ—この—ここ",
+      "lessons": [
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/dca841ae1d794829.wav",
+          "generatedAt": "2026-03-24T14:59:51Z",
+          "uploadedAt": "2026-03-24T14:59:51Z",
+          "checksumSha1": "8f8fef2a5ec89262cd534cb918235731870c6f1c"
+        }
+      }
+    },
+    "de27cb2e30425a6e": {
+      "id": "de27cb2e30425a6e",
+      "text": "それはだれのかばんですか",
+      "lessons": [
+        "lesson-5-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/de27cb2e30425a6e.wav",
+          "generatedAt": "2026-03-24T14:59:53Z",
+          "uploadedAt": "2026-03-24T14:59:53Z",
+          "checksumSha1": "a886bfc55b327b0bb98ea2d247a55a8ad14ac933"
+        }
+      }
+    },
+    "de3d1ecc94b26d28": {
+      "id": "de3d1ecc94b26d28",
+      "text": "に",
+      "lessons": [
+        "lesson-3-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/de3d1ecc94b26d28.wav",
+          "generatedAt": "2026-03-24T14:59:53Z",
+          "uploadedAt": "2026-03-24T14:59:53Z",
+          "checksumSha1": "1617f9c9fce8489d8cc84d694fedc511f9deb6dd"
+        }
+      }
+    },
+    "e094a9cb05ff2895": {
+      "id": "e094a9cb05ff2895",
+      "text": "こんにちは&さようなら",
+      "lessons": [
+        "u1-l4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e094a9cb05ff2895.wav",
+          "generatedAt": "2026-03-24T14:59:55Z",
+          "uploadedAt": "2026-03-24T14:59:55Z",
+          "checksumSha1": "b8d3a84084703813b524863f94980e9841c69bbe"
+        }
+      }
+    },
+    "e0bc898fd1943f7a": {
+      "id": "e0bc898fd1943f7a",
+      "text": "たなかです",
+      "lessons": [
+        "lesson-3-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e0bc898fd1943f7a.wav",
+          "generatedAt": "2026-03-24T14:59:56Z",
+          "uploadedAt": "2026-03-24T14:59:56Z",
+          "checksumSha1": "5e105abd74e153863b2a97ec00f2f1e0eff2ca5d"
+        }
+      }
+    },
+    "e22989497e1244d8": {
+      "id": "e22989497e1244d8",
+      "text": "アメリカからきました",
+      "lessons": [
+        "lesson-3-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e22989497e1244d8.wav",
+          "generatedAt": "2026-03-24T14:59:58Z",
+          "uploadedAt": "2026-03-24T14:59:58Z",
+          "checksumSha1": "4c072675852fc57fa520c5549f6260c8ed334b6c"
+        }
+      }
+    },
+    "e24568baed7bd340": {
+      "id": "e24568baed7bd340",
+      "text": "はい、にほんじんです",
+      "lessons": [
+        "lesson-3-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e24568baed7bd340.wav",
+          "generatedAt": "2026-03-24T14:59:59Z",
+          "uploadedAt": "2026-03-24T14:59:59Z",
+          "checksumSha1": "f8a60378a0ae8801432d35b71efde9174cd50179"
+        }
+      }
+    },
+    "e66c68c548828391": {
+      "id": "e66c68c548828391",
+      "text": "わたしはアメリカじんです",
+      "lessons": [
+        "lesson-3-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e66c68c548828391.wav",
+          "generatedAt": "2026-03-24T15:00:01Z",
+          "uploadedAt": "2026-03-24T15:00:01Z",
+          "checksumSha1": "6f24f44eed11e3924e61baad0aed3dfb6e9d1031"
+        }
+      }
+    },
+    "e6838998f3d37812": {
+      "id": "e6838998f3d37812",
+      "text": "これほん",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e6838998f3d37812.wav",
+          "generatedAt": "2026-03-24T15:00:02Z",
+          "uploadedAt": "2026-03-24T15:00:02Z",
+          "checksumSha1": "4bbabce85066e4c763d7ac8dd2a6f61d8c953bf6"
+        }
+      }
+    },
+    "e71cb256a37669c3": {
+      "id": "e71cb256a37669c3",
+      "text": "どこ=where",
+      "lessons": [
+        "lesson-6-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e71cb256a37669c3.wav",
+          "generatedAt": "2026-03-24T15:00:03Z",
+          "uploadedAt": "2026-03-24T15:00:03Z",
+          "checksumSha1": "e9a37d4328ab23b1d66012e68b9eb9998be3f0b2"
+        }
+      }
+    },
+    "e7e2f600f85933a8": {
+      "id": "e7e2f600f85933a8",
+      "text": "わたしもせんせいです",
+      "lessons": [
+        "lesson-6-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e7e2f600f85933a8.wav",
+          "generatedAt": "2026-03-24T15:00:05Z",
+          "uploadedAt": "2026-03-24T15:00:05Z",
+          "checksumSha1": "1dfad3f34914f4c112ab4a57da22b6e7d6744de2"
+        }
+      }
+    },
+    "e82ac2e22dbaa2c3": {
+      "id": "e82ac2e22dbaa2c3",
+      "text": "どのほんですか？",
+      "lessons": [
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e82ac2e22dbaa2c3.wav",
+          "generatedAt": "2026-03-24T15:00:06Z",
+          "uploadedAt": "2026-03-24T15:00:06Z",
+          "checksumSha1": "d92f82fba758ebd10946ab51574d1f08361b0ee0"
+        }
+      }
+    },
+    "e8c2262cab152f0c": {
+      "id": "e8c2262cab152f0c",
+      "text": "いただきます&ごちそうさまでした",
+      "lessons": [
+        "u1-l4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e8c2262cab152f0c.wav",
+          "generatedAt": "2026-03-24T15:00:09Z",
+          "uploadedAt": "2026-03-24T15:00:09Z",
+          "checksumSha1": "bb4e109101f177eafbdeee7ca0cea00b43d89d6b"
+        }
+      }
+    },
+    "e98841ee4bcc7a9e": {
+      "id": "e98841ee4bcc7a9e",
+      "text": "あれはペンです",
+      "lessons": [
+        "lesson-4-2",
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/e98841ee4bcc7a9e.wav",
+          "generatedAt": "2026-03-24T15:00:10Z",
+          "uploadedAt": "2026-03-24T15:00:10Z",
+          "checksumSha1": "8ea0c4f73b8cd920340384abd49139267d53a012"
+        }
+      }
+    },
+    "eab3d932d73e8d72": {
+      "id": "eab3d932d73e8d72",
+      "text": "おねがいします",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-5",
+        "lesson-3-6",
+        "lesson-4-4",
+        "lesson-4-5",
+        "lesson-4-6",
+        "lesson-5-2",
+        "lesson-5-3",
+        "lesson-5-5",
+        "lesson-5-6",
+        "lesson-6-5",
+        "lesson-6-6",
+        "u1-l3",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/eab3d932d73e8d72.wav",
+          "generatedAt": "2026-03-24T15:00:11Z",
+          "uploadedAt": "2026-03-24T15:00:11Z",
+          "checksumSha1": "90c6f52ba087283b32bd0131b9ec5836f47d117b"
+        }
+      }
+    },
+    "eabdada4abd08bd2": {
+      "id": "eabdada4abd08bd2",
+      "text": "こんばんは",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-3",
+        "lesson-4-1",
+        "lesson-4-4",
+        "lesson-5-5",
+        "u1-l1",
+        "u1-l2",
+        "u1-l3",
+        "u1-l4",
+        "u1-l5",
+        "u2-l1",
+        "u2-l2",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/eabdada4abd08bd2.wav",
+          "generatedAt": "2026-03-24T15:00:13Z",
+          "uploadedAt": "2026-03-24T15:00:13Z",
+          "checksumSha1": "8d9947058d620b8371c327f509ff7c8105670937"
+        }
+      }
+    },
+    "eba95ba0c66639b9": {
+      "id": "eba95ba0c66639b9",
+      "text": "を",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-3-3",
+        "lesson-3-4",
+        "lesson-4-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/eba95ba0c66639b9.wav",
+          "generatedAt": "2026-03-24T15:00:14Z",
+          "uploadedAt": "2026-03-24T15:00:14Z",
+          "checksumSha1": "d5d3e4c2466027351ed6e498f12c7b6467714bbd"
+        }
+      }
+    },
+    "ecfd235a60da1a80": {
+      "id": "ecfd235a60da1a80",
+      "text": "でんわはどこですか？",
+      "lessons": [
+        "lesson-6-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/ecfd235a60da1a80.wav",
+          "generatedAt": "2026-03-24T15:00:15Z",
+          "uploadedAt": "2026-03-24T15:00:15Z",
+          "checksumSha1": "6f3887c9b694c3d6846a7bbe49a6b355592e7a27"
+        }
+      }
+    },
+    "ed338562305612e6": {
+      "id": "ed338562305612e6",
+      "text": "このほんはなんですか",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/ed338562305612e6.wav",
+          "generatedAt": "2026-03-24T15:00:17Z",
+          "uploadedAt": "2026-03-24T15:00:17Z",
+          "checksumSha1": "3d83dcce80c3530fcfcb89a494c922c9aad948b6"
+        }
+      }
+    },
+    "ed450c9d707f2496": {
+      "id": "ed450c9d707f2496",
+      "text": "でした",
+      "lessons": [
+        "lesson-3-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/ed450c9d707f2496.wav",
+          "generatedAt": "2026-03-24T15:00:18Z",
+          "uploadedAt": "2026-03-24T15:00:18Z",
+          "checksumSha1": "839b115e8a6af062e9ae1783b9ff8edc9224af31"
+        }
+      }
+    },
+    "ed84237ed6887015": {
+      "id": "ed84237ed6887015",
+      "text": "これはなんですか",
+      "lessons": [
+        "lesson-4-2",
+        "lesson-4-4",
+        "lesson-4-6"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/ed84237ed6887015.wav",
+          "generatedAt": "2026-03-24T15:00:19Z",
+          "uploadedAt": "2026-03-24T15:00:19Z",
+          "checksumSha1": "867715b234fb70017b094637e22d556a4c26e5ff"
+        }
+      }
+    },
+    "efc93f9eb7ed85ea": {
+      "id": "efc93f9eb7ed85ea",
+      "text": "このくるま",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/efc93f9eb7ed85ea.wav",
+          "generatedAt": "2026-03-24T15:00:21Z",
+          "uploadedAt": "2026-03-24T15:00:21Z",
+          "checksumSha1": "b40cb5e16fe2f2c09393738a7f2100e28a2a8ec0"
+        }
+      }
+    },
+    "f140dd34524e2036": {
+      "id": "f140dd34524e2036",
+      "text": "これもほんです",
+      "lessons": [
+        "lesson-6-1"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/f140dd34524e2036.wav",
+          "generatedAt": "2026-03-24T15:00:22Z",
+          "uploadedAt": "2026-03-24T15:00:22Z",
+          "checksumSha1": "d0825bdeca962d1fafe17c693b4ff2c00a344441"
+        }
+      }
+    },
+    "f238b4f3f57922b0": {
+      "id": "f238b4f3f57922b0",
+      "text": "それもほんです",
+      "lessons": [
+        "lesson-6-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/f238b4f3f57922b0.wav",
+          "generatedAt": "2026-03-24T15:00:24Z",
+          "uploadedAt": "2026-03-24T15:00:24Z",
+          "checksumSha1": "10b60cba302268390ec07f18d960eb59ea921fa7"
+        }
+      }
+    },
+    "f647f89212e38129": {
+      "id": "f647f89212e38129",
+      "text": "あのくるま",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/f647f89212e38129.wav",
+          "generatedAt": "2026-03-24T15:00:25Z",
+          "uploadedAt": "2026-03-24T15:00:25Z",
+          "checksumSha1": "1db483f3cf67ce1663640ecdc82f94aee7fbe88e"
+        }
+      }
+    },
+    "f901585367d6f495": {
+      "id": "f901585367d6f495",
+      "text": "いいえ",
+      "lessons": [
+        "lesson-3-2",
+        "lesson-3-4",
+        "lesson-4-1",
+        "lesson-6-3",
+        "u2-l2",
+        "u2-l3",
+        "u2-l4",
+        "u2-l5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/f901585367d6f495.wav",
+          "generatedAt": "2026-03-24T15:00:26Z",
+          "uploadedAt": "2026-03-24T15:00:26Z",
+          "checksumSha1": "78d82259e6ba7dd0acdb0e714d94d654846e926d"
+        }
+      }
+    },
+    "f92610f7e865c77a": {
+      "id": "f92610f7e865c77a",
+      "text": "せんせいはわたしです",
+      "lessons": [
+        "lesson-3-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/f92610f7e865c77a.wav",
+          "generatedAt": "2026-03-24T15:00:28Z",
+          "uploadedAt": "2026-03-24T15:00:28Z",
+          "checksumSha1": "6ea1311fca0d7a3d81709299280b10d4789de51a"
+        }
+      }
+    },
+    "f9346027e76e4667": {
+      "id": "f9346027e76e4667",
+      "text": "でんわはあそこです",
+      "lessons": [
+        "lesson-6-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/f9346027e76e4667.wav",
+          "generatedAt": "2026-03-24T15:00:29Z",
+          "uploadedAt": "2026-03-24T15:00:29Z",
+          "checksumSha1": "7e173483ff934b4eae33307012942e1d2d563c8e"
+        }
+      }
+    },
+    "fa04cb341f011a2c": {
+      "id": "fa04cb341f011a2c",
+      "text": "ともだち",
+      "lessons": [
+        "lesson-3-1",
+        "lesson-3-5",
+        "lesson-4-5"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/fa04cb341f011a2c.wav",
+          "generatedAt": "2026-03-24T15:00:30Z",
+          "uploadedAt": "2026-03-24T15:00:30Z",
+          "checksumSha1": "433a0c1963ab85fd1625daf049a4d8f7c22ddd69"
+        }
+      }
+    },
+    "faab6336c8f2b646": {
+      "id": "faab6336c8f2b646",
+      "text": "どのほんがたなかさんのですか",
+      "lessons": [
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/faab6336c8f2b646.wav",
+          "generatedAt": "2026-03-24T15:00:32Z",
+          "uploadedAt": "2026-03-24T15:00:32Z",
+          "checksumSha1": "71aa16ed72165f963b562ec61601f2a6a061a5f1"
+        }
+      }
+    },
+    "fc44371ae27e26e6": {
+      "id": "fc44371ae27e26e6",
+      "text": "わたしはです",
+      "lessons": [
+        "lesson-3-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/fc44371ae27e26e6.wav",
+          "generatedAt": "2026-03-24T15:00:34Z",
+          "uploadedAt": "2026-03-24T15:00:34Z",
+          "checksumSha1": "86730e3f32fbf38a6bb7848a450034415d7fa34b"
+        }
+      }
+    },
+    "fc4f9ba1acbe996b": {
+      "id": "fc4f9ba1acbe996b",
+      "text": "これはかばんです",
+      "lessons": [
+        "lesson-4-3"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/fc4f9ba1acbe996b.wav",
+          "generatedAt": "2026-03-24T15:00:35Z",
+          "uploadedAt": "2026-03-24T15:00:35Z",
+          "checksumSha1": "a8ba27fc44b1519d243685394c769076367ea9cd"
+        }
+      }
+    },
+    "fd2fdb675631bdf7": {
+      "id": "fd2fdb675631bdf7",
+      "text": "これneedsanounafterit",
+      "lessons": [
+        "lesson-5-2"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/fd2fdb675631bdf7.wav",
+          "generatedAt": "2026-03-24T15:00:37Z",
+          "uploadedAt": "2026-03-24T15:00:37Z",
+          "checksumSha1": "ea7f59e206f7d3b0b7306a93e436e17d10a388ae"
+        }
+      }
+    }
+  }
+}

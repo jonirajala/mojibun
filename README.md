@@ -71,3 +71,47 @@ export default defineConfig([
   },
 ])
 ```
+
+## Course Audio
+
+Pre-generated Japanese audio lives in Supabase Storage and is indexed by [`public/audio/manifest.json`](/Users/jonirajala/Documents/code/moshimoshi/public/audio/manifest.json). The app preloads only the clips for the active lesson and falls back to browser speech if a clip is missing.
+
+Quick check:
+
+```bash
+npm run audio:status
+```
+
+Build or refresh the manifest:
+
+```bash
+npm run audio:manifest
+```
+
+Generate only missing `jf_alpha` clips and upload them:
+
+```bash
+npm run audio:generate
+```
+
+Useful options:
+
+```bash
+npm run audio:status
+npm run audio:status -- --lesson=u1-l1 --missing
+scripts/.venv/bin/python3 scripts/generate_course_audio.py --dry-run
+scripts/.venv/bin/python3 scripts/generate_course_audio.py --lesson u1-l1
+scripts/.venv/bin/python3 scripts/generate_course_audio.py --force
+```
+
+Upload requires `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY`. The bucket defaults to `tts-audio` and can be changed with `SUPABASE_TTS_BUCKET`.
+
+Storage object keys are deterministic: `VOICE/CLIP_ID.wav`, where `CLIP_ID` is a stable hash of the normalized Japanese text. Apply [`supabase-storage-audio.sql`](/Users/jonirajala/Documents/code/moshimoshi/supabase/migrations/supabase-storage-audio.sql) so the bucket is public-read only and uploads remain restricted to the service role used by the generator script.
+
+For local use, the generator also reads `.env.local` first and then `.env` if present:
+
+```env
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+SUPABASE_TTS_BUCKET=tts-audio
+```
