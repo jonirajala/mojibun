@@ -107,20 +107,20 @@ export function SettingsPage() {
             <div className="border-t border-gray-200" />
 
             {/* Romaji toggle */}
-            <div className="flex items-center justify-between">
+            <div className="flex items-start justify-between gap-4">
               <div>
                 <p className="font-bold text-gray-800">Show Romaji</p>
                 <p className="text-sm text-gray-400">Display romanized readings below Japanese text</p>
               </div>
               <button
                 onClick={toggleRomaji}
-                className={`relative w-14 h-8 rounded-full transition-colors ${
+                className={`relative w-14 h-8 rounded-full transition-colors shrink-0 mt-1 ${
                   showRomaji ? 'bg-primary' : 'bg-gray-300'
                 }`}
               >
                 <span
-                  className={`absolute top-1 w-6 h-6 bg-white rounded-full shadow transition-transform ${
-                    showRomaji ? 'translate-x-7' : 'translate-x-1'
+                  className={`absolute left-1 top-1 w-6 h-6 bg-white rounded-full shadow transition-transform ${
+                    showRomaji ? 'translate-x-6' : 'translate-x-0'
                   }`}
                 />
               </button>
