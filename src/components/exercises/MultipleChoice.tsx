@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import type { MultipleChoiceExercise } from '../../data/types';
 import { cn } from '../../lib/utils';
 import { JpText } from '../common/JpText';
@@ -20,6 +20,13 @@ export function MultipleChoice({ exercise, onAnswer }: Props) {
   const [wasCorrect, setWasCorrect] = useState(false);
 
   const hasJapaneseOptions = exercise.options.some((o) => hasVisual(o));
+  const isListening = exercise.prompt.toLowerCase().includes('what do you hear');
+
+  useEffect(() => {
+    if (isListening) {
+      speakJapanese(exercise.options[exercise.correctIndex]);
+    }
+  }, []);
 
   const handleSelect = (index: number) => {
     if (answered) return;
@@ -52,9 +59,16 @@ export function MultipleChoice({ exercise, onAnswer }: Props) {
   return (
     <div className="flex flex-col h-full">
       <div className="flex-1 flex flex-col justify-center px-4">
-        <h2 className="text-xl font-bold text-gray-800 text-center mb-8">
-          {exercise.prompt}
-        </h2>
+        {isListening ? (
+          <div className="flex flex-col items-center gap-3 mb-8">
+            <h2 className="text-xl font-bold text-gray-800">What do you hear?</h2>
+            <SpeakButton text={exercise.options[exercise.correctIndex]} size="lg" />
+          </div>
+        ) : (
+          <h2 className="text-xl font-bold text-gray-800 text-center mb-8">
+            {exercise.prompt}
+          </h2>
+        )}
 
         <div className={cn(
           'gap-3 max-w-md mx-auto w-full',

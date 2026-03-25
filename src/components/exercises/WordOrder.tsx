@@ -52,6 +52,7 @@ export function WordOrder({ exercise, onAnswer }: Props) {
       setTimeout(() => onAnswer(true), 800);
     } else {
       playIncorrect();
+      setTimeout(() => speakJapanese(exercise.correctOrder.join('')), 300);
     }
   };
 
@@ -127,6 +128,18 @@ export function WordOrder({ exercise, onAnswer }: Props) {
       </div>
 
       <div className="p-4 pb-8">
+        {answered && !isCorrect && (
+          <div className="mb-4 p-3 rounded-2xl bg-correct/10 border-2 border-correct/30">
+            <p className="text-sm text-correct font-bold text-center mb-2">Correct answer:</p>
+            <div className="flex flex-wrap gap-2 justify-center">
+              {exercise.correctOrder.map((word, i) => (
+                <span key={i} className="font-jp px-3 py-1 rounded-xl bg-correct/20 text-correct text-lg font-medium">
+                  <JpText text={word} reading={getReading(word)} />
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
         {answered && !isCorrect ? (
           <button
             onClick={() => onAnswer(false)}

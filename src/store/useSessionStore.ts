@@ -14,6 +14,8 @@ interface SessionState {
   mistakes: number;
   /** Whether retry exercises have been appended */
   retriesAdded: boolean;
+  /** Original exercise count before retries were added */
+  originalCount: number;
   startLesson: (lessonId: string, exercises: Exercise[]) => void;
   submitAnswer: (exerciseId: string, wasCorrect: boolean) => void;
   nextExercise: () => void;
@@ -22,6 +24,8 @@ interface SessionState {
   getScore: () => number;
   getStars: () => number;
   isFailed: () => boolean;
+  isRetryPhase: () => boolean;
+  getRetryProgress: () => { current: number; total: number };
   reset: () => void;
 }
 
@@ -35,9 +39,10 @@ export const useSessionStore = create<SessionState>()((set, get) => ({
   answers: [],
   mistakes: 0,
   retriesAdded: false,
+  originalCount: 0,
 
   startLesson: (lessonId, exercises) =>
-    set({ lessonId, exercises, currentIndex: 0, answers: [], mistakes: 0, retriesAdded: false }),
+    set({ lessonId, exercises, currentIndex: 0, answers: [], mistakes: 0, retriesAdded: false, originalCount: exercises.length }),
 
   submitAnswer: (exerciseId, wasCorrect) =>
     set((state) => {
@@ -113,6 +118,18 @@ export const useSessionStore = create<SessionState>()((set, get) => ({
     return get().getScore() < 50;
   },
 
+  isRetryPhase: () => {
+    const { currentIndex, originalCount, retriesAdded } = get();
+    return retriesAdded && currentIndex >= originalCount;
+  },
+
+  getRetryProgress: () => {
+    const { currentIndex, exercises, originalCount } = get();
+    const retryTotal = exercises.length - originalCount;
+    const retryCurrent = currentIndex - originalCount;
+    return { current: retryCurrent + 1, total: retryTotal };
+  },
+
   reset: () =>
-    set({ lessonId: null, exercises: [], currentIndex: 0, answers: [], mistakes: 0, retriesAdded: false }),
+    set({ lessonId: null, exercises: [], currentIndex: 0, answers: [], mistakes: 0, retriesAdded: false, originalCount: 0 }),
 }));

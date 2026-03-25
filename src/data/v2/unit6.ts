@@ -356,7 +356,7 @@ export const unit6Lessons: Lesson[] = [
         id: 'ex-6-3-13',
         type: 'multiple_choice',
         prompt: 'Which means "no"?',
-        options: ['いいえ', 'はい', 'すみません', 'どうも'],
+        options: ['いいえ', 'はい', 'すみません', 'さようなら'],
         correctIndex: 0,
       },
       {
@@ -621,8 +621,8 @@ export const unit6Lessons: Lesson[] = [
       {
         id: 'ex-6-5-14',
         type: 'multiple_choice',
-        prompt: 'After eating, you say:',
-        options: ['ごちそうさまでした', 'いただきます', 'おねがいします', 'ありがとうございます'],
+        prompt: 'You bump into someone. You say:',
+        options: ['すみません', 'ありがとうございます', 'おねがいします', 'はい'],
         correctIndex: 0,
       },
     ],
@@ -730,7 +730,7 @@ export const unit6Lessons: Lesson[] = [
         id: 'ex-6-6-13',
         type: 'multiple_choice',
         prompt: 'Formal thanks:',
-        options: ['ありがとうございます', 'どうも', 'すみません', 'おねがいします'],
+        options: ['ありがとうございます', 'さようなら', 'すみません', 'おねがいします'],
         correctIndex: 0,
       },
       {

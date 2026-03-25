@@ -35,6 +35,9 @@ export function LessonPage() {
     nextExercise,
     getCurrentExercise,
     isComplete,
+    isRetryPhase,
+    getRetryProgress,
+    originalCount,
   } = useSessionStore();
 
   useEffect(() => {
@@ -68,8 +71,12 @@ export function LessonPage() {
   }, [currentIndex]);
 
   const currentExercise = getCurrentExercise();
-  const totalExercises = exercises.length;
-  const progress = totalExercises > 0 ? (currentIndex / totalExercises) * 100 : 0;
+  const inRetry = isRetryPhase();
+  const retryProgress = getRetryProgress();
+  const progress = originalCount > 0 ? (Math.min(currentIndex, originalCount) / originalCount) * 100 : 0;
+  const retryPercent = inRetry && retryProgress.total > 0
+    ? ((retryProgress.current - 1) / retryProgress.total) * 100
+    : 0;
 
   const handleAnswer = (correct: boolean) => {
     if (!currentExercise) return;
@@ -100,15 +107,24 @@ export function LessonPage() {
         </button>
 
         {/* Progress bar */}
-        <div className="flex-1 h-3 bg-surface rounded-full overflow-hidden">
+        <div className="flex-1 h-3 bg-surface rounded-full overflow-hidden flex">
           <div
             className="h-full bg-primary rounded-full transition-all duration-500 ease-out"
             style={{ width: `${progress}%` }}
           />
+          {inRetry && (
+            <div
+              className="h-full bg-amber-400 rounded-full transition-all duration-500 ease-out"
+              style={{ width: `${retryPercent * (1 - progress / 100)}%` }}
+            />
+          )}
         </div>
 
-        <span className="text-sm text-gray-400 font-medium min-w-10 text-right">
-          {currentIndex + 1}/{totalExercises}
+        <span className={`text-sm font-medium min-w-10 text-right ${inRetry ? 'text-amber-500' : 'text-gray-400'}`}>
+          {inRetry
+            ? `${retryProgress.current}/${retryProgress.total}`
+            : `${Math.min(currentIndex + 1, originalCount)}/${originalCount}`
+          }
         </span>
       </div>
 

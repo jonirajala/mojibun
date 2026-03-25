@@ -6,6 +6,7 @@ import { VisualIcon } from '../common/VisualIcon';
 import { getReading } from '../../data/readings';
 import { getEmoji } from '../../data/emoji';
 import { speakJapanese } from '../../lib/speech';
+import { containsJapaneseText } from '../../lib/ttsText';
 import { playTap, playMatch, playIncorrect, playCorrect } from '../../lib/sounds';
 
 interface Props {
@@ -59,12 +60,12 @@ export function Matching({ exercise, onAnswer }: Props) {
   }, [matchedPairs.size]);
 
   return (
-    <div className="flex flex-col h-full">
-      <div className="flex-1 flex flex-col justify-center px-4">
-        <h2 className="text-lg font-bold text-gray-800 text-center mb-8">
-          Match the pairs
-        </h2>
+    <div className="flex flex-col h-full overflow-hidden">
+      <h2 className="text-lg font-bold text-gray-800 text-center pt-4 pb-4 px-4 shrink-0">
+        Match the pairs
+      </h2>
 
+      <div className="flex-1 overflow-y-auto px-4 pb-4">
         <div className="grid grid-cols-2 gap-x-4 gap-y-3 max-w-md mx-auto w-full">
           {/* Left column — Japanese with emoji */}
           <div className="flex flex-col gap-3">
@@ -80,7 +81,7 @@ export function Matching({ exercise, onAnswer }: Props) {
                   onClick={() => {
                     if (isMatched || wrongPair) return;
                     playTap();
-                    speakJapanese(word);
+                    if (containsJapaneseText(word)) speakJapanese(word);
                     setSelectedLeft(word === selectedLeft ? null : word);
                   }}
                   disabled={isMatched}
