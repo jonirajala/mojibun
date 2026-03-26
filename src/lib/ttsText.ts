@@ -54,5 +54,18 @@ export function collectExerciseSpeechTexts(exercise: Exercise): string[] {
       return exercise.examples.map((example) => example.japanese);
     case 'vocab_intro':
       return exercise.words.map((word) => word.japanese);
+    case 'listening':
+      return exercise.options.filter(containsJapaneseText);
+    case 'true_false':
+      return [exercise.japanese];
+    case 'dialogue_response':
+      return [
+        exercise.speakerLine,
+        ...exercise.options.filter(containsJapaneseText),
+      ];
+    case 'kanji_reading':
+      return [exercise.kanji];
+    case 'reading':
+      return [exercise.passage];
   }
 }
