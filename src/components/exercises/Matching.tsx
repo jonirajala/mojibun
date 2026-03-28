@@ -2,9 +2,7 @@ import { useState, useEffect } from 'react';
 import type { MatchingExercise } from '../../data/types';
 import { cn, shuffleArray } from '../../lib/utils';
 import { JpText } from '../common/JpText';
-import { VisualIcon } from '../common/VisualIcon';
 import { getReading } from '../../data/readings';
-import { getEmoji } from '../../data/emoji';
 import { speakJapanese } from '../../lib/speech';
 import { containsJapaneseText } from '../../lib/ttsText';
 import { playTap, playMatch, playIncorrect, playCorrect } from '../../lib/sounds';
@@ -73,7 +71,6 @@ export function Matching({ exercise, onAnswer }: Props) {
               const isMatched = matchedPairs.has(word);
               const isSelected = selectedLeft === word;
               const isWrong = wrongPair?.left === word;
-              const emoji = getEmoji(word);
 
               return (
                 <button
@@ -94,7 +91,6 @@ export function Matching({ exercise, onAnswer }: Props) {
                     !isMatched && 'active:scale-95'
                   )}
                 >
-                  {emoji && <VisualIcon text={word} sizeClass="w-8 h-8" />}
                   <JpText text={word} reading={getReading(word)} />
                 </button>
               );

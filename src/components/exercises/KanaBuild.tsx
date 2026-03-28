@@ -48,8 +48,10 @@ export function KanaBuild({ exercise, onAnswer }: Props) {
     setAnswered(true);
     if (correct) {
       playCorrect();
-      setTimeout(() => speakJapanese(exercise.correctChars.join('')), 300);
-      setTimeout(() => onAnswer(true), 800);
+      setTimeout(async () => {
+        await speakJapanese(exercise.correctChars.join(''));
+        onAnswer(true);
+      }, 300);
     } else {
       playIncorrect();
     }

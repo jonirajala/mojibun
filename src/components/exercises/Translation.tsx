@@ -45,8 +45,10 @@ export function Translation({ exercise, onAnswer }: Props) {
     setAnswered(true);
     if (correct) {
       playCorrect();
-      setTimeout(() => speakJapanese(exercise.correctAnswer.join('')), 300);
-      setTimeout(() => onAnswer(true), 800);
+      setTimeout(async () => {
+        await speakJapanese(exercise.correctAnswer.join(''));
+        onAnswer(true);
+      }, 300);
     } else {
       playIncorrect();
     }
@@ -54,7 +56,8 @@ export function Translation({ exercise, onAnswer }: Props) {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="flex-1 flex flex-col justify-center px-4">
+      <div className="flex-1 min-h-0 overflow-y-auto px-4">
+        <div className="flex flex-col justify-center min-h-full py-4">
         <h2 className="text-lg font-bold text-gray-800 text-center mb-2">
           Translate this sentence
         </h2>
@@ -122,6 +125,7 @@ export function Translation({ exercise, onAnswer }: Props) {
               </button>
             );
           })}
+        </div>
         </div>
       </div>
 

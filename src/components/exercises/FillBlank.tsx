@@ -32,8 +32,10 @@ export function FillBlank({ exercise, onAnswer }: Props) {
     if (isCorrect) {
       playCorrect();
       const completeSentence = exercise.sentence.replace('＿', exercise.answer);
-      setTimeout(() => speakJapanese(completeSentence), 300);
-      setTimeout(() => onAnswer(true), 800);
+      setTimeout(async () => {
+        await speakJapanese(completeSentence);
+        onAnswer(true);
+      }, 300);
     } else {
       playIncorrect();
     }

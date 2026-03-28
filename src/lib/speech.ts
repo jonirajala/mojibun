@@ -32,16 +32,23 @@ function getJapaneseVoice(): SpeechSynthesisVoice | null {
   return japaneseVoice;
 }
 
-function fallbackSpeak(text: string, rate: number) {
-  if (typeof speechSynthesis === 'undefined') return;
-  speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = 'ja-JP';
-  utterance.rate = rate;
-  utterance.pitch = 1;
-  const voice = getJapaneseVoice();
-  if (voice) utterance.voice = voice;
-  speechSynthesis.speak(utterance);
+function fallbackSpeak(text: string, rate: number): Promise<void> {
+  return new Promise((resolve) => {
+    if (typeof speechSynthesis === 'undefined') { resolve(); return; }
+    speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'ja-JP';
+    utterance.rate = rate;
+    utterance.pitch = 1;
+    const voice = getJapaneseVoice();
+    if (voice) utterance.voice = voice;
+    let resolved = false;
+    const done = () => { if (!resolved) { resolved = true; resolve(); } };
+    utterance.onend = done;
+    utterance.onerror = done;
+    setTimeout(done, 5000);
+    speechSynthesis.speak(utterance);
+  });
 }
 
 async function getAudioCache(): Promise<Cache | null> {
@@ -131,6 +138,12 @@ async function playGeneratedClip(text: string, rate: number): Promise<boolean> {
 
   try {
     await audio.play();
+    await new Promise<void>((resolve) => {
+      const done = () => resolve();
+      audio.addEventListener('ended', done, { once: true });
+      audio.addEventListener('pause', done, { once: true });
+      audio.addEventListener('error', done, { once: true });
+    });
     return true;
   } catch {
     currentAudio = null;
@@ -197,11 +210,11 @@ export async function preloadLessonAudioInBackground(lessonId: string, voiceOver
   void Promise.all(clipIds.map((clipId) => preloadClip(clipId, voice)));
 }
 
-export function speakJapanese(text: string, rate: number = DEFAULT_RATE) {
+export function speakJapanese(text: string, rate: number = DEFAULT_RATE): Promise<void> {
   const normalized = normalizeTtsText(text);
-  void (async () => {
+  return (async () => {
     const played = await playGeneratedClip(normalized, rate);
-    if (!played) fallbackSpeak(normalized, rate);
+    if (!played) await fallbackSpeak(normalized, rate);
   })();
 }
 

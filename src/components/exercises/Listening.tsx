@@ -51,8 +51,10 @@ export function Listening({ exercise, onAnswer }: Props) {
     setWasCorrect(isCorrect);
     if (isCorrect) {
       playCorrect();
-      setTimeout(() => speakJapanese(exercise.audio), 300);
-      setTimeout(() => onAnswer(true), 800);
+      setTimeout(async () => {
+        await speakJapanese(exercise.audio);
+        onAnswer(true);
+      }, 300);
     } else {
       playIncorrect();
       setTimeout(() => speakJapanese(exercise.audio), 300);

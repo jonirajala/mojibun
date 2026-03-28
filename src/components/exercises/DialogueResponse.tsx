@@ -50,10 +50,12 @@ export function DialogueResponse({ exercise, onAnswer }: Props) {
     if (isCorrect) {
       playCorrect();
       const correctOption = shuffledOptions[correctShuffledIndex];
-      if (getReading(correctOption)) {
-        setTimeout(() => speakJapanese(correctOption), 300);
-      }
-      setTimeout(() => onAnswer(true), 800);
+      setTimeout(async () => {
+        if (getReading(correctOption)) {
+          await speakJapanese(correctOption);
+        }
+        onAnswer(true);
+      }, 300);
     } else {
       playIncorrect();
     }

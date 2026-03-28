@@ -45,8 +45,10 @@ export function KanjiReading({ exercise, onAnswer }: Props) {
     setWasCorrect(isCorrect);
     if (isCorrect) {
       playCorrect();
-      setTimeout(() => speakJapanese(exercise.correctReading), 300);
-      setTimeout(() => onAnswer(true), 800);
+      setTimeout(async () => {
+        await speakJapanese(exercise.correctReading);
+        onAnswer(true);
+      }, 300);
     } else {
       playIncorrect();
       setTimeout(() => speakJapanese(exercise.correctReading), 300);

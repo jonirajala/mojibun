@@ -48,8 +48,10 @@ export function WordOrder({ exercise, onAnswer }: Props) {
     setAnswered(true);
     if (correct) {
       playCorrect();
-      setTimeout(() => speakJapanese(exercise.correctOrder.join('')), 300);
-      setTimeout(() => onAnswer(true), 800);
+      setTimeout(async () => {
+        await speakJapanese(exercise.correctOrder.join(''));
+        onAnswer(true);
+      }, 300);
     } else {
       playIncorrect();
       setTimeout(() => speakJapanese(exercise.correctOrder.join('')), 300);
@@ -58,7 +60,8 @@ export function WordOrder({ exercise, onAnswer }: Props) {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="flex-1 flex flex-col justify-center px-4">
+      <div className="flex-1 min-h-0 overflow-y-auto px-4">
+        <div className="flex flex-col justify-center min-h-full py-4">
         <h2 className="text-lg font-bold text-gray-800 text-center mb-2">
           Arrange the words
         </h2>
@@ -124,6 +127,7 @@ export function WordOrder({ exercise, onAnswer }: Props) {
               </button>
             );
           })}
+        </div>
         </div>
       </div>
 
