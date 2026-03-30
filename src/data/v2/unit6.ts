@@ -417,6 +417,17 @@ export const unit6Lessons: Lesson[] = [
         correctIndex: 0,
       },
       {
+        id: 'ex-6-4-03b',
+        type: 'grammar_intro',
+        title: 'が — The Subject Marker',
+        explanation:
+          'You already know は marks the topic. When asking "which?" or "who?", we use が instead. Think of が as a spotlight: it highlights the answer to the question. どれがあなたのですか？ = "Which one is yours?" だれがせんせいですか？ = "Who is the teacher?" For now, remember: question word + が.',
+        examples: [
+          { japanese: 'どれがあなたのですか？', english: 'Which one is yours?' },
+          { japanese: 'だれがせんせいですか？', english: 'Who is the teacher?' },
+        ],
+      },
+      {
         id: 'ex-6-4-04',
         type: 'fill_blank',
         sentence: '＿ がたなかさんのかばんですか',

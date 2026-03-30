@@ -57,7 +57,8 @@ export function VocabIntro({ exercise, onAnswer }: Props) {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="flex-1 flex flex-col items-center justify-center px-4">
+      <div className="flex-1 min-h-0 overflow-y-auto px-4">
+        <div className="flex flex-col items-center justify-center min-h-full py-4">
         {/* Progress dots */}
         <div className="flex gap-2 mb-8">
           {exercise.words.map((_, i) => (
@@ -106,6 +107,7 @@ export function VocabIntro({ exercise, onAnswer }: Props) {
         <SpeakButton text={word.japanese} size="lg" />
 
         <p className="text-xs text-gray-300 mt-3">Tap the word or speaker to hear it</p>
+        </div>
       </div>
 
       <div className="p-4 pb-8 flex gap-3">

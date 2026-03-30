@@ -45,7 +45,7 @@ export function MultipleChoice({ exercise, onAnswer }: Props) {
     if (answered) return;
     playTap();
     setSelected(index);
-    const option = exercise.options[index];
+    const option = shuffledOptions[index];
     if (getReading(option)) {
       speakJapanese(option);
     }
@@ -71,7 +71,8 @@ export function MultipleChoice({ exercise, onAnswer }: Props) {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="flex-1 flex flex-col justify-center px-4">
+      <div className="flex-1 min-h-0 overflow-y-auto px-4">
+        <div className="flex flex-col justify-center min-h-full py-4">
         {isListening ? (
           <div className="flex flex-col items-center gap-3 mb-8">
             <h2 className="text-xl font-bold text-gray-800">What do you hear?</h2>
@@ -134,6 +135,7 @@ export function MultipleChoice({ exercise, onAnswer }: Props) {
             <SpeakButton text={shuffledOptions[correctShuffledIndex]} size="md" />
           </div>
         )}
+        </div>
       </div>
 
       <div className="p-4 pb-8">

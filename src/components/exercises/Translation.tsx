@@ -130,6 +130,9 @@ export function Translation({ exercise, onAnswer }: Props) {
       </div>
 
       <div className="p-4 pb-8">
+        {answered && isCorrect && (
+          <p className="text-center text-sm text-gray-500 mb-4">"{exercise.prompt}"</p>
+        )}
         {answered && !isCorrect ? (
           <button
             onClick={() => onAnswer(false)}

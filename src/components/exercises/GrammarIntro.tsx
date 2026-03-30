@@ -13,8 +13,8 @@ export function GrammarIntro({ exercise, onAnswer }: Props) {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="flex-1 flex flex-col justify-center px-4 overflow-y-auto">
-        <div className="max-w-md mx-auto w-full py-4">
+      <div className="flex-1 min-h-0 overflow-y-auto px-4">
+        <div className="flex flex-col justify-center min-h-full max-w-md mx-auto w-full py-4">
           {/* Icon */}
           <div className="w-14 h-14 rounded-2xl bg-accent-purple/10 flex items-center justify-center mx-auto mb-6">
             <svg width="28" height="28" fill="none" viewBox="0 0 24 24" className="text-accent-purple">

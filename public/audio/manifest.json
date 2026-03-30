@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-28T15:40:18.096Z",
+  "updatedAt": "2026-03-29T19:34:46.927Z",
   "defaultVoice": "jf_alpha",
   "storageBucket": "tts-audio",
   "lessons": {
@@ -623,6 +623,7 @@
     "lesson-6-4": [
       "031c032ee763276e",
       "032b83c72ed9c711",
+      "07cdef212e236498",
       "15ed7e6f575696e1",
       "1b409b8ed487863f",
       "1fa0519cfd095c24",
@@ -884,6 +885,7 @@
     "たなかです": "e0bc898fd1943f7a",
     "たなかは": "8c04f06a41f0d3ba",
     "だれ": "2fb84bb825f84d07",
+    "だれがせんせいですか？": "07cdef212e236498",
     "テーブル": "ad4232da13b03860",
     "でした": "ed450c9d707f2496",
     "です": "b76f99438b3523d4",
@@ -1098,6 +1100,22 @@
           "generatedAt": "2026-03-24T14:55:40Z",
           "uploadedAt": "2026-03-24T14:55:40Z",
           "checksumSha1": "37b1ab2d7cfff138025db1a2ed3502d0d3628993"
+        }
+      }
+    },
+    "07cdef212e236498": {
+      "id": "07cdef212e236498",
+      "text": "だれがせんせいですか？",
+      "lessons": [
+        "lesson-6-4"
+      ],
+      "orphaned": false,
+      "variants": {
+        "jf_alpha": {
+          "path": "jf_alpha/07cdef212e236498.wav",
+          "generatedAt": "2026-03-29T19:34:50Z",
+          "uploadedAt": "2026-03-29T19:34:50Z",
+          "checksumSha1": "57af2163994c752ee2d63dd49d92f680ec0ef739"
         }
       }
     },

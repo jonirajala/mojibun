@@ -132,6 +132,9 @@ export function WordOrder({ exercise, onAnswer }: Props) {
       </div>
 
       <div className="p-4 pb-8">
+        {answered && isCorrect && (
+          <p className="text-center text-sm text-gray-500 mb-4">{exercise.prompt}</p>
+        )}
         {answered && !isCorrect && (
           <div className="mb-4 p-3 rounded-2xl bg-correct/10 border-2 border-correct/30">
             <p className="text-sm text-correct font-bold text-center mb-2">Correct answer:</p>

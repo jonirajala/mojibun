@@ -41,7 +41,8 @@ export function TrueFalse({ exercise, onAnswer }: Props) {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="flex-1 flex flex-col justify-center px-4">
+      <div className="flex-1 min-h-0 overflow-y-auto px-4">
+        <div className="flex flex-col justify-center min-h-full py-4">
         <h2 className="text-lg font-bold text-gray-800 text-center mb-6">
           Is this translation correct?
         </h2>
@@ -109,6 +110,7 @@ export function TrueFalse({ exercise, onAnswer }: Props) {
           >
             Wrong
           </button>
+        </div>
         </div>
       </div>
 
