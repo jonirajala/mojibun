@@ -2,8 +2,8 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { getAllLessons } from '../src/data/course.ts';
-import { collectLessonSpeechTexts, normalizeTtsText } from '../src/lib/ttsText.ts';
+import { getAllLessons, milestones } from '../src/data/course.ts';
+import { collectLessonSpeechTexts, collectMilestoneSpeechTexts, normalizeTtsText } from '../src/lib/ttsText.ts';
 
 interface ClipVariant {
   path: string;
@@ -61,8 +61,12 @@ async function main() {
   const nextTextIndex: Record<string, string> = {};
   const activeClipIds = new Set<string>();
 
-  for (const lesson of getAllLessons()) {
-    const catalog = collectLessonSpeechTexts(lesson);
+  const allCatalogs = [
+    ...getAllLessons().map(collectLessonSpeechTexts),
+    ...milestones.map(collectMilestoneSpeechTexts),
+  ];
+
+  for (const catalog of allCatalogs) {
     const clipIds: string[] = [];
 
     for (const text of catalog.texts) {
@@ -70,7 +74,7 @@ async function main() {
       const clipId = createClipId(normalized);
       const previous = nextClips[clipId];
       const lessons = new Set(previous?.lessons ?? []);
-      lessons.add(lesson.id);
+      lessons.add(catalog.lessonId);
 
       nextClips[clipId] = {
         id: clipId,
@@ -85,7 +89,7 @@ async function main() {
       activeClipIds.add(clipId);
     }
 
-    nextLessons[lesson.id] = Array.from(new Set(clipIds)).sort();
+    nextLessons[catalog.lessonId] = Array.from(new Set(clipIds)).sort();
   }
 
   for (const clip of Object.values(nextClips)) {

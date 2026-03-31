@@ -1,4 +1,4 @@
-import type { Exercise, Lesson } from '../data/types.ts';
+import type { Exercise, Lesson, MilestoneReview, VocabWord } from '../data/types.ts';
 
 const JAPANESE_TEXT_RE = /[\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}ー々]/u;
 
@@ -15,7 +15,7 @@ export function containsJapaneseText(text: string): boolean {
   return JAPANESE_TEXT_RE.test(text);
 }
 
-export function collectLessonSpeechTexts(lesson: Lesson): LessonSpeechCatalog {
+function collectSpeechTexts(id: string, exercises: Exercise[], vocabulary: VocabWord[] = []): LessonSpeechCatalog {
   const texts = new Set<string>();
 
   const addText = (value: string) => {
@@ -24,13 +24,21 @@ export function collectLessonSpeechTexts(lesson: Lesson): LessonSpeechCatalog {
     texts.add(normalized);
   };
 
-  lesson.vocabulary.forEach((word) => addText(word.japanese));
-  lesson.exercises.forEach((exercise) => collectExerciseSpeechTexts(exercise).forEach(addText));
+  vocabulary.forEach((word) => addText(word.japanese));
+  exercises.forEach((exercise) => collectExerciseSpeechTexts(exercise).forEach(addText));
 
   return {
-    lessonId: lesson.id,
+    lessonId: id,
     texts: Array.from(texts).sort((a, b) => a.localeCompare(b, 'ja')),
   };
+}
+
+export function collectLessonSpeechTexts(lesson: Lesson): LessonSpeechCatalog {
+  return collectSpeechTexts(lesson.id, lesson.exercises, lesson.vocabulary);
+}
+
+export function collectMilestoneSpeechTexts(milestone: MilestoneReview): LessonSpeechCatalog {
+  return collectSpeechTexts(milestone.id, milestone.exercises);
 }
 
 export function collectExerciseSpeechTexts(exercise: Exercise): string[] {
